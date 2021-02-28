@@ -1,0 +1,4447 @@
+File:    0	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:alg2268.c"
+File:    2	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:arcfour.c"
+File:    3	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:des.c"
+File:    4	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:desblapi.c"
+File:    5	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:dh.c"
+File:    6	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:dsa.c"
+File:    8	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:md2.c"
+File:    9	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:md5.c"
+File:   10	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:pqg.c"
+File:   11	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:prng_fips1861.c"
+File:   12	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:rijndael.c"
+File:   13	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:rsa.c"
+File:   14	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:sha_fast.c"
+File:   15	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:sysrand.c"
+File:   16	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:mpi:mpi.c"
+File:   17	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:mpi:mplogic.c"
+File:   18	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:mpi:mpmontg.c"
+File:   19	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:mpi:mpprime.c"
+File:   20	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:alghmac.c"
+File:   21	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:dbinit.c"
+File:   22	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:dbmshim.c"
+File:   23	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:fipstest.c"
+File:   24	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:fipstokn.c"
+File:   25	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:keydb.c"
+File:   26	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:lowcert.c"
+File:   27	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:lowkey.c"
+File:   28	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:lowpbe.c"
+File:   29	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:padbuf.c"
+File:   30	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:pcertdb.c"
+File:   31	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:pk11db.c"
+File:   32	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:pkcs11.c"
+File:   33	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:pkcs11c.c"
+File:   34	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:pkcs11u.c"
+File:   35	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:rawhash.c"
+File:   36	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:rsawrapr.c"
+File:   37	"Bryan Too:mozsrc:mozilla:security:nss:lib:softoken:softkver.c"
+File:   38	"Bryan Too:mozsrc:mozilla:security:nss:lib:freebl:sha512.c"
+File:   43	"runtime.c"
+File:   45	"StartupSharedLib.c"
+File:   47	"Bryan Too:mozsrc:mozilla:lib:mac:NSStartup:NSStartup.c"
+File:   81	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:derenc.c"
+File:   82	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:dersubr.c"
+File:   83	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:dertime.c"
+File:   85	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:nssb64e.c"
+File:   87	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:nsslocks.c"
+File:   90	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:pqgutil.c"
+File:   91	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secalgid.c"
+File:   92	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secasn1d.c"
+File:   93	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secasn1e.c"
+File:   94	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secasn1u.c"
+File:   95	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:quickder.c"
+File:   96	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secdig.c"
+File:   98	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secitem.c"
+File:   99	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secoid.c"
+File:  100	"Bryan Too:mozsrc:mozilla:security:nss:lib:util:secport.c"
+File:  106	"Bryan Too:mozsrc:mozilla:dbm:src:db.c"
+File:  107	"Bryan Too:mozsrc:mozilla:dbm:src:hash.c"
+File:  108	"Bryan Too:mozsrc:mozilla:dbm:src:hash_buf.c"
+File:  110	"Bryan Too:mozsrc:mozilla:dbm:src:h_bigkey.c"
+File:  111	"Bryan Too:mozsrc:mozilla:dbm:src:h_func.c"
+File:  112	"Bryan Too:mozsrc:mozilla:dbm:src:h_log2.c"
+File:  113	"Bryan Too:mozsrc:mozilla:dbm:src:h_page.c"
+File:  114	"Bryan Too:mozsrc:mozilla:dbm:macbuild:macstubs.c"
+
+Files that were not referenced:
+"arcfive.c"
+"ldvector.c"
+
+Code section, size = 459016 bytes
+000000	PR 	.__sinit									file = "*Linker-Generated*"
+000020	PR 	.RC2_CreateContext							file = "alg2268.c"
+000220	PR 	.RC2_DestroyContext
+0002A0	PR 	.rc2_Encrypt1Block
+000D50	PR 	.rc2_Decrypt1Block
+001870	PR 	.rc2_EncryptECB
+001990	PR 	.rc2_DecryptECB
+001AB0	PR 	.rc2_EncryptCBC
+001C00	PR 	.rc2_DecryptCBC
+001D50	PR 	.RC2_Encrypt
+001E10	PR 	.RC2_Decrypt
+001ED0	PR 	.RC4_CreateContext							file = "arcfour.c"
+002010	PR 	.RC4_DestroyContext
+002070	PR 	.rc4_unrolled
+002480	PR 	.RC4_Encrypt
+0024E0	PR 	.RC4_Decrypt
+002540	PR 	.DES_MakeSchedule							file = "des.c"
+0027A0	PR 	.DES_Do1Block
+003140	PR 	.DES_ECB									file = "desblapi.c"
+0031C0	PR 	.DES_EDE3_ECB
+003270	PR 	.DES_CBCEn
+003420	PR 	.DES_CBCDe
+0035D0	PR 	.DES_EDE3CBCEn
+0037B0	PR 	.DES_EDE3CBCDe
+003990	PR 	.DES_CreateContext
+003D00	PR 	.DES_DestroyContext
+003D80	PR 	.DES_Encrypt
+003E30	PR 	.DES_Decrypt
+003EE0	PR 	.DH_NewKey									file = "dh.c"
+004200	PR 	.DH_Derive
+0044D0	PR 	.translate_mpi_error						file = "dsa.c"
+004570	PR 	.dsa_NewKey
+004850	PR 	.DSA_NewKey
+0048D0	PR 	.DSA_NewKeyFromSeed
+004930	PR 	.dsa_SignDigest
+004CC0	PR 	.DSA_SignDigest
+004D70	PR 	.DSA_SignDigestWithSeed
+004DC0	PR 	.DSA_VerifyDigest
+005200	PR 	.MD2_NewContext								file = "md2.c"
+005270	PR 	.MD2_DestroyContext
+0052D0	PR 	.MD2_Begin
+005330	PR 	.md2_compress
+005A20	PR 	.MD2_Update
+005B20	PR 	.MD2_End
+005BF0	PR 	.MD2_FlattenSize
+005C20	PR 	.MD5_HashBuf								file = "md5.c"
+005CE0	PR 	.MD5_NewContext
+005D50	PR 	.MD5_DestroyContext
+005DB0	PR 	.MD5_Begin
+005E50	PR 	.md5_compress
+006AD0	PR 	.MD5_Update
+006BF0	PR 	.MD5_End
+006DA0	PR 	.MD5_FlattenSize
+006DD0	PR 	.getPQseed									file = "pqg.c"
+006E70	PR 	.generate_h_candidate
+006F70	PR 	.addToSeedThenSHA
+007220	PR 	.makeQfromSeed
+0073C0	PR 	.makePfromQandSeed
+007760	PR 	.makeGfromH
+007960	PR 	.PQG_ParamGen
+0079F0	PR 	.PQG_ParamGenSeedLen
+007F60	PR 	.PQG_VerifyParams
+0084B0	PR 	.alg_fips186_1_x3_1							file = "prng_fips1861.c"
+0086D0	PR 	.rng_init
+0087B0	PR 	.RNG_RNGInit
+008810	PR 	.prng_RandomUpdate
+008970	PR 	.RNG_RandomUpdate
+0089D0	PR 	.prng_GenerateGlobalRandomBytes
+008B10	PR 	.RNG_GenerateGlobalRandomBytes
+008B80	PR 	.RNG_UpdateAndEnd_FIPS186_1
+008C30	PR 	.DSA_GenerateGlobalRandomBytes
+008CB0	PR 	.rijndael_key_expansion7					file = "rijndael.c"
+008E10	PR 	.rijndael_key_expansion
+009180	PR 	.rijndael_invkey_expansion
+009470	PR 	.rijndael_encryptBlock128
+0097E0	PR 	.rijndael_decryptBlock128
+009B40	PR 	.rijndael_encryptBlock
+009B70	PR 	.rijndael_decryptBlock
+009BA0	PR 	.rijndael_encryptECB
+009C60	PR 	.rijndael_encryptCBC
+009D80	PR 	.rijndael_decryptECB
+009E40	PR 	.rijndael_decryptCBC
+009FD0	PR 	.AES_CreateContext
+00A220	PR 	.AES_DestroyContext
+00A2C0	PR 	.AES_Encrypt
+00A380	PR 	.AES_Decrypt
+00A440	PR 	.rsa_keygen_from_primes						file = "rsa.c"
+00A850	PR 	.generate_prime
+00A9F0	PR 	.RSA_NewKey
+00AD60	PR 	.rsa_modulusLen
+00ADA0	PR 	.RSA_PublicKeyOp
+00AFC0	PR 	.rsa_PrivateKeyOpNoCRT
+00B0F0	PR 	.rsa_PrivateKeyOpCRTNoCheck
+00B480	PR 	.rsa_PrivateKeyOpCRTCheckedPubKey
+00B650	PR 	.init_blinding_params_list
+00B6E0	PR 	.generate_blinding_params
+00B8F0	PR 	.init_blinding_params
+00BA40	PR 	.get_blinding_params
+00BCC0	PR 	.rsa_PrivateKeyOp
+00C020	PR 	.RSA_PrivateKeyOp
+00C070	PR 	.RSA_PrivateKeyOpDoubleChecked
+00C0D0	PR 	.swap_in_key_value
+00C1E0	PR 	.RSA_PrivateKeyCheck
+00C840	PR 	.RSA_Cleanup
+00C930	PR 	.BL_Cleanup
+00C970	PR 	.SHA1_Begin									file = "sha_fast.c"
+00CA10	PR 	.SHA1_Update
+00CB30	PR 	.SHA1_End
+00CBE0	PR 	.shaCompress
+00E650	PR 	.SHA1_NewContext
+00E6A0	PR 	.SHA1_DestroyContext
+00E700	PR 	.SHA1_HashBuf
+00E780	PR 	.SHA1_FlattenSize
+00E7B0	PR 	.SHA1_Flatten
+00E810	PR 	.SHA1_Resurrect
+00E890	PR 	.CopyLowBits								file = "sysrand.c"
+00E940	PR 	.RNG_GetNoise
+00E9B0	PR 	.RNG_FileForRNG
+00EA10	PR 	.RNG_SystemInfoForRNG
+00ECC0	PR 	.FE_ReadScreen
+00EEC0	PR 	.mp_init									file = "mpi.c"
+00EF10	PR 	.mp_init_size
+00EFC0	PR 	.mp_init_copy
+00F090	PR 	.mp_copy
+00F1D0	PR 	.mp_exch
+00F230	PR 	.mp_clear
+00F2B0	PR 	.mp_zero
+00F320	PR 	.mp_set
+00F380	PR 	.mp_set_ulong
+00F400	PR 	.mp_add_d
+00F550	PR 	.mp_sub_d
+00F6B0	PR 	.mp_mul_2
+00F730	PR 	.mp_div_d
+00F8E0	PR 	.mp_neg
+00F990	PR 	.mp_add
+00FA90	PR 	.mp_sub
+00FBD0	PR 	.mp_mul
+00FDE0	PR 	.mp_sqr
+00FF90	PR 	.mp_div
+010200	PR 	.mp_div_2d
+0102E0	PR 	.mp_mod
+010410	PR 	.mp_mod_d
+010510	PR 	.mp_addmod
+0105B0	PR 	.mp_submod
+010650	PR 	.mp_mulmod
+0106F0	PR 	.mp_sqrmod
+010790	PR 	.s_mp_exptmod
+010AA0	PR 	.mp_cmp_z
+010B10	PR 	.mp_cmp_d
+010B80	PR 	.mp_cmp
+010C30	PR 	.mp_isodd
+010C70	PR 	.mp_iseven
+010CC0	PR 	.mp_gcd
+010F70	PR 	.mp_trailing_zeros
+011170	PR 	.s_mp_almost_inverse
+011420	PR 	.s_mp_invmod_radix
+0115B0	PR 	.s_mp_fixup_reciprocal
+011760	PR 	.s_mp_invmod_odd_m
+0118B0	PR 	.s_mp_invmod_2d
+011B30	PR 	.s_mp_invmod_even_m
+011DB0	PR 	.mp_invmod
+011E90	PR 	.s_mp_grow
+011F50	PR 	.s_mp_pad
+011FD0	PR 	.s_mp_setz
+012020	PR 	.s_mp_copy
+012070	PR 	.s_mp_alloc
+0120D0	PR 	.s_mp_free
+012130	PR 	.s_mp_clamp
+0121A0	PR 	.s_mp_exch
+012210	PR 	.s_mp_lshd
+012330	PR 	.s_mp_mul_2d
+0124D0	PR 	.s_mp_rshd
+0125B0	PR 	.s_mp_div_2
+012600	PR 	.s_mp_mul_2
+012700	PR 	.s_mp_mod_2d
+0127E0	PR 	.s_mp_div_2d
+012900	PR 	.s_mp_norm
+012A00	PR 	.s_mp_add_d
+012B30	PR 	.s_mp_sub_d
+012C40	PR 	.s_mp_mul_d
+012D40	PR 	.s_mp_div_d
+013060	PR 	.s_mp_add_3arg
+013230	PR 	.s_mp_sub
+0133C0	PR 	.s_mp_sub_3arg
+013570	PR 	.s_mp_mul
+0135B0	PR 	.s_mpv_mul_d
+013740	PR 	.s_mpv_mul_d_add
+013900	PR 	.s_mpv_mul_d_add_prop
+013B10	PR 	.s_mpv_sqr_add_prop
+013D00	PR 	.s_mpv_div_2dx1d
+013F20	PR 	.s_mp_sqr
+013FB0	PR 	.s_mp_div
+014320	PR 	.s_mp_2expt
+0143D0	PR 	.s_mp_reduce
+014540	PR 	.s_mp_cmp
+0146B0	PR 	.s_mp_cmp_d
+014720	PR 	.s_mp_ispow2
+0147E0	PR 	.s_mp_ispow2d
+014930	PR 	.mp_read_unsigned_octets
+014AA0	PR 	.mp_unsigned_octet_size
+014BC0	PR 	.mp_to_unsigned_octets
+014CD0	PR 	.mp_to_fixlen_octets
+014E00	PR 	.mpl_lsh									file = "mplogic.c"
+014E90	PR 	.mpl_set_bit
+014FA0	PR 	.mpl_get_bits
+0150A0	PR 	.mpl_significant_bits
+015170	PR 	.s_mp_redc									file = "mpmontg.c"
+0152A0	PR 	.s_mp_mul_mont
+015550	PR 	.s_mp_to_mont
+0155D0	PR 	.mp_exptmod_i
+016BE0	PR 	.mp_exptmod
+016E10	PR 	.mpp_random									file = "mpprime.c"
+016ED0	PR 	.mpp_divis_vector
+016F40	PR 	.mpp_divis_primes
+016FF0	PR 	.mpp_fermat
+0170E0	PR 	.mpp_pprime
+017360	PR 	.mpp_sieve
+017480	PR 	.mpp_make_prime
+0178E0	PR 	.s_mpp_divp
+0179C0	PR 	.HMAC_Destroy								file = "alghmac.c"
+017A40	PR 	.HMAC_Create
+017C20	PR 	.HMAC_Begin
+017CA0	PR 	.HMAC_Update
+017CF0	PR 	.HMAC_Finish
+017E00	PR 	.pk11_certdb_name_cb						file = "dbinit.c"
+017EE0	PR 	.pk11_keydb_name_cb
+017FB0	PR 	.pk11_EvaluateConfigDir
+018090	PR 	.pk11_OpenCertDB
+0181B0	PR 	.pk11_OpenKeyDB
+0182A0	PR 	.pk11_DBInit
+018360	PR 	.pk11_DBShutdown
+0183E0	PR 	.rdbopen
+018550	PR 	.rdbmapflags
+0185C0	PR 	.db_BeginTransaction
+018630	PR 	.db_FinishTransaction
+0186A0	PR 	.db_InitComplete
+018720	PR 	.db_Copy
+0187F0	PR 	.dbs_IsBlob									file = "dbmshim.c"
+018850	PR 	.dbs_getBlobFileName
+018890	PR 	.dbs_getBlobSize
+0188E0	PR 	.dbs_replaceSlash
+018930	PR 	.dbs_mkBlob
+018A30	PR 	.dbs_getBlobFilePath
+018B10	PR 	.dbs_removeBlob
+018B80	PR 	.dbs_DirMode
+018BB0	PR 	.dbs_writeBlob
+018D00	PR 	.dbs_freemap
+018DB0	PR 	.dbs_setmap
+018DE0	PR 	.dbs_EmulateMap
+018EA0	PR 	.dbs_readBlob
+019050	PR 	.dbs_get
+0190F0	PR 	.dbs_put
+019230	PR 	.dbs_sync
+019290	PR 	.dbs_del
+019350	PR 	.dbs_seq
+0193F0	PR 	.dbs_close
+019470	PR 	.dbs_fd
+0194C0	PR 	.dbs_mkBlobDirName
+0195C0	PR 	.dbsopen
+019730	PR 	.pk11_fips_RC2_PowerUpSelfTest				file = "fipstest.c"
+0199F0	PR 	.pk11_fips_RC4_PowerUpSelfTest
+019B70	PR 	.pk11_fips_DES_PowerUpSelfTest
+019E20	PR 	.pk11_fips_DES3_PowerUpSelfTest
+01A0E0	PR 	.pk11_fips_MD2_PowerUpSelfTest
+01A1D0	PR 	.pk11_fips_MD5_PowerUpSelfTest
+01A260	PR 	.pk11_fips_SHA1_PowerUpSelfTest
+01A300	PR 	.pk11_fips_RSA_PowerUpSelfTest
+01A540	PR 	.pk11_fips_DSA_PowerUpSelfTest
+01A6B0	PR 	.pk11_fipsPowerUpSelfTest
+01A790	PR 	.pk11_fipsCheck								file = "fipstokn.c"
+01A7E0	PR 	.fc_getAttribute
+01A840	PR 	.fips_login_if_key_object
+01A8D0	PR 	.FC_GetFunctionList
+01A910	PR 	.FC_Initialize
+01A9D0	PR 	.FC_Finalize
+01AA50	PR 	.FC_GetInfo
+01AAA0	PR 	.FC_GetSlotList
+01AAF0	PR 	.FC_GetSlotInfo
+01AB50	PR 	.FC_GetTokenInfo
+01ABB0	PR 	.FC_GetMechanismList
+01AC20	PR 	.FC_GetMechanismInfo
+01AC90	PR 	.FC_InitToken
+01ACC0	PR 	.FC_InitPIN
+01AD10	PR 	.FC_SetPIN
+01AD90	PR 	.FC_OpenSession
+01ADF0	PR 	.FC_CloseSession
+01AE40	PR 	.FC_CloseAllSessions
+01AE90	PR 	.FC_GetSessionInfo
+01AF40	PR 	.FC_Login
+01AFE0	PR 	.FC_Logout
+01B050	PR 	.FC_CreateObject
+01B110	PR 	.FC_CopyObject
+01B1B0	PR 	.FC_DestroyObject
+01B240	PR 	.FC_GetObjectSize
+01B2D0	PR 	.FC_GetAttributeValue
+01B370	PR 	.FC_SetAttributeValue
+01B410	PR 	.FC_FindObjectsInit
+01B510	PR 	.FC_FindObjects
+01B570	PR 	.FC_EncryptInit
+01B5F0	PR 	.FC_Encrypt
+01B680	PR 	.FC_EncryptUpdate
+01B710	PR 	.FC_EncryptFinal
+01B790	PR 	.FC_DecryptInit
+01B810	PR 	.FC_Decrypt
+01B8A0	PR 	.FC_DecryptUpdate
+01B930	PR 	.FC_DecryptFinal
+01B9B0	PR 	.FC_DigestInit
+01BA10	PR 	.FC_Digest
+01BA70	PR 	.FC_DigestUpdate
+01BAD0	PR 	.FC_DigestFinal
+01BB30	PR 	.FC_SignInit
+01BBB0	PR 	.FC_Sign
+01BC30	PR 	.FC_SignUpdate
+01BCB0	PR 	.FC_SignFinal
+01BD30	PR 	.FC_SignRecoverInit
+01BDB0	PR 	.FC_SignRecover
+01BE40	PR 	.FC_VerifyInit
+01BEC0	PR 	.FC_Verify
+01BF40	PR 	.FC_VerifyUpdate
+01BFC0	PR 	.FC_VerifyFinal
+01C040	PR 	.FC_VerifyRecoverInit
+01C0C0	PR 	.FC_VerifyRecover
+01C150	PR 	.FC_GenerateKey
+01C210	PR 	.FC_GenerateKeyPair
+01C2E0	PR 	.FC_WrapKey
+01C370	PR 	.FC_UnwrapKey
+01C440	PR 	.FC_DeriveKey
+01C500	PR 	.FC_SeedRandom
+01C570	PR 	.FC_GenerateRandom
+01C5E0	PR 	.FC_GetFunctionStatus
+01C650	PR 	.FC_CancelFunction
+01C6C0	PR 	.FC_GetOperationState
+01C720	PR 	.FC_SetOperationState
+01C780	PR 	.FC_FindObjectsFinal
+01C7E0	PR 	.FC_DigestEncryptUpdate
+01C870	PR 	.FC_DecryptDigestUpdate
+01C900	PR 	.FC_SignEncryptUpdate
+01C990	PR 	.FC_DecryptVerifyUpdate
+01CA20	PR 	.FC_DigestKey
+01CA90	PR 	.FC_WaitForSlotEvent
+01CAE0	PR 	.nsslowkey_GetDefaultKeyDBAlg				file = "keydb.c"
+01CB20	PR 	.nsslowkey_SetDefaultKeyDBAlg
+01CB60	PR 	.sec_destroy_dbkey
+01CBC0	PR 	.free_dbt
+01CC20	PR 	.encode_dbkey
+01CD60	PR 	.decode_dbkey
+01CF00	PR 	.get_dbkey
+01CF90	PR 	.put_dbkey
+01D080	PR 	.nsslowkey_TraverseKeys
+01D1C0	PR 	.sec_add_key_to_list
+01D280	PR 	.decodeKeyDBGlobalSalt
+01D340	PR 	.GetKeyDBGlobalSalt
+01D3D0	PR 	.StoreKeyDBGlobalSalt
+01D460	PR 	.makeGlobalVersion
+01D510	PR 	.makeGlobalSalt
+01D5C0	PR 	.nsslowkey_UpdateKeyDBPass2
+01D640	PR 	.nsslowkey_version
+01D6E0	PR 	.seckey_HasAServerKey
+01D820	PR 	.nsslowkey_UpdateKeyDBPass1
+01DB90	PR 	.openNewDB
+01DE30	PR 	.openOldDB
+01DF00	PR 	.nsslowkey_OpenKeyDB
+01E130	PR 	.nsslowkey_CloseKeyDB
+01E1F0	PR 	.nsslowkey_DeleteKey
+01E2D0	PR 	.nsslowkey_StoreKeyByPublicKey
+01E360	PR 	.nsslowkey_UpdateNickname
+01E3F0	PR 	.nsslowkey_KeyForIDExists
+01E470	PR 	.nsslowkey_KeyForCertExists
+01E640	PR 	.nsslowkey_HasKeyDBPassword
+01E720	PR 	.nsslowkey_SetKeyDBPassword
+01E7A0	PR 	.HashPassword
+01E880	PR 	.nsslowkey_HashPassword
+01E970	PR 	.seckey_create_rc4_key
+01EA90	PR 	.seckey_create_rc4_salt
+01EB60	PR 	.seckey_rc4_decode
+01EC80	PR 	.seckey_encrypt_private_key
+01F070	PR 	.seckey_put_private_key
+01F220	PR 	.nsslowkey_StoreKeyByPublicKeyAlg
+01F2D0	PR 	.seckey_decrypt_private_key
+01F620	PR 	.seckey_decode_encrypted_private_key
+01F740	PR 	.seckey_get_private_key
+01F830	PR 	.nsslowkey_FindKeyByPublicKey
+01F8C0	PR 	.nsslowkey_FindKeyNicknameByPublicKey
+01F970	PR 	.encodePWCheckEntry
+01FA80	PR 	.nsslowkey_SetKeyDBPasswordAlg
+01FC70	PR 	.seckey_CheckKeyDB1Password
+01FD80	PR 	.nsslowkey_CheckKeyDBPassword
+01FFE0	PR 	.ChangeKeyDBPasswordAlg
+020220	PR 	.nsslowkey_ChangeKeyDBPassword
+0202D0	PR 	.nsslowkey_ResetKeyDB
+020460	PR 	.prepare_low_rsa_pub_key_for_asn1			file = "lowcert.c"
+0204B0	PR 	.prepare_low_dsa_pub_key_for_asn1
+020500	PR 	.prepare_low_dh_pub_key_for_asn1
+020550	PR 	.nsslowcert_dataStart
+020620	PR 	.nsslowcert_GetValidityFields
+0206E0	PR 	.nsslowcert_GetCertFields
+0209C0	PR 	.nsslowcert_GetCertTimes
+020A80	PR 	.nsslowcert_IsNewer
+020C00	PR 	.nsslowcert_KeyFromIssuerAndSN
+020CF0	PR 	.nsslowcert_DecodeDERCertificate
+020E50	PR 	.nsslowcert_FixupEmailAddr
+020F00	PR 	.nsslowcert_KeyFromDERCert
+020FC0	PR 	.nsslowcert_ExtractPublicKey
+021200	PR 	.prepare_low_rsa_priv_key_for_asn1			file = "lowkey.c"
+021260	PR 	.prepare_low_pqg_params_for_asn1
+0212B0	PR 	.prepare_low_dsa_priv_key_for_asn1
+021300	PR 	.prepare_low_dsa_priv_key_export_for_asn1
+021350	PR 	.prepare_low_dh_priv_key_for_asn1
+0213A0	PR 	.nsslowkey_DestroyPrivateKey
+021410	PR 	.nsslowkey_DestroyPublicKey
+021480	PR 	.nsslowkey_PublicModulusLen
+0214F0	PR 	.nsslowkey_PrivateModulusLen
+021560	PR 	.nsslowkey_ConvertToPublicKey
+0217D0	PR 	.nsspkcs5_HashBuf							file = "lowpbe.c"
+0218A0	PR 	.nsspkcs5_PBKDF1
+021AB0	PR 	.nsspkcs5_PFXPBE
+021CE0	PR 	.nsspkcs5_PBKDF1Extended
+021DB0	PR 	.nsspkcs5_PKCS12PBE
+022180	PR 	.nsspkcs5_ComputeKeyAndIV
+022410	PR 	.nsspkcs5_FillInParam
+022590	PR 	.nsspkcs5_NewParam
+022680	PR 	.nsspkcs5_AlgidToParam
+0227A0	PR 	.nsspkcs5_DestroyPBEParameter
+022810	PR 	.sec_pkcs5_des
+022A40	PR 	.sec_pkcs5_rc2
+022C50	PR 	.sec_pkcs5_rc4
+022D80	PR 	.nsspkcs5_CipherData
+022F40	PR 	.nsspkcs5_CreateAlgorithmID
+0230D0	PR 	.DES_PadBuffer								file = "padbuf.c"
+0231A0	PR 	.certdb_InitDBLock							file = "pcertdb.c"
+023200	PR 	.nsslowcert_LockDB
+023250	PR 	.nsslowcert_UnlockDB
+0232A0	PR 	.nsslowcert_LockCertRefCount
+023320	PR 	.nsslowcert_UnlockCertRefCount
+023380	PR 	.nsslowcert_LockCertTrust
+0233F0	PR 	.nsslowcert_UnlockCertTrust
+023450	PR 	.nsslowcert_LockFreeList
+0234C0	PR 	.nsslowcert_UnlockFreeList
+023520	PR 	.nsslowcert_DupCertificate
+0235A0	PR 	.certdb_Get
+023640	PR 	.certdb_Put
+0236E0	PR 	.certdb_Sync
+023770	PR 	.certdb_Del
+023810	PR 	.certdb_Seq
+0238B0	PR 	.certdb_Close
+023920	PR 	.pkcs11_freeNickname
+023980	PR 	.pkcs11_copyNickname
+023A20	PR 	.pkcs11_freeStaticData
+023A80	PR 	.pkcs11_copyStaticData
+023B20	PR 	.DestroyDBEntry
+023C10	PR 	.DeleteDBEntry
+023CD0	PR 	.ReadDBEntry
+023E60	PR 	.WriteDBEntry
+023F30	PR 	.EncodeDBCertEntry
+024090	PR 	.EncodeDBCertKey
+024160	PR 	.EncodeDBGenericKey
+024250	PR 	.DecodeDBCertEntry
+024460	PR 	.NewDBCertEntry
+0245F0	PR 	.DecodeV4DBCertEntry
+0247E0	PR 	.WriteDBCertEntry
+0248E0	PR 	.DeleteDBCertEntry
+0249A0	PR 	.CreateCertEntry
+024A30	PR 	.ReadDBCertEntry
+024B50	PR 	.EncodeDBCrlEntry
+024C70	PR 	.DecodeDBCrlEntry
+024E00	PR 	.NewDBCrlEntry
+024F50	PR 	.WriteDBCrlEntry
+025040	PR 	.DeleteDBCrlEntry
+025110	PR 	.ReadDBCrlEntry
+025280	PR 	.nsslowcert_DestroyDBEntry
+0252D0	PR 	.EncodeDBNicknameEntry
+0253A0	PR 	.EncodeDBNicknameKey
+025460	PR 	.DecodeDBNicknameEntry
+0255A0	PR 	.NewDBNicknameEntry
+0256E0	PR 	.DeleteDBNicknameEntry
+0257C0	PR 	.ReadDBNicknameEntry
+025950	PR 	.WriteDBNicknameEntry
+025A40	PR 	.EncodeDBSMimeEntry
+025B90	PR 	.EncodeDBSMimeKey
+025C50	PR 	.DecodeDBSMimeEntry
+025EA0	PR 	.NewDBSMimeEntry
+026050	PR 	.DeleteDBSMimeEntry
+026120	PR 	.nsslowcert_ReadDBSMimeEntry
+0262C0	PR 	.WriteDBSMimeEntry
+0263B0	PR 	.EncodeDBSubjectEntry
+0266B0	PR 	.EncodeDBSubjectKey
+026760	PR 	.DecodeDBSubjectEntry
+026C30	PR 	.NewDBSubjectEntry
+026ED0	PR 	.DeleteDBSubjectEntry
+026FA0	PR 	.ReadDBSubjectEntry
+027110	PR 	.WriteDBSubjectEntry
+027200	PR 	.nsslowcert_UpdateSubjectEmailAddr
+027460	PR 	.AddNicknameToSubject
+027540	PR 	.NewDBVersionEntry
+027610	PR 	.ReadDBVersionEntry
+027790	PR 	.WriteDBVersionEntry
+0278C0	PR 	.RemovePermSubjectNode
+027A80	PR 	.AddPermSubjectNode
+027D80	PR 	.nsslowcert_TraversePermCertsForSubject
+027E80	PR 	.nsslowcert_NumPermCertsForSubject
+027F00	PR 	.nsslowcert_TraversePermCertsForNickname
+027FF0	PR 	.nsslowcert_NumPermCertsForNickname
+028080	PR 	.AddNicknameToPermCert
+028160	PR 	.nsslowcert_AddPermNickname
+0282D0	PR 	.AddCertToPermDB
+0284E0	PR 	.UpdateV8DB
+028520	PR 	.UpdateV7DB
+0287B0	PR 	.UpdateV6DB
+028BB0	PR 	.updateV5Callback
+028C80	PR 	.UpdateV5DB
+028D10	PR 	.isV4DB
+028DB0	PR 	.UpdateV4DB
+028F00	PR 	.nsslowcert_CertNicknameConflict
+028FC0	PR 	.nsslowcert_openolddb
+029060	PR 	.openNewCertDB
+0292D0	PR 	.nsslowcert_GetVersionNumber
+029350	PR 	.nsslowcert_OpenPermCertDB
+029570	PR 	.DeletePermCert
+0295F0	PR 	.nsslowcert_DeletePermCertificate
+0296C0	PR 	.nsslowcert_TraverseDBEntries
+0297E0	PR 	.DecodeACert
+029860	PR 	.CreateTrust
+0298F0	PR 	.DecodeTrustEntry
+0299B0	PR 	.certcallback
+029AD0	PR 	.TraversePermCertsNoLocking
+029B40	PR 	.nsslowcert_TraversePermCerts
+029BD0	PR 	.nsslowcert_ClosePermCertDB
+029C60	PR 	.nsslowcert_GetCertTrust
+029D00	PR 	.nsslowcert_ChangeCertTrust
+029E00	PR 	.nsslowcert_UpdatePermCert
+029EF0	PR 	.nsslowcert_AddPermCert
+029FC0	PR 	.nsslowcert_OpenCertDB
+02A080	PR 	.nsslowcert_needDBVerify
+02A0D0	PR 	.FindCertByKey
+02A190	PR 	.FindTrustByKey
+02A260	PR 	.nsslowcert_FindCertByKey
+02A2B0	PR 	.nsslowcert_FindTrustByKey
+02A300	PR 	.nsslowcert_FindCertByIssuerAndSN
+02A4D0	PR 	.nsslowcert_FindTrustByIssuerAndSN
+02A6D0	PR 	.nsslowcert_FindCertByDERCert
+02A790	PR 	.DestroyCertificate
+02A8C0	PR 	.nsslowcert_CreateCert
+02A960	PR 	.nsslowcert_DestroyTrust
+02AA20	PR 	.nsslowcert_DestroyCertificate
+02AA80	PR 	.nsslowcert_DestroyCertificateNoLocking
+02AAE0	PR 	.nsslowcert_FindCrlByKey
+02ABB0	PR 	.nsslowcert_UpdateCrl
+02AC80	PR 	.nsslowcert_AddCrl
+02AD30	PR 	.nsslowcert_DeletePermCRL
+02ADE0	PR 	.nsslowcert_hasTrust
+02AE50	PR 	.nsslowcert_UpdateSMimeProfile
+02AFA0	PR 	.nsslowcert_SaveSMimeProfile
+02B060	PR 	.nsslowcert_DestroyGlobalLocks
+02B100	PR 	.pk11_argGetPair							file = "pk11db.c"
+02B1A0	PR 	.pk11_argIsBlank
+02B1E0	PR 	.pk11_argIsEscape
+02B220	PR 	.pk11_argIsQuote
+02B2A0	PR 	.pk11_argHasChar
+02B300	PR 	.pk11_argHasBlanks
+02B380	PR 	.pk11_argStrip
+02B3F0	PR 	.pk11_argFindEnd
+02B4E0	PR 	.pk11_argFetchValue
+02B5E0	PR 	.pk11_argSkipParameter
+02B690	PR 	.pk11_argParseModuleSpec
+02B830	PR 	.pk11_argGetParamValue
+02B940	PR 	.pk11_argNextFlag
+02B9A0	PR 	.pk11_argHasFlag
+02BA80	PR 	.pk11_argSetNewCipherFlags
+02BB90	PR 	.pk11_argDecodeNumber
+02BCC0	PR 	.pk11_argReadLong
+02BD60	PR 	.pk11_argSlotFlags
+02BE70	PR 	.pk11_argDecodeSingleSlotInfo
+02BFB0	PR 	.pk11_argGetName
+02C090	PR 	.pk11_argParseSlotInfo
+02C250	PR 	.pk11_formatValue
+02C370	PR 	.pk11_formatPair
+02C4E0	PR 	.pk11_formatIntPair
+02C550	PR 	.pk11_freePair
+02C5B0	PR 	.pk11_mkNSSFlags
+02C720	PR 	.pk11_mkCipherFlags
+02C870	PR 	.pk11_mkSlotFlags
+02C980	PR 	.pk11_mkRootFlags
+02CA50	PR 	.pk11_mkSlotString
+02CBB0	PR 	.pk11_mkNSS
+02CE10	PR 	.pk11_mkNewModuleSpec
+02CF00	PR 	.secmod_parseTokenFlags
+02CFE0	PR 	.secmod_parseFlags
+02D0B0	PR 	.secmod_parseTokenParameters
+02D320	PR 	.secmod_parseTokens
+02D4A0	PR 	.secmod_parseParameters
+02DAF0	PR 	.secmod_freeParams
+02DCD0	PR 	.secmod_getSecmodName
+02DEC0	PR 	.secmod_MakeKey
+02DF60	PR 	.secmod_FreeKey
+02DFD0	PR 	.secmod_EncodeData
+02E500	PR 	.secmod_FreeData
+02E560	PR 	.secmod_DecodeData
+02EA10	PR 	.secmod_OpenDB
+02EC60	PR 	.secmod_CloseDB
+02ECB0	PR 	.secmod_addEscape
+02EDB0	PR 	.secmod_ReadPermDB
+02EF90	PR 	.secmod_ReleasePermDBData
+02F020	PR 	.secmod_DeletePermDB
+02F110	PR 	.secmod_AddPermDB
+02F230	PR 	.pk11_setStringName							file = "pkcs11.c"
+02F310	PR 	.pk11_configure
+02F3A0	PR 	.pk11_hasNullPassword
+02F470	PR 	.pk11_defaultAttribute
+02F500	PR 	.pk11_handleDataObject
+02F5D0	PR 	.pk11_handleCertObject
+02F9C0	PR 	.pk11_MapTrust
+02FA50	PR 	.pk11_handleTrustObject
+02FE40	PR 	.pk11_handleSMimeObject
+0300A0	PR 	.pk11_handleCrlObject
+0302A0	PR 	.pk11_handlePublicKeyObject
+030650	PR 	.pk11_handlePrivateKeyObject
+030CB0	PR 	.validateSecretKey
+030F40	PR 	.pk11_GenerateSecretCKA_ID
+0310C0	PR 	.pk11_handleSecretKeyObject
+0312A0	PR 	.pk11_handleKeyObject
+031460	PR 	.pk11_handleDSAParameterObject
+031670	PR 	.pk11_handleKeyParameterObject
+031760	PR 	.pk11_handleObject
+031A30	PR 	.pk11_GetPubKey
+031CA0	PR 	.pk11_mkPrivKey
+032010	PR 	.pk11_GetPrivKey
+032100	PR 	.pk11_FormatDESKey
+032150	PR 	.pk11_CheckDESKey
+0321F0	PR 	.pk11_IsWeakKey
+0322D0	PR 	.pk11_mkSecretKeyRep
+032440	PR 	.isSecretKey
+0324A0	PR 	.NSC_GetFunctionList
+0324E0	PR 	.C_GetFunctionList
+032530	PR 	.pk11_HashNumber
+032560	PR 	.pk11_getDefTokName
+032610	PR 	.pk11_getDefSlotName
+0326C0	PR 	.pk11_GetModuleIndex
+032710	PR 	.pk11_SlotFromID
+032780	PR 	.pk11_SlotFromSessionHandle
+032800	PR 	.pk11_NewSlotFromID
+0329D0	PR 	.pk11_set_user
+032AE0	PR 	.pk11_DBVerify
+032B30	PR 	.PK11_SlotInit
+032EA0	PR 	.pk11_freeHashItem
+032F00	PR 	.pk11_DestroySlotData
+033120	PR 	.NSC_ModuleDBFunc
+0332D0	PR 	.nscFreeAllSlots
+0333E0	PR 	.pk11_closePeer
+033470	PR 	.nsc_CommonInitialize
+0335D0	PR 	.NSC_Initialize
+033640	PR 	.nsc_CommonFinalize
+033700	PR 	.NSC_Finalize
+033770	PR 	.NSC_GetInfo
+033830	PR 	.nsc_CommonGetSlotList
+0338B0	PR 	.NSC_GetSlotList
+033900	PR 	.NSC_GetSlotInfo
+0339B0	PR 	.pk11_checkNeedLogin
+033A60	PR 	.NSC_GetTokenInfo
+033C20	PR 	.NSC_GetMechanismList
+033D00	PR 	.NSC_GetMechanismInfo
+033DD0	PR 	.pk11_TurnOffUser
+033EA0	PR 	.NSC_InitToken
+033FF0	PR 	.NSC_InitPIN
+0341A0	PR 	.NSC_SetPIN
+0343B0	PR 	.NSC_OpenSession
+0345B0	PR 	.NSC_CloseSession
+034780	PR 	.NSC_CloseAllSessions
+034930	PR 	.NSC_GetSessionInfo
+0349C0	PR 	.NSC_Login
+034C10	PR 	.NSC_Logout
+034CF0	PR 	.NSC_CreateObject
+034E20	PR 	.NSC_CopyObject
+035080	PR 	.NSC_GetObjectSize
+0350C0	PR 	.NSC_GetAttributeValue
+035290	PR 	.NSC_SetAttributeValue
+0354F0	PR 	.pk11_crl_collect
+0355B0	PR 	.pk11_searchCrls
+0356C0	PR 	.pk11_key_collect
+035A20	PR 	.pk11_searchKeys
+035BF0	PR 	.pk11_cert_collect
+035D50	PR 	.pk11_cert_collect2
+035DA0	PR 	.pk11_searchSingleCert
+035E80	PR 	.pk11_CertSetupData
+035EF0	PR 	.pk11_searchCertsAndTrust
+0362C0	PR 	.pk11_searchSMime
+0363E0	PR 	.pk11_searchTokenList
+036A30	PR 	.NSC_FindObjectsInit
+036BF0	PR 	.NSC_FindObjects
+036D10	PR 	.NSC_FindObjectsFinal
+036DA0	PR 	.NSC_WaitForSlotEvent
+036DD0	PR 	.pk11_Null									file = "pkcs11c.c"
+036DF0	PR 	.pk11_FreePrivKey
+036E40	PR 	.pk11_HMAC_Destroy
+036E90	PR 	.pk11_Space
+036EE0	PR 	.pk11_cdmf2des
+0370B0	PR 	.pk11_calcLynxChecksum
+037240	PR 	.NSC_DestroyObject
+0373B0	PR 	.pk11_ReturnContextByType
+037420	PR 	.pk11_SetContextByType
+037490	PR 	.pk11_GetContext
+037570	PR 	.pk11_InitGeneric
+037740	PR 	.pk11_CryptInit
+037E40	PR 	.NSC_EncryptInit
+037E90	PR 	.NSC_EncryptUpdate
+038080	PR 	.NSC_EncryptFinal
+0381E0	PR 	.NSC_Encrypt
+038380	PR 	.NSC_DecryptInit
+0383D0	PR 	.NSC_DecryptUpdate
+038530	PR 	.NSC_DecryptFinal
+0386A0	PR 	.NSC_Decrypt
+038840	PR 	.NSC_DigestInit
+038B70	PR 	.NSC_Digest
+038C70	PR 	.NSC_DigestUpdate
+038D00	PR 	.NSC_DigestFinal
+038DE0	PR 	.pk11_doSubMD2
+038E70	PR 	.pk11_doSubMD5
+038F00	PR 	.pk11_doSubSHA1
+038F90	PR 	.pk11_HMACCopy
+039010	PR 	.pk11_HMACCmp
+039070	PR 	.pk11_doHMACInit
+0391F0	PR 	.pk11_SSLMACSign
+0392E0	PR 	.pk11_SSLMACVerify
+0393D0	PR 	.pk11_doSSLMACInit
+039550	PR 	.pk11_TLSPRFHashUpdate
+039650	PR 	.pk11_TLSPRFEnd
+039680	PR 	.pk11_TLSPRFUpdate
+039740	PR 	.pk11_TLSPRFVerify
+039830	PR 	.pk11_TLSPRFHashDestroy
+039890	PR 	.pk11_TLSPRFInit
+0399E0	PR 	.pk11_InitCBCMac
+039C70	PR 	.pk11_HashSign
+039D80	PR 	.nsc_DSA_Verify_Stub
+039DF0	PR 	.nsc_DSA_Sign_Stub
+039ED0	PR 	.NSC_SignInit
+03A440	PR 	.pk11_MACUpdate
+03A630	PR 	.NSC_SignUpdate
+03A680	PR 	.NSC_SignFinal
+03A830	PR 	.NSC_Sign
+03A990	PR 	.NSC_SignRecoverInit
+03AA10	PR 	.NSC_SignRecover
+03AA60	PR 	.pk11_hashCheckSign
+03ABB0	PR 	.NSC_VerifyInit
+03B0D0	PR 	.NSC_Verify
+03B1B0	PR 	.NSC_VerifyUpdate
+03B200	PR 	.NSC_VerifyFinal
+03B390	PR 	.NSC_VerifyRecoverInit
+03B540	PR 	.NSC_VerifyRecover
+03B630	PR 	.NSC_SeedRandom
+03B690	PR 	.NSC_GenerateRandom
+03B700	PR 	.nsc_pbe_key_gen
+03B7F0	PR 	.nsc_parameter_gen
+03BA20	PR 	.nsc_SetupBulkKeyGen
+03BB80	PR 	.nsc_SetupHMACKeyGen
+03BD40	PR 	.nsc_SetupPBEKeyGen
+03BE80	PR 	.NSC_GenerateKey
+03C3D0	PR 	.NSC_GenerateKeyPair
+03CF40	PR 	.pk11_PackagePrivateKey
+03D230	PR 	.pk11_mapWrap
+03D260	PR 	.NSC_WrapKey
+03D4C0	PR 	.pk11_unwrapPrivateKey
+03DA10	PR 	.NSC_UnwrapKey
+03DD60	PR 	.pk11_buildSSLKey
+03DFA0	PR 	.pk11_freeSSLKeys
+03E040	PR 	.pk11_DeriveSensitiveCheck
+03E230	PR 	.pk11_MapKeySize
+03E2B0	PR 	.pk11_P_hash
+03E4E0	PR 	.pk11_PRF
+03E640	PR 	.NSC_DeriveKey
+03FD30	PR 	.NSC_GetFunctionStatus
+03FD60	PR 	.NSC_CancelFunction
+03FD90	PR 	.NSC_GetOperationState
+03FEA0	PR 	.NSC_SetOperationState
+040060	PR 	.NSC_DigestEncryptUpdate
+0400E0	PR 	.NSC_DecryptDigestUpdate
+040160	PR 	.NSC_SignEncryptUpdate
+0401E0	PR 	.NSC_DecryptVerifyUpdate
+040260	PR 	.NSC_DigestKey
+040360	PR 	.pk11_NewAttribute							file = "pkcs11u.c"
+040490	PR 	.pk11_NewTokenAttribute
+0405C0	PR 	.pk11_NewTokenAttributeSigned
+040630	PR 	.pk11_DestroyAttribute
+0406C0	PR 	.pk11_FreeAttribute
+040720	PR 	.pk11_getSMime
+0407B0	PR 	.pk11_getCrl
+040860	PR 	.pk11_getCert
+040910	PR 	.pk11_getTrust
+0409A0	PR 	.pk11_GetPublicKey
+040A60	PR 	.pk11_GetPrivateKey
+040B10	PR 	.pk11_GetPubItem
+040B80	PR 	.pk11_FindRSAPublicKeyAttribute
+040C90	PR 	.pk11_FindDSAPublicKeyAttribute
+040E30	PR 	.pk11_FindDHPublicKeyAttribute
+040FB0	PR 	.pk11_FindPublicKeyAttribute
+041130	PR 	.pk11_FindSecretKeyAttribute
+041320	PR 	.pk11_FindRSAPrivateKeyAttribute
+041440	PR 	.pk11_FindDSAPrivateKeyAttribute
+0415D0	PR 	.pk11_FindDHPrivateKeyAttribute
+041740	PR 	.pk11_FindPrivateKeyAttribute
+0418E0	PR 	.pk11_FindSMIMEAttribute
+041A50	PR 	.pk11_FindTrustAttribute
+041C90	PR 	.pk11_FindCrlAttribute
+041E20	PR 	.pk11_FindCertAttribute
+0420E0	PR 	.pk11_FindTokenAttribute
+042250	PR 	.pk11_FindAttribute
+042320	PR 	.pk11_hasAttributeToken
+042360	PR 	.pk11_hasAttribute
+042430	PR 	.pk11_AddAttribute
+0424E0	PR 	.pk11_Attribute2SSecItem
+0425B0	PR 	.pk11_DeleteAttribute
+0426C0	PR 	.pk11_isTrue
+042730	PR 	.pk11_nullAttribute
+0427E0	PR 	.pk11_SetCertAttribute
+0429C0	PR 	.pk11_SetPrivateKeyAttribute
+042B00	PR 	.pk11_SetTrustAttribute
+042C80	PR 	.pk11_forceTokenAttribute
+042E00	PR 	.pk11_forceAttribute
+042F80	PR 	.pk11_getString
+043040	PR 	.pk11_modifyType
+0431C0	PR 	.pk11_isSensitive
+043230	PR 	.pk11_Attribute2SecItem
+043320	PR 	.pk11_DeleteAttributeType
+0433A0	PR 	.pk11_AddAttributeType
+043410	PR 	.pk11_deleteTokenKeyByHandle
+0434C0	PR 	.pk11_addTokenKeyByHandle
+043570	PR 	.pk11_lookupTokenKeyByHandle
+0435D0	PR 	.pk11_tokenKeyLock
+043620	PR 	.pk11_tokenKeyUnlock
+043670	PR 	.pk11_GetObjectFromList
+043780	PR 	.pk11_PutObjectToList
+043890	PR 	.pk11_freeObjectData
+0438F0	PR 	.pk11_CleanupFreeList
+0439D0	PR 	.pk11_CleanupFreeLists
+043A30	PR 	.pk11_NewObject
+043BE0	PR 	.pk11_DestroySessionObjectData
+043CB0	PR 	.pk11_DestroyObject
+043DA0	PR 	.pk11_ReferenceObject
+043E20	PR 	.pk11_ObjectFromHandleOnSlot
+043F10	PR 	.pk11_ObjectFromHandle
+043F60	PR 	.pk11_FreeObject
+044010	PR 	.pk11_AddSlotObject
+0440C0	PR 	.pk11_AddObject
+044190	PR 	.pk11_DeleteObject
+0444C0	PR 	.pk11_CopyObject
+0445D0	PR 	.pk11_objectMatch
+0446B0	PR 	.pk11_searchObjectList
+0447B0	PR 	.pk11_FreeSearch
+044820	PR 	.pk11_update_state
+0448B0	PR 	.pk11_update_all_states
+044980	PR 	.pk11_FreeContext
+044A30	PR 	.pk11_NewSession
+044B40	PR 	.pk11_DestroySession
+044C20	PR 	.pk11_SessionFromHandle
+044D10	PR 	.pk11_FreeSession
+044DD0	PR 	.pk11_XORHash
+044EA0	PR 	.pk11_mkHandle
+044FB0	PR 	.pk11_addHandle
+045070	PR 	.pk11_NewTokenObject
+0451E0	PR 	.pk11_tokenMatch
+045270	PR 	.pk11_convertSessionToToken
+045360	PR 	.pk11_narrowToSessionObject
+0453B0	PR 	.pk11_narrowToTokenObject
+045400	PR 	.null_hash_new_context						file = "rawhash.c"
+045430	PR 	.null_hash_clone_context
+045470	PR 	.null_hash_begin
+0454A0	PR 	.null_hash_update
+0454D0	PR 	.null_hash_end
+045500	PR 	.null_hash_destroy_context
+045530	PR 	.SHA1_CloneContext							file = "rsawrapr.c"
+045610	PR 	.oaep_xor_with_h1
+045760	PR 	.oaep_xor_with_h2
+045810	PR 	.rsa_FormatOneBlock
+045A50	PR 	.rsa_FormatBlock
+045B90	PR 	.RSA_Sign
+045C80	PR 	.RSA_CheckSign
+045DE0	PR 	.RSA_CheckSignRecover
+045F50	PR 	.RSA_EncryptBlock
+046060	PR 	.RSA_DecryptBlock
+0461C0	PR 	.RSA_SignRaw
+0462B0	PR 	.RSA_CheckSignRaw
+0463B0	PR 	.RSA_CheckSignRecoverRaw
+046470	PR 	.RSA_EncryptRaw
+046580	PR 	.RSA_DecryptRaw
+046640	PR 	.SHA256_NewContext							file = "sha512.c"
+046690	PR 	.SHA256_DestroyContext
+0466F0	PR 	.SHA256_Begin
+046760	PR 	.SHA256_Compress
+0498A0	PR 	.SHA256_Update
+0499B0	PR 	.SHA256_End
+049A80	PR 	.SHA256_FlattenSize
+049AB0	PR 	.__cvt_fp2unsigned							file = "runtime.c"
+049B00	PR 	.__div2u
+049BF0	PR 	.__mod2u
+049CD0	PR 	.__shl2i
+049D00	PR 	.__shr2u
+049D30	PR 	.__RTOC										file = "StartupSharedLib.c"
+049D40	PR 	.__initialize
+049DA0	PR 	.__terminate
+049DD0	PR 	.__NSInitialize								file = "NSStartup.c"
+049E50	PR 	.__NSTerminate
+049EB0	PR 	.header_length								file = "derenc.c"
+049FF0	PR 	.contents_length
+04A240	PR 	.der_encode
+04A590	PR 	.DER_Encode
+04A650	PR 	.DER_LengthLength							file = "dersubr.c"
+04A6C0	PR 	.DER_StoreHeader
+04A7B0	PR 	.DER_SetUInteger
+04A8C0	PR 	.DER_GetInteger
+04A980	PR 	.DER_AsciiToTime							file = "dertime.c"
+04AE00	PR 	.DER_UTCTimeToTime
+04AE50	PR 	.pl_base64_encode_buffer					file = "nssb64e.c"
+04B0A0	PR 	.pl_base64_encode_flush
+04B220	PR 	.PL_Base64MaxEncodedLength
+04B2B0	PR 	.pl_base64_create_encoder
+04B3B0	PR 	.PL_DestroyBase64Encoder
+04B460	PR 	.PL_Base64EncodeBuffer
+04B5A0	PR 	.NSSBase64_EncodeItem
+04B750	PR 	.__nss_InitLock								file = "nsslocks.c"
+04B800	PR 	.nss_InitLock
+04B840	PR 	.PQG_DestroyParams							file = "pqgutil.c"
+04B8F0	PR 	.PQG_DestroyVerify
+04B990	PR 	.SECOID_GetAlgorithmTag						file = "secalgid.c"
+04BA00	PR 	.SECOID_SetAlgorithmID
+04BB60	PR 	.SECOID_CopyAlgorithmID
+04BBF0	PR 	.SECOID_DestroyAlgorithmID
+04BC80	PR 	.sec_asn1d_alloc							file = "secasn1d.c"
+04BCE0	PR 	.sec_asn1d_zalloc
+04BD50	PR 	.sec_asn1d_push_state
+04BE60	PR 	.sec_asn1d_scrub_state
+04BEA0	PR 	.sec_asn1d_notify_before
+04BF30	PR 	.sec_asn1d_notify_after
+04BFC0	PR 	.sec_asn1d_init_state_based_on_template
+04C2F0	PR 	.sec_asn1d_parent_is_indefinite
+04C3E0	PR 	.sec_asn1d_parse_identifier
+04C4E0	PR 	.sec_asn1d_parse_more_identifier
+04C5F0	PR 	.sec_asn1d_confirm_identifier
+04C6D0	PR 	.sec_asn1d_parse_length
+04C770	PR 	.sec_asn1d_parse_more_length
+04C870	PR 	.sec_asn1d_prepare_for_contents
+04CF50	PR 	.sec_asn1d_free_child
+04CFE0	PR 	.sec_asn1d_reuse_encoding
+04D100	PR 	.sec_asn1d_parse_leaf
+04D230	PR 	.sec_asn1d_parse_bit_string
+04D330	PR 	.sec_asn1d_parse_more_bit_string
+04D3D0	PR 	.sec_asn1d_add_to_subitems
+04D4E0	PR 	.sec_asn1d_record_any_header
+04D580	PR 	.sec_asn1d_next_substring
+04D6B0	PR 	.sec_asn1d_next_in_group
+04D830	PR 	.sec_asn1d_next_in_sequence
+04DAF0	PR 	.sec_asn1d_concat_substrings
+04DC90	PR 	.sec_asn1d_concat_group
+04DD80	PR 	.sec_asn1d_absorb_child
+04DE90	PR 	.sec_asn1d_prepare_for_end_of_contents
+04DF00	PR 	.sec_asn1d_parse_end_of_contents
+04E000	PR 	.sec_asn1d_pop_state
+04E070	PR 	.sec_asn1d_before_choice
+04E170	PR 	.sec_asn1d_during_choice
+04E370	PR 	.sec_asn1d_after_choice
+04E3F0	PR 	.SEC_ASN1DecoderUpdate
+04E790	PR 	.SEC_ASN1DecoderFinish
+04E820	PR 	.SEC_ASN1DecoderStart
+04E920	PR 	.SEC_ASN1Decode
+04E9B0	PR 	.SEC_ASN1DecodeItem
+04EA10	PR 	.sec_asn1e_push_state						file = "secasn1e.c"
+04EAF0	PR 	.sec_asn1e_scrub_state
+04EB30	PR 	.sec_asn1e_notify_before
+04EBC0	PR 	.sec_asn1e_notify_after
+04EC50	PR 	.sec_asn1e_init_state_based_on_template
+04EEA0	PR 	.sec_asn1e_write_part
+04EF00	PR 	.sec_asn1e_write_identifier_bytes
+04EF70	PR 	.SEC_ASN1EncodeLength
+04F010	PR 	.sec_asn1e_write_length_bytes
+04F0A0	PR 	.sec_asn1e_write_contents_bytes
+04F100	PR 	.sec_asn1e_write_end_of_contents_bytes
+04F170	PR 	.sec_asn1e_which_choice
+04F1F0	PR 	.sec_asn1e_contents_length
+04F5F0	PR 	.sec_asn1e_write_header
+04F910	PR 	.sec_asn1e_write_contents
+04FB70	PR 	.sec_asn1e_next_in_group
+04FC30	PR 	.sec_asn1e_next_in_sequence
+04FD00	PR 	.sec_asn1e_after_contents
+04FD70	PR 	.SEC_ASN1EncoderUpdate
+04FE90	PR 	.SEC_ASN1EncoderFinish
+04FEF0	PR 	.SEC_ASN1EncoderStart
+04FFF0	PR 	.SEC_ASN1Encode
+050070	PR 	.sec_asn1e_encode_item_count
+0500B0	PR 	.sec_asn1e_encode_item_store
+050130	PR 	.sec_asn1e_allocate_item
+050280	PR 	.SEC_ASN1EncodeItem
+050360	PR 	.sec_asn1e_integer
+050420	PR 	.SEC_ASN1EncodeInteger
+050470	PR 	.SEC_ASN1LengthLength						file = "secasn1u.c"
+0504C0	PR 	.SEC_ASN1GetSubtemplate
+050560	PR 	.definite_length_decoder					file = "quickder.c"
+050650	PR 	.GetItem
+050760	PR 	.MatchComponentType
+050A40	PR 	.DecodeSequence
+050B80	PR 	.DecodeInline
+050C10	PR 	.DecodePointer
+050CD0	PR 	.DecodeImplicit
+050D30	PR 	.DecodeChoice
+050E40	PR 	.DecodeGroup
+051070	PR 	.DecodeExplicit
+051140	PR 	.DecodeItem
+051580	PR 	.SEC_QuickDERDecodeItem
+051680	PR 	.SGN_CreateDigestInfo						file = "secdig.c"
+051810	PR 	.SGN_DecodeDigestInfo
+0518E0	PR 	.SGN_DestroyDigestInfo
+051950	PR 	.SECITEM_AllocItem							file = "secitem.c"
+051AB0	PR 	.SECITEM_CompareItem
+051BC0	PR 	.SECITEM_ItemsAreEqual
+051C70	PR 	.SECITEM_DupItem
+051D40	PR 	.SECITEM_CopyItem
+051E20	PR 	.SECITEM_FreeItem
+051EA0	PR 	.SECITEM_ZfreeItem
+051F30	PR 	.SECITEM_Hash
+051FA0	PR 	.SECITEM_HashCompare
+051FF0	PR 	.secoid_DynamicRehash						file = "secoid.c"
+0520E0	PR 	.secoid_FindDynamic
+052180	PR 	.secoid_FindDynamicByTag
+052200	PR 	.secoid_HashNumber
+052230	PR 	.InitOIDHash
+052380	PR 	.SECOID_FindOIDByMechanism
+052430	PR 	.SECOID_FindOID
+0524E0	PR 	.SECOID_FindOIDTag
+052540	PR 	.SECOID_FindOIDByTag
+0525A0	PR 	.PORT_Alloc									file = "secport.c"
+052630	PR 	.PORT_Realloc
+0526B0	PR 	.PORT_ZAlloc
+052740	PR 	.PORT_Free
+052790	PR 	.PORT_ZFree
+052800	PR 	.PORT_Strdup
+052880	PR 	.PORT_SetError
+0528D0	PR 	.PORT_GetError
+052920	PR 	.PORT_NewArena
+0529E0	PR 	.PORT_ArenaAlloc
+052B00	PR 	.PORT_ArenaZAlloc
+052B70	PR 	.PORT_FreeArena
+052CB0	PR 	.PORT_ArenaGrow
+052E00	PR 	.PORT_ArenaMark
+052E90	PR 	.PORT_ArenaRelease
+052F90	PR 	.PORT_ArenaUnmark
+052FC0	PR 	.PORT_ArenaStrdup
+053050	PR 	.dbopen										file = "db.c"
+053100	PR 	.__remove_database							file = "hash.c"
+053170	PR 	.__hash_open
+053560	PR 	.hash_close
+0535E0	PR 	.hash_fd
+053640	PR 	.init_hash
+053820	PR 	.init_htab
+053940	PR 	.hdestroy
+053AD0	PR 	.hash_sync
+053BB0	PR 	.flush_meta
+053D10	PR 	.hash_get
+053DC0	PR 	.hash_put
+053EB0	PR 	.hash_delete
+053F90	PR 	.hash_access
+054390	PR 	.hash_seq
+054650	PR 	.__expand_table
+0547B0	PR 	.hash_realloc
+054850	PR 	.__call_hash
+0548D0	PR 	.alloc_segs
+0549D0	PR 	.__get_buf									file = "hash_buf.c"
+054BD0	PR 	.newbuf
+054F40	PR 	.__buf_init
+054FA0	PR 	.__buf_free
+055110	PR 	.__reclaim_buf
+055180	PR 	.__big_insert								file = "h_bigkey.c"
+0554F0	PR 	.__big_delete
+0556D0	PR 	.__find_bigpair
+055830	PR 	.__find_last_page
+055940	PR 	.__big_return
+055C00	PR 	.collect_data
+055E30	PR 	.__big_keydata
+055EB0	PR 	.collect_key
+056030	PR 	.__big_split
+056260	PR 	.hash4										file = "h_func.c"
+056360	PR 	.__log2										file = "h_log2.c"
+0563B0	PR 	.new_lseek									file = "h_page.c"
+056510	PR 	.putpair
+0565E0	PR 	.__delpair
+056790	PR 	.__split_page
+056A30	PR 	.ugly_split
+056DE0	PR 	.__addel
+057070	PR 	.__add_ovflpage
+057190	PR 	.__get_page
+0574C0	PR 	.__put_page
+057790	PR 	.__ibitmap
+057880	PR 	.first_free
+0578E0	PR 	.overflow_page
+057C70	PR 	.__free_ovflpage
+057D70	PR 	.open_temp
+057E10	PR 	.squeeze_key
+057F10	PR 	.fetch_bitmap
+057FF0	PR 	.mkstemp									file = "macstubs.c"
+058014	GL 	.GC_register_fragment						file = "*Linker-Generated*"
+05802C	GL 	.__register_fragment
+058044	GL 	.__unregister_fragment
+05805C	GL 	.GC_unregister_fragment
+058074	GL 	.PR_Calloc
+05808C	GL 	.PR_SetError
+0580A4	GL 	.PR_NewLock
+0580BC	GL 	.Microseconds
+0580D4	GL 	.memcpy
+0580EC	GL 	.memset
+058104	GL 	.PR_Lock
+05811C	GL 	.memcmp
+058134	GL 	.PR_Unlock
+05814C	GL 	.PR_CallOnce
+058164	GL 	.GetDateTime
+05817C	GL 	.ReadLocation
+058194	GL 	.GetDefaultUser
+0581AC	GL 	.GetMouse
+0581C4	GL 	.LMGetKeyThresh
+0581DC	GL 	.LMGetKbdLast
+0581F4	GL 	.LMGetSdVolume
+05820C	GL 	.LMGetCurDirStore
+058224	GL 	.GetProcessInformation
+05823C	GL 	.GetNextProcess
+058254	GL 	.LMGetTheZone
+05826C	GL 	.GetMainDevice
+058284	GL 	.LMGetScrapSize
+05829C	GL 	.LMGetScrapCount
+0582B4	GL 	.PBHGetVolParmsSync
+0582CC	GL 	.LMGetEventQueue
+0582E4	GL 	.LMGetMainDevice
+0582FC	GL 	.GetPixBaseAddr
+058314	GL 	.PL_strncasecmp
+05832C	GL 	.PR_Malloc
+058344	GL 	.strlen
+05835C	GL 	.strcpy
+058374	GL 	.strcat
+05838C	GL 	.PR_Free
+0583A4	GL 	.strncpy
+0583BC	GL 	.atoi
+0583D4	GL 	.PL_HashTableLookup
+0583EC	GL 	.PR_DestroyMonitor
+058404	GL 	.PR_Realloc
+05841C	GL 	.PL_NewHashTable
+058434	GL 	.PL_HashTableAdd
+05844C	GL 	.sprintf
+058464	GL 	.strncmp
+05847C	GL 	.PR_smprintf
+058494	GL 	.PR_smprintf_free
+0584AC	GL 	.PR_AtomicIncrement
+0584C4	GL 	.PR_AtomicDecrement
+0584DC	GL 	.PR_Sleep
+0584F4	GL 	.PR_NewMonitor
+05850C	GL 	.PR_LoadLibrary
+058524	GL 	.PR_FindSymbol
+05853C	GL 	.PR_UnloadLibrary
+058554	GL 	.strcmp
+05856C	GL 	.calloc
+058584	GL 	.strdup
+05859C	GL 	.stat
+0585B4	GL 	.open
+0585CC	GL 	.malloc
+0585E4	GL 	.unlink
+0585FC	GL 	.lseek
+058614	GL 	.write
+05862C	GL 	.free
+058644	GL 	.close
+05865C	GL 	.read
+058674	GL 	.remove
+05868C	GL 	.memmove
+0586A4	GL 	.abort
+0586BC	GL 	.PR_MemUnmap
+0586D4	GL 	.PR_CloseFileMap
+0586EC	GL 	.PR_OpenFile
+058704	GL 	.PR_CreateFileMap
+05871C	GL 	.PR_GetError
+058734	GL 	.PR_Read
+05874C	GL 	.PR_MemMap
+058764	GL 	.PR_Close
+05877C	GL 	.PR_Delete
+058794	GL 	.PL_ArenaAllocate
+0587AC	GL 	.PL_ArenaRelease
+0587C4	GL 	.PR_Access
+0587DC	GL 	.PR_MkDir
+0587F4	GL 	.PR_Write
+05880C	GL 	.PL_InitArenaPool
+058824	GL 	.libVersionPoint
+05883C	GL 	.PR_GetEnv
+058854	GL 	.PL_FreeArenaPool
+05886C	GL 	.PL_FinishArenaPool
+058884	GL 	.PR_DestroyLock
+05889C	GL 	.PR_EnterMonitor
+0588B4	GL 	.PR_ExitMonitor
+0588CC	GL 	.PR_Now
+0588E4	GL 	.PL_HashTableLookupConst
+0588FC	GL 	.PL_ArenaGrow
+058914	GL 	.PL_HashTableRemove
+05892C	GL 	.PL_HashTableEnumerateEntries
+058944	GL 	.PL_HashTableDestroy
+05895C	GL 	.rand
+058974	GL 	.PL_strcasecmp
+058990	GL 	.__ptr_glue									file = "runtime.c"
+0589A8	RO 	S											file = "alg2268.c"
+058AA8	RO 	Kinit										file = "arcfour.c"
+058BA8	RO 	SP											file = "des.c"
+0593A8	RO 	PC2
+059BA8	RO 	MD2S										file = "md2.c"
+059CA8	RO 	padbytes									file = "md5.c"
+059D20	RO 	bulk_pad0$137								file = "prng_fips1861.c"
+059D60	RO 	_SInv										file = "rijndael.c"
+059E60	RO 	_T0
+05A260	RO 	_T1
+05A660	RO 	_T2
+05AA60	RO 	_T3
+05AE60	RO 	_TInv0
+05B260	RO 	_TInv1
+05B660	RO 	_TInv2
+05BA60	RO 	_TInv3
+05BE60	RO 	_IMXC0
+05C260	RO 	_IMXC1
+05C660	RO 	_IMXC2
+05CA60	RO 	_IMXC3
+05CE60	RO 	Rcon
+05CED8	RO 	bulk_pad$66									file = "sha_fast.c"
+05CF18	RO 	d2$1219										file = "mpi.c"
+05CF20	RO 	prime_tab									file = "mpprime.c"
+069B90	RO 	@stringBase0								file = "dbinit.c"
+069BF0	RO 	dbs_hashInfo								file = "dbmshim.c"
+069C08	RO 	@stringBase0
+069C18	RO 	rc2_known_key$439							file = "fipstest.c"
+069C20	RO 	rc2_cbc_known_initialization_vector$440
+069C2C	RO 	rc2_ecb_known_plaintext$441
+069C38	RO 	rc2_cbc_known_plaintext$442
+069C44	RO 	rc2_ecb_known_ciphertext$443
+069C4C	RO 	rc2_cbc_known_ciphertext$444
+069C54	RO 	rc4_known_key$480
+069C5C	RO 	rc4_known_plaintext$481
+069C68	RO 	rc4_known_ciphertext$482
+069C70	RO 	des_known_key$502
+069C7C	RO 	des_cbc_known_initialization_vector$503
+069C88	RO 	des_ecb_known_plaintext$504
+069C94	RO 	des_cbc_known_plaintext$505
+069CA0	RO 	des_ecb_known_ciphertext$506
+069CA8	RO 	des_cbc_known_ciphertext$507
+069CB0	RO 	des3_known_key$543
+069CCC	RO 	des3_cbc_known_initialization_vector$544
+069CD8	RO 	des3_ecb_known_plaintext$545
+069CE4	RO 	des3_cbc_known_plaintext$546
+069CF0	RO 	des3_ecb_known_ciphertext$547
+069CF8	RO 	des3_cbc_known_ciphertext$548
+069D00	RO 	md2_known_hash_message$584
+069D44	RO 	md2_known_digest$585
+069D54	RO 	md5_known_hash_message$596
+069D98	RO 	md5_known_digest$597
+069DA8	RO 	sha1_known_hash_message$606
+069DEC	RO 	sha1_known_digest$607
+069E00	RO 	rsa_modulus$616
+069E44	RO 	rsa_public_exponent$617
+069E48	RO 	rsa_version$618
+069E4C	RO 	rsa_private_exponent$619
+069E8C	RO 	rsa_prime0$620
+069EB0	RO 	rsa_prime1$621
+069ED4	RO 	rsa_exponent0$622
+069EF8	RO 	rsa_exponent1$623
+069F1C	RO 	rsa_coefficient$624
+069F3C	RO 	rsa_known_plaintext$625
+069F80	RO 	rsa_known_ciphertext$626
+069FC0	RO 	rsa_known_message$627
+069FD4	RO 	rsa_known_signature$628
+06A014	RO 	@631
+06A050	RO 	@632
+06A0C8	RO 	dsa_P$655
+06A108	RO 	dsa_Q$656
+06A11C	RO 	dsa_G$657
+06A15C	RO 	dsa_known_random_key_block$658
+06A174	RO 	dsa_known_random_signature_block$659
+06A18C	RO 	dsa_known_digest$660
+06A1A4	RO 	dsa_known_signature$661
+06A1CC	RO 	@stringBase0								file = "keydb.c"
+06A218	RO 	nsslowcert_RSAPublicKeyTemplate				file = "lowcert.c"
+06A258	RO 	nsslowcert_DSAPublicKeyTemplate
+06A278	RO 	nsslowcert_DHPublicKeyTemplate
+06A298	RO 	nsslowkey_PQGParamsTemplate					file = "lowkey.c"
+06A2E8	RO 	nsslowkey_RSAPrivateKeyTemplate
+06A398	RO 	nsslowkey_DSAPrivateKeyTemplate
+06A3D8	RO 	nsslowkey_DSAPrivateKeyExportTemplate
+06A3E8	RO 	nsslowkey_DHPrivateKeyTemplate
+06A448	RO 	NSSPKCS5PBEParameterTemplate				file = "lowpbe.c"
+06A488	RO 	NSSPKCS5PKCS12V2PBEParameterTemplate
+06A4C8	RO 	@stringBase0								file = "pcertdb.c"
+06A4E4	RO 	@stringBase0								file = "pk11db.c"
+06A920	RO 	pk11_desWeakTable							file = "pkcs11.c"
+06A9A0	RO 	parityTable
+06AAA0	RO 	mechanisms
+06B180	RO 	@522
+06B18C	RO 	@523
+06B198	RO 	@stringBase0
+06B388	RO 	@474										file = "pkcs11c.c"
+06B390	RO 	@475
+06B398	RO 	@507
+06B3A4	RO 	@stringBase0
+06B424	RO 	pk11_StaticNullAttr							file = "pkcs11u.c"
+06B478	RO 	pk11_classArray
+06B498	RO 	__nss_softokn_rcsid							file = "softkver.c"
+06B4C4	RO 	__nss_softokn_sccsid
+06B4E8	RO 	pad											file = "sha512.c"
+06B5D8	RO 	K256
+06B6D8	RO 	H256
+06B6F8	RO 	__constants									file = "runtime.c"
+06B710	RO 	SECOID_AlgorithmIDTemplate					file = "secalgid.c"
+06B750	RO 	SEC_AnyTemplate								file = "secasn1d.c"
+06B760	RO 	SEC_BitStringTemplate
+06B770	RO 	SEC_BMPStringTemplate
+06B780	RO 	SEC_GeneralizedTimeTemplate
+06B790	RO 	SEC_IA5StringTemplate
+06B7A0	RO 	SEC_NullTemplate
+06B7B0	RO 	SEC_OctetStringTemplate
+06B7C0	RO 	SEC_PrintableStringTemplate
+06B7D0	RO 	SEC_T61StringTemplate
+06B7E0	RO 	SEC_UniversalStringTemplate
+06B7F0	RO 	SEC_UTCTimeTemplate
+06B800	RO 	SEC_UTF8StringTemplate
+06B810	RO 	SEC_VisibleStringTemplate
+06B820	RO 	SEC_SkipTemplate
+06B830	RO 	md2											file = "secoid.c"
+06B838	RO 	md4
+06B840	RO 	md5
+06B848	RO 	rc2cbc
+06B850	RO 	rc4
+06B858	RO 	desede3cbc
+06B860	RO 	rc5cbcpad
+06B868	RO 	desecb
+06B870	RO 	descbc
+06B878	RO 	desofb
+06B880	RO 	descfb
+06B888	RO 	desmac
+06B890	RO 	sdn702DSASignature
+06B898	RO 	isoSHAWithRSASignature
+06B8A0	RO 	desede
+06B8A8	RO 	sha1
+06B8B0	RO 	bogusDSASignaturewithSHA1Digest
+06B8B8	RO 	pkcs1RSAEncryption
+06B8C4	RO 	pkcs1MD2WithRSAEncryption
+06B8D0	RO 	pkcs1MD4WithRSAEncryption
+06B8DC	RO 	pkcs1MD5WithRSAEncryption
+06B8E8	RO 	pkcs1SHA1WithRSAEncryption
+06B8F4	RO 	pkcs5PbeWithMD2AndDEScbc
+06B900	RO 	pkcs5PbeWithMD5AndDEScbc
+06B90C	RO 	pkcs5PbeWithSha1AndDEScbc
+06B918	RO 	pkcs7
+06B920	RO 	pkcs7Data
+06B92C	RO 	pkcs7SignedData
+06B938	RO 	pkcs7EnvelopedData
+06B944	RO 	pkcs7SignedEnvelopedData
+06B950	RO 	pkcs7DigestedData
+06B95C	RO 	pkcs7EncryptedData
+06B968	RO 	pkcs9EmailAddress
+06B974	RO 	pkcs9UnstructuredName
+06B980	RO 	pkcs9ContentType
+06B98C	RO 	pkcs9MessageDigest
+06B998	RO 	pkcs9SigningTime
+06B9A4	RO 	pkcs9CounterSignature
+06B9B0	RO 	pkcs9ChallengePassword
+06B9BC	RO 	pkcs9UnstructuredAddress
+06B9C8	RO 	pkcs9ExtendedCertificateAttributes
+06B9D4	RO 	pkcs9SMIMECapabilities
+06B9E0	RO 	pkcs9FriendlyName
+06B9EC	RO 	pkcs9LocalKeyID
+06B9F8	RO 	pkcs9X509Certificate
+06BA04	RO 	pkcs9SDSICertificate
+06BA10	RO 	pkcs9X509CRL
+06BA1C	RO 	cmsESDH
+06BA28	RO 	cms3DESwrap
+06BA34	RO 	cmsRC2wrap
+06BA40	RO 	smimeEncryptionKeyPreference
+06BA4C	RO 	ms_smimeEncryptionKeyPreference
+06BA58	RO 	x520CommonName
+06BA5C	RO 	x520CountryName
+06BA60	RO 	x520LocalityName
+06BA64	RO 	x520StateOrProvinceName
+06BA68	RO 	x520OrgName
+06BA6C	RO 	x520OrgUnitName
+06BA70	RO 	x520DnQualifier
+06BA74	RO 	nsTypeGIF
+06BA80	RO 	nsTypeJPEG
+06BA8C	RO 	nsTypeURL
+06BA98	RO 	nsTypeHTML
+06BAA4	RO 	nsTypeCertSeq
+06BAB0	RO 	missiCertKEADSSOld
+06BABC	RO 	missiCertDSSOld
+06BAC8	RO 	missiCertKEADSS
+06BAD4	RO 	missiCertDSS
+06BAE0	RO 	missiCertKEA
+06BAEC	RO 	missiCertAltKEA
+06BAF8	RO 	x500RSAEncryption
+06BAFC	RO 	rfc1274Uid
+06BB08	RO 	rfc1274Mail
+06BB14	RO 	rfc2247DomainComponent
+06BB20	RO 	nsCertExtNetscapeOK
+06BB28	RO 	nsCertExtIssuerLogo
+06BB30	RO 	nsCertExtSubjectLogo
+06BB38	RO 	nsExtCertType
+06BB44	RO 	nsExtBaseURL
+06BB50	RO 	nsExtRevocationURL
+06BB5C	RO 	nsExtCARevocationURL
+06BB68	RO 	nsExtCACRLURL
+06BB74	RO 	nsExtCACertURL
+06BB80	RO 	nsExtCertRenewalURL
+06BB8C	RO 	nsExtCAPolicyURL
+06BB98	RO 	nsExtHomepageURL
+06BBA4	RO 	nsExtEntityLogo
+06BBB0	RO 	nsExtUserPicture
+06BBBC	RO 	nsExtSSLServerName
+06BBC8	RO 	nsExtComment
+06BBD4	RO 	nsExtLostPasswordURL
+06BBE0	RO 	nsExtCertRenewalTime
+06BBEC	RO 	nsExtAIACertRenewal
+06BBF8	RO 	nsExtCertScopeOfUse
+06BC04	RO 	nsKeyUsageGovtApproved
+06BC10	RO 	netscapeNickname
+06BC1C	RO 	netscapeRecoveryRequest
+06BC28	RO 	x509SubjectDirectoryAttr
+06BC2C	RO 	x509SubjectKeyID
+06BC30	RO 	x509KeyUsage
+06BC34	RO 	x509PrivateKeyUsagePeriod
+06BC38	RO 	x509SubjectAltName
+06BC3C	RO 	x509IssuerAltName
+06BC40	RO 	x509BasicConstraints
+06BC44	RO 	x509NameConstraints
+06BC48	RO 	x509CRLDistPoints
+06BC4C	RO 	x509CertificatePolicies
+06BC50	RO 	x509PolicyMappings
+06BC54	RO 	x509PolicyConstraints
+06BC58	RO 	x509AuthKeyID
+06BC5C	RO 	x509ExtKeyUsage
+06BC60	RO 	x509AuthInfoAccess
+06BC68	RO 	x509CrlNumber
+06BC6C	RO 	x509ReasonCode
+06BC70	RO 	x509InvalidDate
+06BC74	RO 	pkcs12
+06BC7C	RO 	pkcs12ModeIDs
+06BC88	RO 	pkcs12ESPVKIDs
+06BC94	RO 	pkcs12BagIDs
+06BCA0	RO 	pkcs12CertBagIDs
+06BCAC	RO 	pkcs12OIDs
+06BCB8	RO 	pkcs12PBEIDs
+06BCC4	RO 	pkcs12EnvelopingIDs
+06BCD0	RO 	pkcs12SignatureIDs
+06BCDC	RO 	pkcs12PKCS8KeyShrouding
+06BCE8	RO 	pkcs12KeyBagID
+06BCF4	RO 	pkcs12CertAndCRLBagID
+06BD00	RO 	pkcs12SecretBagID
+06BD0C	RO 	pkcs12X509CertCRLBag
+06BD18	RO 	pkcs12SDSICertBag
+06BD24	RO 	pkcs12PBEWithSha1And128BitRC4
+06BD30	RO 	pkcs12PBEWithSha1And40BitRC4
+06BD3C	RO 	pkcs12PBEWithSha1AndTripleDESCBC
+06BD48	RO 	pkcs12PBEWithSha1And128BitRC2CBC
+06BD54	RO 	pkcs12PBEWithSha1And40BitRC2CBC
+06BD60	RO 	pkcs12RSAEncryptionWith128BitRC4
+06BD6C	RO 	pkcs12RSAEncryptionWith40BitRC4
+06BD78	RO 	pkcs12RSAEncryptionWithTripleDES
+06BD84	RO 	pkcs12RSASignatureWithSHA1Digest
+06BD90	RO 	pkcs12V2PBEWithSha1And128BitRC4
+06BD9C	RO 	pkcs12V2PBEWithSha1And40BitRC4
+06BDA8	RO 	pkcs12V2PBEWithSha1And3KeyTripleDEScbc
+06BDB4	RO 	pkcs12V2PBEWithSha1And2KeyTripleDEScbc
+06BDC0	RO 	pkcs12V2PBEWithSha1And128BitRC2cbc
+06BDCC	RO 	pkcs12V2PBEWithSha1And40BitRC2cbc
+06BDD8	RO 	pkcs12SafeContentsID
+06BDE4	RO 	pkcs12PKCS8ShroudedKeyBagID
+06BDF0	RO 	pkcs12V1KeyBag
+06BDFC	RO 	pkcs12V1PKCS8ShroudedKeyBag
+06BE08	RO 	pkcs12V1CertBag
+06BE14	RO 	pkcs12V1CRLBag
+06BE20	RO 	pkcs12V1SecretBag
+06BE2C	RO 	pkcs12V1SafeContentsBag
+06BE38	RO 	pkcs12KeyUsageAttr
+06BE3C	RO 	ansix9DSASignature
+06BE44	RO 	ansix9DSASignaturewithSHA1Digest
+06BE4C	RO 	verisignUserNotices
+06BE58	RO 	pkixCPSPointerQualifier
+06BE60	RO 	pkixUserNoticeQualifier
+06BE68	RO 	pkixOCSP
+06BE70	RO 	pkixOCSPBasicResponse
+06BE7C	RO 	pkixOCSPNonce
+06BE88	RO 	pkixOCSPCRL
+06BE94	RO 	pkixOCSPResponse
+06BEA0	RO 	pkixOCSPNoCheck
+06BEAC	RO 	pkixOCSPArchiveCutoff
+06BEB8	RO 	pkixOCSPServiceLocator
+06BEC4	RO 	pkixRegCtrlRegToken
+06BED0	RO 	pkixRegCtrlAuthenticator
+06BEDC	RO 	pkixRegCtrlPKIPubInfo
+06BEE8	RO 	pkixRegCtrlPKIArchOptions
+06BEF4	RO 	pkixRegCtrlOldCertID
+06BF00	RO 	pkixRegCtrlProtEncKey
+06BF0C	RO 	pkixRegInfoUTF8Pairs
+06BF18	RO 	pkixRegInfoCertReq
+06BF24	RO 	pkixExtendedKeyUsageServerAuth
+06BF2C	RO 	pkixExtendedKeyUsageClientAuth
+06BF34	RO 	pkixExtendedKeyUsageCodeSign
+06BF3C	RO 	pkixExtendedKeyUsageEMailProtect
+06BF44	RO 	pkixExtendedKeyUsageTimeStamp
+06BF4C	RO 	pkixOCSPResponderExtendedKeyUsage
+06BF54	RO 	netscapeSMimeKEA
+06BF60	RO 	skipjackCBC
+06BF6C	RO 	dhPublicKey
+06BF74	RO 	aes128_ECB
+06BF80	RO 	aes128_CBC
+06BF8C	RO 	aes192_ECB
+06BF98	RO 	aes192_CBC
+06BFA4	RO 	aes256_ECB
+06BFB0	RO 	aes256_CBC
+06BFBC	RO 	sha256
+06BFC8	RO 	pkcs1SHA256WithRSAEncryption
+06BFD4	RO 	@stringBase0
+06D334	RO 	@stringBase0								file = "secport.c"
+06D35C	RO 	@stringBase0								file = "hash.c"
+06D368	RO 	namestr$504									file = "h_page.c"
+06D378	TI 	@56											file = "alg2268.c"
+06D384	TI 	@65
+06D390	TI 	@569
+06D39C	TI 	@581
+06D3A8	TI 	@593
+06D3B4	TI 	@608
+06D3C0	TI 	@621
+06D3CC	TI 	@634
+06D3D8	TI 	@35											file = "arcfour.c"
+06D3E4	TI 	@42
+06D3F0	TI 	@116
+06D3FC	TI 	@123
+06D408	TI 	@130
+06D414	TI 	@20											file = "desblapi.c"
+06D420	TI 	@29
+06D42C	TI 	@67
+06D438	TI 	@108
+06D444	TI 	@146
+06D450	TI 	@187
+06D45C	TI 	@229
+06D468	TI 	@238
+06D474	TI 	@250
+06D480	TI 	@262
+06D48C	TI 	@136										file = "dh.c"
+06D498	TI 	@183
+06D4A4	TI 	@22											file = "dsa.c"
+06D4B0	TI 	@64
+06D4BC	TI 	@71
+06D4C8	TI 	@76
+06D4D4	TI 	@137
+06D4E0	TI 	@153
+06D4EC	TI 	@158
+06D4F8	TI 	@228
+06D504	TI 	@24											file = "md2.c"
+06D510	TI 	@31
+06D51C	TI 	@36
+06D528	TI 	@131
+06D534	TI 	@140
+06D540	TI 	@22											file = "md5.c"
+06D54C	TI 	@29
+06D558	TI 	@36
+06D564	TI 	@41
+06D570	TI 	@322
+06D57C	TI 	@348
+06D588	TI 	@21											file = "pqg.c"
+06D594	TI 	@35
+06D5A0	TI 	@78
+06D5AC	TI 	@100
+06D5B8	TI 	@162
+06D5C4	TI 	@193
+06D5D0	TI 	@202
+06D5DC	TI 	@298
+06D5E8	TI 	@387
+06D5F4	TI 	@54											file = "prng_fips1861.c"
+06D600	TI 	@69
+06D60C	TI 	@77
+06D618	TI 	@95
+06D624	TI 	@100
+06D630	TI 	@121
+06D63C	TI 	@126
+06D648	TI 	@139
+06D654	TI 	@155
+06D660	TI 	@28											file = "rijndael.c"
+06D66C	TI 	@78
+06D678	TI 	@104
+06D684	TI 	@157
+06D690	TI 	@206
+06D69C	TI 	@228
+06D6A8	TI 	@249
+06D6B4	TI 	@263
+06D6C0	TI 	@298
+06D6CC	TI 	@345
+06D6D8	TI 	@352
+06D6E4	TI 	@366
+06D6F0	TI 	@380
+06D6FC	TI 	@72											file = "rsa.c"
+06D708	TI 	@105
+06D714	TI 	@161
+06D720	TI 	@200
+06D72C	TI 	@219
+06D738	TI 	@276
+06D744	TI 	@305
+06D750	TI 	@317
+06D75C	TI 	@351
+06D768	TI 	@370
+06D774	TI 	@424
+06D780	TI 	@489
+06D78C	TI 	@494
+06D798	TI 	@499
+06D7A4	TI 	@520
+06D7B0	TI 	@618
+06D7BC	TI 	@638
+06D7C8	TI 	@643
+06D7D4	TI 	@42											file = "sha_fast.c"
+06D7E0	TI 	@62
+06D7EC	TI 	@69
+06D7F8	TI 	@366
+06D804	TI 	@373
+06D810	TI 	@378
+06D81C	TI 	@392
+06D828	TI 	@399
+06D834	TI 	@755										file = "sysrand.c"
+06D840	TI 	@760
+06D84C	TI 	@765
+06D858	TI 	@781
+06D864	TI 	@815
+06D870	TI 	@23											file = "mpi.c"
+06D87C	TI 	@34
+06D888	TI 	@46
+06D894	TI 	@66
+06D8A0	TI 	@74
+06D8AC	TI 	@84
+06D8B8	TI 	@91
+06D8C4	TI 	@98
+06D8D0	TI 	@142
+06D8DC	TI 	@166
+06D8E8	TI 	@190
+06D8F4	TI 	@213
+06D900	TI 	@237
+06D90C	TI 	@298
+06D918	TI 	@322
+06D924	TI 	@351
+06D930	TI 	@391
+06D93C	TI 	@419
+06D948	TI 	@471
+06D954	TI 	@491
+06D960	TI 	@577
+06D96C	TI 	@595
+06D978	TI 	@647
+06D984	TI 	@662
+06D990	TI 	@677
+06D99C	TI 	@691
+06D9A8	TI 	@751
+06D9B4	TI 	@798
+06D9C0	TI 	@818
+06D9CC	TI 	@844
+06D9D8	TI 	@911
+06D9E4	TI 	@1059
+06D9F0	TI 	@1124
+06D9FC	TI 	@1160
+06DA08	TI 	@1194
+06DA14	TI 	@1268
+06DA20	TI 	@1316
+06DA2C	TI 	@1332
+06DA38	TI 	@1510
+06DA44	TI 	@1522
+06DA50	TI 	@1527
+06DA5C	TI 	@1532
+06DA68	TI 	@1537
+06DA74	TI 	@1544
+06DA80	TI 	@1582
+06DA8C	TI 	@1606
+06DA98	TI 	@1626
+06DAA4	TI 	@1631
+06DAB0	TI 	@1648
+06DABC	TI 	@1660
+06DAC8	TI 	@1675
+06DAD4	TI 	@1691
+06DAE0	TI 	@1710
+06DAEC	TI 	@1728
+06DAF8	TI 	@1743
+06DB04	TI 	@1793
+06DB10	TI 	@1847
+06DB1C	TI 	@1902
+06DB28	TI 	@1929
+06DB34	TI 	@1934
+06DB40	TI 	@2046
+06DB4C	TI 	@2056
+06DB58	TI 	@2110
+06DB64	TI 	@2117
+06DB70	TI 	@2140
+06DB7C	TI 	@2202
+06DB88	TI 	@2310
+06DB94	TI 	@2337
+06DBA0	TI 	@2361
+06DBAC	TI 	@2425
+06DBB8	TI 	@103										file = "mplogic.c"
+06DBC4	TI 	@178
+06DBD0	TI 	@204
+06DBDC	TI 	@29											file = "mpmontg.c"
+06DBE8	TI 	@74
+06DBF4	TI 	@84
+06DC00	TI 	@606
+06DC0C	TI 	@635
+06DC18	TI 	@52											file = "mpprime.c"
+06DC24	TI 	@71
+06DC30	TI 	@83
+06DC3C	TI 	@100
+06DC48	TI 	@157
+06DC54	TI 	@178
+06DC60	TI 	@288
+06DC6C	TI 	@304
+06DC78	TI 	@21											file = "alghmac.c"
+06DC84	TI 	@46
+06DC90	TI 	@51
+06DC9C	TI 	@56
+06DCA8	TI 	@67
+06DCB4	TI 	@453										file = "dbinit.c"
+06DCC0	TI 	@466
+06DCCC	TI 	@484
+06DCD8	TI 	@505
+06DCE4	TI 	@519
+06DCF0	TI 	@537
+06DCFC	TI 	@546
+06DD08	TI 	@568
+06DD14	TI 	@588
+06DD20	TI 	@595
+06DD2C	TI 	@604
+06DD38	TI 	@617
+06DD44	TI 	@472										file = "dbmshim.c"
+06DD50	TI 	@484
+06DD5C	TI 	@491
+06DD68	TI 	@513
+06DD74	TI 	@524
+06DD80	TI 	@539
+06DD8C	TI 	@565
+06DD98	TI 	@573
+06DDA4	TI 	@590
+06DDB0	TI 	@595
+06DDBC	TI 	@605
+06DDC8	TI 	@613
+06DDD4	TI 	@618
+06DDE0	TI 	@623
+06DDEC	TI 	@643
+06DDF8	TI 	@663
+06DE04	TI 	@476										file = "fipstest.c"
+06DE10	TI 	@498
+06DE1C	TI 	@539
+06DE28	TI 	@580
+06DE34	TI 	@592
+06DE40	TI 	@602
+06DE4C	TI 	@612
+06DE58	TI 	@651
+06DE64	TI 	@677
+06DE70	TI 	@708
+06DE7C	TI 	@469										file = "fipstokn.c"
+06DE88	TI 	@485
+06DE94	TI 	@492
+06DEA0	TI 	@497
+06DEAC	TI 	@502
+06DEB8	TI 	@509
+06DEC4	TI 	@514
+06DED0	TI 	@523
+06DEDC	TI 	@532
+06DEE8	TI 	@541
+06DEF4	TI 	@548
+06DF00	TI 	@555
+06DF0C	TI 	@560
+06DF18	TI 	@565
+06DF24	TI 	@580
+06DF30	TI 	@595
+06DF3C	TI 	@603
+06DF48	TI 	@616
+06DF54	TI 	@625
+06DF60	TI 	@634
+06DF6C	TI 	@643
+06DF78	TI 	@652
+06DF84	TI 	@661
+06DF90	TI 	@688
+06DF9C	TI 	@695
+06DFA8	TI 	@702
+06DFB4	TI 	@709
+06DFC0	TI 	@716
+06DFCC	TI 	@723
+06DFD8	TI 	@730
+06DFE4	TI 	@737
+06DFF0	TI 	@744
+06DFFC	TI 	@751
+06E008	TI 	@758
+06E014	TI 	@765
+06E020	TI 	@772
+06E02C	TI 	@779
+06E038	TI 	@786
+06E044	TI 	@793
+06E050	TI 	@800
+06E05C	TI 	@807
+06E068	TI 	@814
+06E074	TI 	@821
+06E080	TI 	@828
+06E08C	TI 	@835
+06E098	TI 	@842
+06E0A4	TI 	@849
+06E0B0	TI 	@856
+06E0BC	TI 	@863
+06E0C8	TI 	@874
+06E0D4	TI 	@885
+06E0E0	TI 	@892
+06E0EC	TI 	@903
+06E0F8	TI 	@914
+06E104	TI 	@923
+06E110	TI 	@932
+06E11C	TI 	@939
+06E128	TI 	@946
+06E134	TI 	@953
+06E140	TI 	@960
+06E14C	TI 	@967
+06E158	TI 	@974
+06E164	TI 	@981
+06E170	TI 	@988
+06E17C	TI 	@995
+06E188	TI 	@1002
+06E194	TI 	@1007
+06E1A0	TI 	@457										file = "keydb.c"
+06E1AC	TI 	@464
+06E1B8	TI 	@482
+06E1C4	TI 	@508
+06E1D0	TI 	@516
+06E1DC	TI 	@537
+06E1E8	TI 	@569
+06E1F4	TI 	@578
+06E200	TI 	@587
+06E20C	TI 	@595
+06E218	TI 	@603
+06E224	TI 	@611
+06E230	TI 	@619
+06E23C	TI 	@624
+06E248	TI 	@633
+06E254	TI 	@664
+06E260	TI 	@747
+06E26C	TI 	@790
+06E278	TI 	@802
+06E284	TI 	@847
+06E290	TI 	@866
+06E29C	TI 	@884
+06E2A8	TI 	@889
+06E2B4	TI 	@894
+06E2C0	TI 	@902
+06E2CC	TI 	@926
+06E2D8	TI 	@941
+06E2E4	TI 	@946
+06E2F0	TI 	@957
+06E2FC	TI 	@971
+06E308	TI 	@992
+06E314	TI 	@1003
+06E320	TI 	@1022
+06E32C	TI 	@1086
+06E338	TI 	@1115
+06E344	TI 	@1122
+06E350	TI 	@1173
+06E35C	TI 	@1191
+06E368	TI 	@1212
+06E374	TI 	@1224
+06E380	TI 	@1233
+06E38C	TI 	@1247
+06E398	TI 	@1277
+06E3A4	TI 	@1295
+06E3B0	TI 	@1335
+06E3BC	TI 	@1369
+06E3C8	TI 	@1380
+06E3D4	TI 	@1414
+06E3E0	TI 	@485										file = "lowcert.c"
+06E3EC	TI 	@528
+06E3F8	TI 	@543
+06E404	TI 	@570
+06E410	TI 	@583
+06E41C	TI 	@598
+06E428	TI 	@618
+06E434	TI 	@627
+06E440	TI 	@657
+06E44C	TI 	@463										file = "lowkey.c"
+06E458	TI 	@472
+06E464	TI 	@540
+06E470	TI 	@25											file = "lowpbe.c"
+06E47C	TI 	@67
+06E488	TI 	@104
+06E494	TI 	@115
+06E4A0	TI 	@208
+06E4AC	TI 	@250
+06E4B8	TI 	@289
+06E4C4	TI 	@308
+06E4D0	TI 	@315
+06E4DC	TI 	@361
+06E4E8	TI 	@404
+06E4F4	TI 	@426
+06E500	TI 	@459
+06E50C	TI 	@486
+06E518	TI 	@25											file = "padbuf.c"
+06E524	TI 	@445										file = "pcertdb.c"
+06E530	TI 	@450
+06E53C	TI 	@455
+06E548	TI 	@462
+06E554	TI 	@467
+06E560	TI 	@474
+06E56C	TI 	@479
+06E578	TI 	@486
+06E584	TI 	@491
+06E590	TI 	@498
+06E59C	TI 	@503
+06E5A8	TI 	@508
+06E5B4	TI 	@513
+06E5C0	TI 	@520
+06E5CC	TI 	@525
+06E5D8	TI 	@530
+06E5E4	TI 	@538
+06E5F0	TI 	@546
+06E5FC	TI 	@554
+06E608	TI 	@564
+06E614	TI 	@576
+06E620	TI 	@587
+06E62C	TI 	@614
+06E638	TI 	@625
+06E644	TI 	@638
+06E650	TI 	@652
+06E65C	TI 	@666
+06E668	TI 	@698
+06E674	TI 	@724
+06E680	TI 	@748
+06E68C	TI 	@769
+06E698	TI 	@787
+06E6A4	TI 	@797
+06E6B0	TI 	@816
+06E6BC	TI 	@830
+06E6C8	TI 	@855
+06E6D4	TI 	@876
+06E6E0	TI 	@894
+06E6EC	TI 	@909
+06E6F8	TI 	@933
+06E704	TI 	@938
+06E710	TI 	@947
+06E71C	TI 	@956
+06E728	TI 	@974
+06E734	TI 	@992
+06E740	TI 	@1009
+06E74C	TI 	@1035
+06E758	TI 	@1053
+06E764	TI 	@1065
+06E770	TI 	@1074
+06E77C	TI 	@1111
+06E788	TI 	@1141
+06E794	TI 	@1156
+06E7A0	TI 	@1182
+06E7AC	TI 	@1200
+06E7B8	TI 	@1270
+06E7C4	TI 	@1279
+06E7D0	TI 	@1369
+06E7DC	TI 	@1411
+06E7E8	TI 	@1426
+06E7F4	TI 	@1450
+06E800	TI 	@1468
+06E80C	TI 	@1524
+06E818	TI 	@1543
+06E824	TI 	@1555
+06E830	TI 	@1578
+06E83C	TI 	@1599
+06E848	TI 	@1635
+06E854	TI 	@1688
+06E860	TI 	@1704
+06E86C	TI 	@1711
+06E878	TI 	@1728
+06E884	TI 	@1736
+06E890	TI 	@1746
+06E89C	TI 	@1778
+06E8A8	TI 	@1831
+06E8B4	TI 	@1836
+06E8C0	TI 	@1897
+06E8CC	TI 	@1973
+06E8D8	TI 	@1987
+06E8E4	TI 	@1993
+06E8F0	TI 	@2003
+06E8FC	TI 	@2028
+06E908	TI 	@2056
+06E914	TI 	@2063
+06E920	TI 	@2108
+06E92C	TI 	@2115
+06E938	TI 	@2158
+06E944	TI 	@2165
+06E950	TI 	@2173
+06E95C	TI 	@2196
+06E968	TI 	@2204
+06E974	TI 	@2214
+06E980	TI 	@2223
+06E98C	TI 	@2236
+06E998	TI 	@2241
+06E9A4	TI 	@2246
+06E9B0	TI 	@2259
+06E9BC	TI 	@2268
+06E9C8	TI 	@2282
+06E9D4	TI 	@2296
+06E9E0	TI 	@2303
+06E9EC	TI 	@2311
+06E9F8	TI 	@2337
+06EA04	TI 	@2355
+06EA10	TI 	@2360
+06EA1C	TI 	@2365
+06EA28	TI 	@2394
+06EA34	TI 	@2429
+06EA40	TI 	@2439
+06EA4C	TI 	@2459
+06EA58	TI 	@2469
+06EA64	TI 	@2479
+06EA70	TI 	@2484
+06EA7C	TI 	@2489
+06EA88	TI 	@2508
+06EA94	TI 	@2523
+06EAA0	TI 	@2531
+06EAAC	TI 	@2545
+06EAB8	TI 	@2574
+06EAC4	TI 	@2582
+06EAD0	TI 	@2596
+06EADC	TI 	@492										file = "pk11db.c"
+06EAE8	TI 	@503
+06EAF4	TI 	@526
+06EB00	TI 	@546
+06EB0C	TI 	@563
+06EB18	TI 	@584
+06EB24	TI 	@600
+06EB30	TI 	@627
+06EB3C	TI 	@647
+06EB48	TI 	@684
+06EB54	TI 	@697
+06EB60	TI 	@720
+06EB6C	TI 	@732
+06EB78	TI 	@751
+06EB84	TI 	@783
+06EB90	TI 	@812
+06EB9C	TI 	@836
+06EBA8	TI 	@843
+06EBB4	TI 	@851
+06EBC0	TI 	@874
+06EBCC	TI 	@905
+06EBD8	TI 	@932
+06EBE4	TI 	@943
+06EBF0	TI 	@959
+06EBFC	TI 	@988
+06EC08	TI 	@993
+06EC14	TI 	@1008
+06EC20	TI 	@1013
+06EC2C	TI 	@1048
+06EC38	TI 	@1077
+06EC44	TI 	@1172
+06EC50	TI 	@1213
+06EC5C	TI 	@1241
+06EC68	TI 	@1250
+06EC74	TI 	@1258
+06EC80	TI 	@1343
+06EC8C	TI 	@1351
+06EC98	TI 	@1419
+06ECA4	TI 	@1455
+06ECB0	TI 	@1460
+06ECBC	TI 	@1486
+06ECC8	TI 	@1518
+06ECD4	TI 	@1529
+06ECE0	TI 	@1546
+06ECEC	TI 	@1565
+06ECF8	TI 	@456										file = "pkcs11.c"
+06ED04	TI 	@465
+06ED10	TI 	@478
+06ED1C	TI 	@485
+06ED28	TI 	@498
+06ED34	TI 	@555
+06ED40	TI 	@617
+06ED4C	TI 	@642
+06ED58	TI 	@664
+06ED64	TI 	@722
+06ED70	TI 	@827
+06ED7C	TI 	@881
+06ED88	TI 	@905
+06ED94	TI 	@941
+06EDA0	TI 	@967
+06EDAC	TI 	@1000
+06EDB8	TI 	@1012
+06EDC4	TI 	@1054
+06EDD0	TI 	@1088
+06EDDC	TI 	@1136
+06EDE8	TI 	@1152
+06EDF4	TI 	@1174
+06EE00	TI 	@1190
+06EE0C	TI 	@1211
+06EE18	TI 	@1228
+06EE24	TI 	@1243
+06EE30	TI 	@1254
+06EE3C	TI 	@1266
+06EE48	TI 	@1274
+06EE54	TI 	@1304
+06EE60	TI 	@1314
+06EE6C	TI 	@1319
+06EE78	TI 	@1379
+06EE84	TI 	@1384
+06EE90	TI 	@1434
+06EE9C	TI 	@1462
+06EEA8	TI 	@1490
+06EEB4	TI 	@1503
+06EEC0	TI 	@1537
+06EECC	TI 	@1544
+06EED8	TI 	@1558
+06EEE4	TI 	@1565
+06EEF0	TI 	@1570
+06EEFC	TI 	@1579
+06EF08	TI 	@1584
+06EF14	TI 	@1591
+06EF20	TI 	@1602
+06EF2C	TI 	@1621
+06EF38	TI 	@1667
+06EF44	TI 	@1678
+06EF50	TI 	@1711
+06EF5C	TI 	@1737
+06EF68	TI 	@1761
+06EF74	TI 	@1801
+06EF80	TI 	@1827
+06EF8C	TI 	@1860
+06EF98	TI 	@1867
+06EFA4	TI 	@1898
+06EFB0	TI 	@1909
+06EFBC	TI 	@1928
+06EFC8	TI 	@1960
+06EFD4	TI 	@1993
+06EFE0	TI 	@2035
+06EFEC	TI 	@2045
+06EFF8	TI 	@2060
+06F004	TI 	@2108
+06F010	TI 	@2134
+06F01C	TI 	@2155
+06F028	TI 	@2160
+06F034	TI 	@2173
+06F040	TI 	@2180
+06F04C	TI 	@2235
+06F058	TI 	@2248
+06F064	TI 	@2346
+06F070	TI 	@2372
+06F07C	TI 	@2391
+06F088	TI 	@2400
+06F094	TI 	@460										file = "pkcs11c.c"
+06F0A0	TI 	@465
+06F0AC	TI 	@470
+06F0B8	TI 	@503
+06F0C4	TI 	@528
+06F0D0	TI 	@547
+06F0DC	TI 	@586
+06F0E8	TI 	@615
+06F0F4	TI 	@740
+06F100	TI 	@745
+06F10C	TI 	@785
+06F118	TI 	@816
+06F124	TI 	@841
+06F130	TI 	@846
+06F13C	TI 	@869
+06F148	TI 	@899
+06F154	TI 	@924
+06F160	TI 	@953
+06F16C	TI 	@965
+06F178	TI 	@973
+06F184	TI 	@984
+06F190	TI 	@991
+06F19C	TI 	@998
+06F1A8	TI 	@1005
+06F1B4	TI 	@1013
+06F1C0	TI 	@1021
+06F1CC	TI 	@1038
+06F1D8	TI 	@1043
+06F1E4	TI 	@1051
+06F1F0	TI 	@1068
+06F1FC	TI 	@1080
+06F208	TI 	@1095
+06F214	TI 	@1107
+06F220	TI 	@1114
+06F22C	TI 	@1132
+06F238	TI 	@1156
+06F244	TI 	@1171
+06F250	TI 	@1176
+06F25C	TI 	@1183
+06F268	TI 	@1249
+06F274	TI 	@1295
+06F280	TI 	@1300
+06F28C	TI 	@1333
+06F298	TI 	@1355
+06F2A4	TI 	@1364
+06F2B0	TI 	@1369
+06F2BC	TI 	@1402
+06F2C8	TI 	@1461
+06F2D4	TI 	@1472
+06F2E0	TI 	@1477
+06F2EC	TI 	@1509
+06F2F8	TI 	@1531
+06F304	TI 	@1542
+06F310	TI 	@1550
+06F31C	TI 	@1558
+06F328	TI 	@1572
+06F334	TI 	@1609
+06F340	TI 	@1648
+06F34C	TI 	@1668
+06F358	TI 	@1760
+06F364	TI 	@1909
+06F370	TI 	@1951
+06F37C	TI 	@1983
+06F388	TI 	@2069
+06F394	TI 	@2126
+06F3A0	TI 	@2160
+06F3AC	TI 	@2177
+06F3B8	TI 	@2210
+06F3C4	TI 	@2250
+06F3D0	TI 	@2277
+06F3DC	TI 	@2592
+06F3E8	TI 	@2613
+06F3F4	TI 	@2650
+06F400	TI 	@2658
+06F40C	TI 	@2666
+06F418	TI 	@2674
+06F424	TI 	@2682
+06F430	TI 	@2693
+06F43C	TI 	@455										file = "pkcs11u.c"
+06F448	TI 	@473
+06F454	TI 	@480
+06F460	TI 	@490
+06F46C	TI 	@497
+06F478	TI 	@507
+06F484	TI 	@517
+06F490	TI 	@531
+06F49C	TI 	@541
+06F4A8	TI 	@554
+06F4B4	TI 	@569
+06F4C0	TI 	@595
+06F4CC	TI 	@613
+06F4D8	TI 	@630
+06F4E4	TI 	@654
+06F4F0	TI 	@687
+06F4FC	TI 	@710
+06F508	TI 	@728
+06F514	TI 	@745
+06F520	TI 	@770
+06F52C	TI 	@790
+06F538	TI 	@834
+06F544	TI 	@859
+06F550	TI 	@904
+06F55C	TI 	@929
+06F568	TI 	@943
+06F574	TI 	@961
+06F580	TI 	@972
+06F58C	TI 	@982
+06F598	TI 	@1000
+06F5A4	TI 	@1007
+06F5B0	TI 	@1019
+06F5BC	TI 	@1052
+06F5C8	TI 	@1075
+06F5D4	TI 	@1094
+06F5E0	TI 	@1111
+06F5EC	TI 	@1139
+06F5F8	TI 	@1150
+06F604	TI 	@1230
+06F610	TI 	@1237
+06F61C	TI 	@1244
+06F628	TI 	@1255
+06F634	TI 	@1264
+06F640	TI 	@1269
+06F64C	TI 	@1274
+06F658	TI 	@1279
+06F664	TI 	@1298
+06F670	TI 	@1312
+06F67C	TI 	@1317
+06F688	TI 	@1332
+06F694	TI 	@1337
+06F6A0	TI 	@1368
+06F6AC	TI 	@1385
+06F6B8	TI 	@1403
+06F6C4	TI 	@1408
+06F6D0	TI 	@1424
+06F6DC	TI 	@1429
+06F6E8	TI 	@1440
+06F6F4	TI 	@1449
+06F700	TI 	@1459
+06F70C	TI 	@1510
+06F718	TI 	@1534
+06F724	TI 	@1559
+06F730	TI 	@1579
+06F73C	TI 	@1602
+06F748	TI 	@1634
+06F754	TI 	@1648
+06F760	TI 	@1659
+06F76C	TI 	@1681
+06F778	TI 	@1695
+06F784	TI 	@1704
+06F790	TI 	@1715
+06F79C	TI 	@1731
+06F7A8	TI 	@1742
+06F7B4	TI 	@1763
+06F7C0	TI 	@1770
+06F7CC	TI 	@1781
+06F7D8	TI 	@452										file = "rsawrapr.c"
+06F7E4	TI 	@469
+06F7F0	TI 	@480
+06F7FC	TI 	@516
+06F808	TI 	@533
+06F814	TI 	@549
+06F820	TI 	@583
+06F82C	TI 	@617
+06F838	TI 	@636
+06F844	TI 	@667
+06F850	TI 	@683
+06F85C	TI 	@702
+06F868	TI 	@716
+06F874	TI 	@735
+06F880	TI 	@751
+06F88C	TI 	@14											file = "sha512.c"
+06F898	TI 	@21
+06F8A4	TI 	@26
+06F8B0	TI 	@241
+06F8BC	TI 	@255
+06F8C8	TI 	@337										file = "StartupSharedLib.c"
+06F8D4	TI 	@342
+06F8E0	TI 	@339										file = "NSStartup.c"
+06F8EC	TI 	@344
+06F8F8	TI 	@53											file = "derenc.c"
+06F904	TI 	@123
+06F910	TI 	@208
+06F91C	TI 	@216
+06F928	TI 	@96											file = "dersubr.c"
+06F934	TI 	@112
+06F940	TI 	@140										file = "dertime.c"
+06F94C	TI 	@145
+06F958	TI 	@474										file = "nssb64e.c"
+06F964	TI 	@503
+06F970	TI 	@534
+06F97C	TI 	@564
+06F988	TI 	@585
+06F994	TI 	@643
+06F9A0	TI 	@26											file = "nsslocks.c"
+06F9AC	TI 	@31
+06F9B8	TI 	@62											file = "pqgutil.c"
+06F9C4	TI 	@111
+06F9D0	TI 	@21											file = "secalgid.c"
+06F9DC	TI 	@53
+06F9E8	TI 	@61
+06F9F4	TI 	@68
+06FA00	TI 	@21											file = "secasn1d.c"
+06FA0C	TI 	@28
+06FA18	TI 	@45
+06FA24	TI 	@56
+06FA30	TI 	@63
+06FA3C	TI 	@143
+06FA48	TI 	@184
+06FA54	TI 	@203
+06FA60	TI 	@217
+06FA6C	TI 	@246
+06FA78	TI 	@386
+06FA84	TI 	@397
+06FA90	TI 	@404
+06FA9C	TI 	@429
+06FAA8	TI 	@443
+06FAB4	TI 	@455
+06FAC0	TI 	@470
+06FACC	TI 	@480
+06FAD8	TI 	@502
+06FAE4	TI 	@523
+06FAF0	TI 	@573
+06FAFC	TI 	@610
+06FB08	TI 	@628
+06FB14	TI 	@643
+06FB20	TI 	@669
+06FB2C	TI 	@674
+06FB38	TI 	@688
+06FB44	TI 	@716
+06FB50	TI 	@721
+06FB5C	TI 	@826
+06FB68	TI 	@834
+06FB74	TI 	@848
+06FB80	TI 	@873
+06FB8C	TI 	@878
+06FB98	TI 	@25											file = "secasn1e.c"
+06FBA4	TI 	@36
+06FBB0	TI 	@43
+06FBBC	TI 	@108
+06FBC8	TI 	@113
+06FBD4	TI 	@118
+06FBE0	TI 	@130
+06FBEC	TI 	@138
+06FBF8	TI 	@143
+06FC04	TI 	@149
+06FC10	TI 	@264
+06FC1C	TI 	@317
+06FC28	TI 	@364
+06FC34	TI 	@378
+06FC40	TI 	@386
+06FC4C	TI 	@393
+06FC58	TI 	@423
+06FC64	TI 	@428
+06FC70	TI 	@440
+06FC7C	TI 	@475
+06FC88	TI 	@484
+06FC94	TI 	@509
+06FCA0	TI 	@520
+06FCAC	TI 	@540
+06FCB8	TI 	@545
+06FCC4	TI 	@37											file = "secasn1u.c"
+06FCD0	TI 	@50											file = "quickder.c"
+06FCDC	TI 	@117
+06FCE8	TI 	@145
+06FCF4	TI 	@150
+06FD00	TI 	@158
+06FD0C	TI 	@166
+06FD18	TI 	@186
+06FD24	TI 	@234
+06FD30	TI 	@244
+06FD3C	TI 	@345
+06FD48	TI 	@359
+06FD54	TI 	@45											file = "secdig.c"
+06FD60	TI 	@57
+06FD6C	TI 	@66
+06FD78	TI 	@45											file = "secitem.c"
+06FD84	TI 	@100
+06FD90	TI 	@115
+06FD9C	TI 	@126
+06FDA8	TI 	@142
+06FDB4	TI 	@151
+06FDC0	TI 	@160
+06FDCC	TI 	@174
+06FDD8	TI 	@34											file = "secoid.c"
+06FDE4	TI 	@45
+06FDF0	TI 	@94
+06FDFC	TI 	@105
+06FE08	TI 	@118
+06FE14	TI 	@125
+06FE20	TI 	@132
+06FE2C	TI 	@22											file = "secport.c"
+06FE38	TI 	@29
+06FE44	TI 	@39
+06FE50	TI 	@46
+06FE5C	TI 	@53
+06FE68	TI 	@60
+06FE74	TI 	@65
+06FE80	TI 	@70
+06FE8C	TI 	@79
+06FE98	TI 	@105
+06FEA4	TI 	@112
+06FEB0	TI 	@139
+06FEBC	TI 	@169
+06FEC8	TI 	@177
+06FED4	TI 	@205
+06FEE0	TI 	@217
+06FEEC	TI 	@24											file = "db.c"
+06FEF8	TI 	@11											file = "hash.c"
+06FF04	TI 	@81
+06FF10	TI 	@90
+06FF1C	TI 	@135
+06FF28	TI 	@151
+06FF34	TI 	@190
+06FF40	TI 	@206
+06FF4C	TI 	@229
+06FF58	TI 	@240
+06FF64	TI 	@257
+06FF70	TI 	@271
+06FF7C	TI 	@345
+06FF88	TI 	@403
+06FF94	TI 	@424
+06FFA0	TI 	@431
+06FFAC	TI 	@438
+06FFB8	TI 	@453
+06FFC4	TI 	@41											file = "hash_buf.c"
+06FFD0	TI 	@114
+06FFDC	TI 	@154
+06FFE8	TI 	@63											file = "h_bigkey.c"
+06FFF4	TI 	@93
+070000	TI 	@116
+07000C	TI 	@141
+070018	TI 	@180
+070024	TI 	@223
+070030	TI 	@230
+07003C	TI 	@252
+070048	TI 	@288
+070054	TI 	@35											file = "h_page.c"
+070060	TI 	@45
+07006C	TI 	@82
+070078	TI 	@118
+070084	TI 	@183
+070090	TI 	@227
+07009C	TI 	@242
+0700A8	TI 	@320
+0700B4	TI 	@392
+0700C0	TI 	@399
+0700CC	TI 	@484
+0700D8	TI 	@500
+0700E4	TI 	@511
+0700F0	TI 	@521
+0700FC	TI 	@533
+
+Data section, size = 13684 bytes (TOC anchor = 000000)
+000000	TC 	LMGetSdVolume								file = "*Linker-Generated*"
+000004	TC 	LMGetKeyThresh
+000008	TC 	GetMouse
+00000C	TC 	GetMainDevice
+000010	TC 	GetDateTime
+000014	TC 	LMGetTheZone
+000018	TC 	LMGetKbdLast
+00001C	TC 	LMGetEventQueue
+000020	TC 	GetPixBaseAddr
+000024	TC 	ReadLocation
+000028	TC 	Microseconds
+00002C	TC 	LMGetCurDirStore
+000030	TC 	GetDefaultUser
+000034	TC 	LMGetScrapCount
+000038	TC 	LMGetScrapSize
+00003C	TC 	GetProcessInformation
+000040	TC 	PBHGetVolParmsSync
+000044	TC 	GetNextProcess
+000048	TC 	LMGetMainDevice
+00004C	TC 	PR_ExitMonitor
+000050	TC 	PR_Read
+000054	TC 	PR_Delete
+000058	TC 	PR_CloseFileMap
+00005C	TC 	PR_GetEnv
+000060	TC 	PR_smprintf
+000064	TC 	PR_UnloadLibrary
+000068	TC 	PL_FinishArenaPool
+00006C	TC 	PR_Realloc
+000070	TC 	PL_HashTableRemove
+000074	TC 	PR_Sleep
+000078	TC 	PR_Close
+00007C	TC 	PR_Now
+000080	TC 	PR_CreateFileMap
+000084	TC 	PR_AtomicDecrement
+000088	TC 	PR_OpenFile
+00008C	TC 	PR_smprintf_free
+000090	TC 	PL_ArenaRelease
+000094	TC 	PR_SetError
+000098	TC 	PR_NewLock
+00009C	TC 	PR_CallOnce
+0000A0	TC 	PR_MkDir
+0000A4	TC 	PR_GetError
+0000A8	TC 	PL_HashTableLookupConst
+0000AC	TC 	PL_FreeArenaPool
+0000B0	TC 	PL_HashTableDestroy
+0000B4	TC 	PL_InitArenaPool
+0000B8	TC 	PL_strcasecmp
+0000BC	TC 	PR_Malloc
+0000C0	TC 	PR_EnterMonitor
+0000C4	TC 	libVersionPoint
+0000C8	TC 	PR_FindSymbol
+0000CC	TC 	PR_Unlock
+0000D0	TC 	PL_strncasecmp
+0000D4	TC 	PR_Write
+0000D8	TC 	PL_ArenaAllocate
+0000DC	TC 	PR_Access
+0000E0	TC 	PL_ArenaGrow
+0000E4	TC 	PR_DestroyMonitor
+0000E8	TC 	PR_MemMap
+0000EC	TC 	PR_Calloc
+0000F0	TC 	PL_HashTableEnumerateEntries
+0000F4	TC 	PL_NewHashTable
+0000F8	TC 	PR_NewMonitor
+0000FC	TC 	PR_MemUnmap
+000100	TC 	PR_AtomicIncrement
+000104	TC 	PL_HashTableAdd
+000108	TC 	PR_Lock
+00010C	TC 	PR_DestroyLock
+000110	TC 	PR_LoadLibrary
+000114	TC 	PL_HashTableLookup
+000118	TC 	PR_Free
+00011C	TC 	__register_fragment
+000120	TC 	__unregister_fragment
+000124	TC 	strncpy
+000128	TC 	calloc
+00012C	TC 	open
+000130	TC 	strncmp
+000134	TC 	abort
+000138	TC 	unlink
+00013C	TC 	remove
+000140	TC 	GC_unregister_fragment
+000144	TC 	free
+000148	TC 	lseek
+00014C	TC 	close
+000150	TC 	atoi
+000154	TC 	memmove
+000158	TC 	strcat
+00015C	TC 	memcpy
+000160	TC 	sprintf
+000164	TC 	GC_register_fragment
+000168	TC 	strcmp
+00016C	TC 	read
+000170	TC 	strcpy
+000174	TC 	rand
+000178	TC 	strlen
+00017C	TC 	strdup
+000180	TC 	memcmp
+000184	TC 	write
+000188	TC 	malloc
+00018C	TC 	memset
+000190	TC 	stat
+000194	TC 	rijndael_decryptBlock
+000198	TC 	rijndael_encryptBlock
+00019C	TC 	mp_frees
+0001A0	TC 	mp_allocs
+0001A4	TC 	mp_copies
+0001A8	TC 	prime_tab
+0001AC	TC 	nsf_init
+0001B0	TC 	nsslowkey_EncryptedPrivateKeyInfoTemplate
+0001B4	TC 	nsslowkey_PrivateKeyInfoTemplate
+0001B8	TC 	nsslowkey_DHPrivateKeyTemplate
+0001BC	TC 	nsslowkey_PQGParamsTemplate
+0001C0	TC 	nsslowkey_DSAPrivateKeyTemplate
+0001C4	TC 	nsslowkey_RSAPrivateKeyTemplate
+0001C8	TC 	__lower_map
+0001CC	TC 	RC4_Decrypt
+0001D0	TC 	RC4_Encrypt
+0001D4	TC 	RC2_Decrypt
+0001D8	TC 	RC2_Encrypt
+0001DC	TC 	DES_Decrypt
+0001E0	TC 	DES_Encrypt
+0001E4	TC 	SECRawHashObjects
+0001E8	TC 	__ctype_map
+0001EC	TC 	__nss_softokn_sccsid
+0001F0	TC 	__nss_softokn_rcsid
+0001F4	TC 	SECITEM_HashCompare
+0001F8	TC 	PL_CompareValues
+0001FC	TC 	nsslowkey_DestroyPrivateKey
+000200	TC 	nsslowkey_DestroyPublicKey
+000204	TC 	nsslowkey_DSAPrivateKeyExportTemplate
+000208	TC 	RSA_CheckSignRecover
+00020C	TC 	RSA_CheckSignRecoverRaw
+000210	TC 	RSA_CheckSignRaw
+000214	TC 	RSA_CheckSign
+000218	TC 	RSA_SignRaw
+00021C	TC 	RSA_Sign
+000220	TC 	SGNDigestInfoTemplate
+000224	TC 	MD5_Begin
+000228	TC 	SHA1_Begin
+00022C	TC 	HMAC_Finish
+000230	TC 	HMAC_Update
+000234	TC 	SHA256_DestroyContext
+000238	TC 	SHA256_End
+00023C	TC 	SHA256_Update
+000240	TC 	SHA1_DestroyContext
+000244	TC 	SHA1_End
+000248	TC 	SHA1_Update
+00024C	TC 	MD5_DestroyContext
+000250	TC 	MD5_End
+000254	TC 	MD5_Update
+000258	TC 	MD2_DestroyContext
+00025C	TC 	MD2_End
+000260	TC 	MD2_Update
+000264	TC 	AES_DestroyContext
+000268	TC 	AES_Decrypt
+00026C	TC 	AES_Encrypt
+000270	TC 	DES_DestroyContext
+000274	TC 	RC4_DestroyContext
+000278	TC 	RC2_DestroyContext
+00027C	TC 	RSA_DecryptBlock
+000280	TC 	RSA_DecryptRaw
+000284	TC 	RSA_EncryptBlock
+000288	TC 	RSA_EncryptRaw
+00028C	TC 	nsslowcert_DestroyTrust
+000290	TC 	nsslowcert_DestroyCertificate
+000294	TC 	nsslowcert_DestroyDBEntry
+000298	TC 	__exception_table_end__
+00029C	TC 	__exception_table_start__
+0002A0	TC 	__data_end__
+0002A4	TC 	__data_start__
+0002A8	TC 	__code_end__
+0002AC	TC 	__code_start__
+0002B0	TC 	SEC_SkipTemplate
+0002B4	TC 	SEC_VisibleStringTemplate
+0002B8	TC 	SEC_UTF8StringTemplate
+0002BC	TC 	SEC_UTCTimeTemplate
+0002C0	TC 	SEC_UniversalStringTemplate
+0002C4	TC 	SEC_T61StringTemplate
+0002C8	TC 	SEC_PrintableStringTemplate
+0002CC	TC 	SEC_OctetStringTemplate
+0002D0	TC 	SEC_IA5StringTemplate
+0002D4	TC 	SEC_GeneralizedTimeTemplate
+0002D8	TC 	SEC_BMPStringTemplate
+0002DC	TC 	SEC_BitStringTemplate
+0002E0	TC 	SEC_AnyTemplate
+0002E4	TC 	SEC_NullTemplate
+0002E8	TC 	sgn_DigestInfoTemplate
+0002EC	TC 	SECITEM_Hash
+0002F0	TC 	port_allocFailures
+0002F4	TC 	errno
+0002F8	TC 	all_databases_locked_closed
+0002FC	TC 	__default_hash
+000300	TC 	S											file = "alg2268.c"
+000304	TC 	rc2_DecryptECB
+000308	TC 	rc2_EncryptECB
+00030C	TC 	rc2_DecryptCBC
+000310	TC 	rc2_EncryptCBC
+000314	TC 	@115										file = "arcfour.c"
+000318	TC 	Kinit
+00031C	TC 	SP											file = "des.c"
+000320	TC 	PC2
+000324	TC 	DES_EDE3CBCDe								file = "desblapi.c"
+000328	TC 	DES_EDE3CBCEn
+00032C	TC 	DES_CBCDe
+000330	TC 	DES_CBCEn
+000334	TC 	DES_EDE3_ECB
+000338	TC 	DES_ECB
+00033C	TC 	MD2S										file = "md2.c"
+000340	TC 	padbytes									file = "md5.c"
+000344	TC 	@206										file = "pqg.c"
+000348	TC 	@39
+00034C	TC 	bulk_pad0$137								file = "prng_fips1861.c"
+000350	TC 	rng_init
+000354	TC 	coRNGInit
+000358	TC 	rijndael_decryptECB							file = "rijndael.c"
+00035C	TC 	rijndael_encryptECB
+000360	TC 	rijndael_decryptCBC
+000364	TC 	rijndael_encryptCBC
+000368	TC 	rijndael_decryptBlock128
+00036C	TC 	rijndael_encryptBlock128
+000370	TC 	_SInv
+000374	TC 	_TInv1
+000378	TC 	_TInv0
+00037C	TC 	_TInv2
+000380	TC 	_TInv3
+000384	TC 	_T0
+000388	TC 	_T2
+00038C	TC 	_T3
+000390	TC 	_IMXC1
+000394	TC 	_IMXC0
+000398	TC 	_IMXC2
+00039C	TC 	_IMXC3
+0003A0	TC 	_T1
+0003A4	TC 	Rcon
+0003A8	TC 	init_blinding_params_list					file = "rsa.c"
+0003AC	TC 	coBPInit
+0003B0	TC 	blindingParamsList
+0003B4	TC 	bulk_pad$66									file = "sha_fast.c"
+0003B8	TC 	@812										file = "sysrand.c"
+0003BC	TC 	@810
+0003C0	TC 	two$1220									file = "mpi.c"
+0003C4	TC 	pk11_keydb_name_cb							file = "dbinit.c"
+0003C8	TC 	pk11_certdb_name_cb
+0003CC	TC 	@stringBase0
+0003D0	TC 	dbs_fd										file = "dbmshim.c"
+0003D4	TC 	dbs_sync
+0003D8	TC 	dbs_seq
+0003DC	TC 	dbs_put
+0003E0	TC 	dbs_del
+0003E4	TC 	dbs_get
+0003E8	TC 	dbs_close
+0003EC	TC 	dbs_hashInfo
+0003F0	TC 	@stringBase0
+0003F4	TC 	dsa_known_signature$661						file = "fipstest.c"
+0003F8	TC 	dsa_known_random_signature_block$659
+0003FC	TC 	dsa_known_digest$660
+000400	TC 	dsa_known_random_key_block$658
+000404	TC 	dsa_pqg$662
+000408	TC 	rsa_known_signature$628
+00040C	TC 	rsa_known_message$627
+000410	TC 	rsa_known_ciphertext$626
+000414	TC 	rsa_known_plaintext$625
+000418	TC 	bl_private_key$630
+00041C	TC 	bl_public_key$629
+000420	TC 	@632
+000424	TC 	@631
+000428	TC 	sha1_known_digest$607
+00042C	TC 	sha1_known_hash_message$606
+000430	TC 	md5_known_digest$597
+000434	TC 	md5_known_hash_message$596
+000438	TC 	md2_known_digest$585
+00043C	TC 	md2_known_hash_message$584
+000440	TC 	des3_cbc_known_ciphertext$548
+000444	TC 	des3_cbc_known_plaintext$546
+000448	TC 	des3_cbc_known_initialization_vector$544
+00044C	TC 	des3_ecb_known_ciphertext$547
+000450	TC 	des3_ecb_known_plaintext$545
+000454	TC 	des3_known_key$543
+000458	TC 	des_cbc_known_ciphertext$507
+00045C	TC 	des_cbc_known_plaintext$505
+000460	TC 	des_cbc_known_initialization_vector$503
+000464	TC 	des_ecb_known_ciphertext$506
+000468	TC 	des_ecb_known_plaintext$504
+00046C	TC 	des_known_key$502
+000470	TC 	rc4_known_ciphertext$482
+000474	TC 	rc4_known_plaintext$481
+000478	TC 	rc4_known_key$480
+00047C	TC 	rc2_cbc_known_ciphertext$444
+000480	TC 	rc2_cbc_known_plaintext$442
+000484	TC 	rc2_cbc_known_initialization_vector$440
+000488	TC 	rc2_ecb_known_ciphertext$443
+00048C	TC 	rc2_ecb_known_plaintext$441
+000490	TC 	rc2_known_key$439
+000494	TC 	pk11_fipsTable								file = "fipstokn.c"
+000498	TC 	sec_add_key_to_list							file = "keydb.c"
+00049C	TC 	@stringBase0
+0004A0	TC 	nsslowcert_DHPublicKeyTemplate				file = "lowcert.c"
+0004A4	TC 	nsslowcert_DSAPublicKeyTemplate
+0004A8	TC 	nsslowcert_RSAPublicKeyTemplate
+0004AC	TC 	nsslowcert_SubjectPublicKeyInfoTemplate
+0004B0	TC 	sec_pkcs5_rc4								file = "lowpbe.c"
+0004B4	TC 	sec_pkcs5_rc2
+0004B8	TC 	sec_pkcs5_des
+0004BC	TC 	NSSPKCS5PKCS12V2PBEParameterTemplate
+0004C0	TC 	NSSPKCS5PBEParameterTemplate
+0004C4	TC 	certcallback								file = "pcertdb.c"
+0004C8	TC 	updateV5Callback
+0004CC	TC 	@1896
+0004D0	TC 	@stringBase0
+0004D4	TC 	pk11_argSlotFlagTable						file = "pk11db.c"
+0004D8	TC 	@stringBase0
+0004DC	TC 	@2259										file = "pkcs11.c"
+0004E0	TC 	@2258
+0004E4	TC 	@2257
+0004E8	TC 	@2256
+0004EC	TC 	@2255
+0004F0	TC 	@2254
+0004F4	TC 	@2253
+0004F8	TC 	@2252
+0004FC	TC 	pk11_cert_collect2
+000500	TC 	pk11_cert_collect
+000504	TC 	pk11_key_collect
+000508	TC 	pk11_crl_collect
+00050C	TC 	pk11_TurnOffUser
+000510	TC 	mechanisms
+000514	TC 	pk11_freeHashItem
+000518	TC 	pk11_set_user
+00051C	TC 	pk11_HashNumber
+000520	TC 	nscSlotListSize
+000524	TC 	nscSlotCount
+000528	TC 	nscSlotList
+00052C	TC 	nscSlotHashTable
+000530	TC 	buf$1247
+000534	TC 	buf$1236
+000538	TC 	pk11_funcList
+00053C	TC 	pk11_desWeakTable
+000540	TC 	parityTable
+000544	TC 	@587
+000548	TC 	@571
+00054C	TC 	@523
+000550	TC 	@522
+000554	TC 	@stringBase0
+000558	TC 	libraryDescription_space
+00055C	TC 	manufacturerID_space
+000560	TC 	@2421										file = "pkcs11c.c"
+000564	TC 	@2420
+000568	TC 	@2419
+00056C	TC 	@2387
+000570	TC 	@2386
+000574	TC 	@2385
+000578	TC 	mixers
+00057C	TC 	@stringBase0
+000580	TC 	@2345
+000584	TC 	@2344
+000588	TC 	@2343
+00058C	TC 	@2254
+000590	TC 	nsc_DSA_Verify_Stub
+000594	TC 	pk11_hashCheckSign
+000598	TC 	pk11_FreePrivKey
+00059C	TC 	nsc_DSA_Sign_Stub
+0005A0	TC 	pk11_HashSign
+0005A4	TC 	@1180
+0005A8	TC 	pk11_TLSPRFHashDestroy
+0005AC	TC 	pk11_TLSPRFVerify
+0005B0	TC 	pk11_TLSPRFUpdate
+0005B4	TC 	pk11_TLSPRFEnd
+0005B8	TC 	pk11_TLSPRFHashUpdate
+0005BC	TC 	pk11_SSLMACVerify
+0005C0	TC 	pk11_SSLMACSign
+0005C4	TC 	ssl_pad_1
+0005C8	TC 	ssl_pad_2
+0005CC	TC 	pk11_HMACCmp
+0005D0	TC 	pk11_HMACCopy
+0005D4	TC 	pk11_Space
+0005D8	TC 	pk11_HMAC_Destroy
+0005DC	TC 	pk11_Null
+0005E0	TC 	@507
+0005E4	TC 	@475
+0005E8	TC 	@474
+0005EC	TC 	pk11_classArray								file = "pkcs11u.c"
+0005F0	TC 	tokenObjectList
+0005F4	TC 	sessionObjectList
+0005F8	TC 	pk11_StaticX509Attr
+0005FC	TC 	pk11_StaticMustVerifyAttr
+000600	TC 	pk11_StaticValidPeerAttr
+000604	TC 	pk11_StaticValidDelegatorAttr
+000608	TC 	pk11_StaticTrustUnknownAttr
+00060C	TC 	pk11_StaticUnTrustedAttr
+000610	TC 	pk11_StaticTrustedAttr
+000614	TC 	pk11_StaticTrustedDelegatorAttr
+000618	TC 	@709
+00061C	TC 	pk11_StaticNullAttr
+000620	TC 	pk11_StaticOneAttr
+000624	TC 	@594
+000628	TC 	pk11_StaticTrueAttr
+00062C	TC 	pk11_StaticFalseAttr
+000630	TC 	pad											file = "sha512.c"
+000634	TC 	K256
+000638	TC 	H256
+00063C	TC 	__constants									file = "runtime.c"
+000640	TC 	monthToDayInYear							file = "dertime.c"
+000644	TC 	base64_valuetocode							file = "nssb64e.c"
+000648	TC 	@825										file = "secasn1d.c"
+00064C	TC 	@142
+000650	TC 	sec_asn1e_encode_item_store					file = "secasn1e.c"
+000654	TC 	sec_asn1e_encode_item_count
+000658	TC 	@422
+00065C	TC 	@363
+000660	TC 	@107
+000664	TC 	oids										file = "secoid.c"
+000668	TC 	secoid_HashNumber
+00066C	TC 	@stringBase0								file = "secport.c"
+000670	TC 	hash_sync									file = "hash.c"
+000674	TC 	hash_seq
+000678	TC 	hash_put
+00067C	TC 	hash_get
+000680	TC 	hash_fd
+000684	TC 	hash_delete
+000688	TC 	hash_close
+00068C	TC 	@stringBase0
+000690	TC 	@24											file = "h_func.c"
+000694	TC 	namestr$504									file = "h_page.c"
+000698	TD 	globalrng									file = "prng_fips1861.c"
+00069C	TD 	nssRSAUseBlinding							file = "rsa.c"
+0006A0	TD 	@812										file = "sysrand.c"
+0006A8	TD 	@810
+0006B0	TD 	s_mp_defprec								file = "mpi.c"
+0006B4	TD 	pk11_rdbstatusfunc							file = "dbinit.c"
+0006B8	TD 	pk11_rdbfunc
+0006BC	TD 	fatalError									file = "fipstokn.c"
+0006C0	TD 	isLoggedIn
+0006C4	TD 	defaultKeyDBAlg								file = "keydb.c"
+0006C8	TD 	freeListLock								file = "pcertdb.c"
+0006CC	TD 	certTrustLock
+0006D0	TD 	certRefCountLock
+0006D4	TD 	dbLock
+0006D8	TD 	entryListCount
+0006DC	TD 	trustListCount
+0006E0	TD 	certListCount
+0006E4	TD 	entryListHead
+0006E8	TD 	trustListHead
+0006EC	TD 	certListHead
+0006F0	TD 	pk11_argSlotFlagTableSize					file = "pk11db.c"
+0006F4	TD 	pk11_nullString
+0006F8	TD 	manufacturerID								file = "pkcs11.c"
+0006FC	TD 	libraryDescription
+000700	TD 	mechanismCount
+000704	TD 	derZero$1194
+000708	TD 	success$1438
+00070C	TD 	nsc_init
+000710	TD 	fragmentID									file = "StartupSharedLib.c"
+000714	TD 	initializers$15								file = "nsslocks.c"
+000718	TD 	@147										file = "secasn1e.c"
+00071C	TD 	oidmechhash									file = "secoid.c"
+000720	TD 	oidhash
+000724	TD 	secoidLastHashEntry
+000728	TD 	secoidLastDynamicEntry
+00072C	TD 	secoidDynamicTable
+000730	TD 	oid_d_hash
+000734	TD 	pvd$116										file = "secport.c"
+000738	TD 	doFreeArenaPool$117
+00073C	DS 	RC2_Decrypt									file = "alg2268.c"
+000744	DS 	RC2_Encrypt
+00074C	DS 	RC2_DestroyContext
+000754	DS 	rc2_DecryptECB
+00075C	DS 	rc2_EncryptECB
+000764	DS 	rc2_DecryptCBC
+00076C	DS 	rc2_EncryptCBC
+000774	DS 	RC4_Decrypt									file = "arcfour.c"
+00077C	DS 	RC4_Encrypt
+000784	DS 	RC4_DestroyContext
+00078C	DS 	DES_Decrypt									file = "desblapi.c"
+000794	DS 	DES_Encrypt
+00079C	DS 	DES_DestroyContext
+0007A4	DS 	DES_EDE3CBCDe
+0007AC	DS 	DES_EDE3CBCEn
+0007B4	DS 	DES_CBCDe
+0007BC	DS 	DES_CBCEn
+0007C4	DS 	DES_EDE3_ECB
+0007CC	DS 	DES_ECB
+0007D4	DS 	MD2_End										file = "md2.c"
+0007DC	DS 	MD2_Update
+0007E4	DS 	MD2_Begin
+0007EC	DS 	MD2_DestroyContext
+0007F4	DS 	MD2_NewContext
+0007FC	DS 	MD5_End										file = "md5.c"
+000804	DS 	MD5_Update
+00080C	DS 	MD5_Begin
+000814	DS 	MD5_DestroyContext
+00081C	DS 	MD5_NewContext
+000824	DS 	rng_init									file = "prng_fips1861.c"
+00082C	DS 	AES_Decrypt									file = "rijndael.c"
+000834	DS 	AES_Encrypt
+00083C	DS 	AES_DestroyContext
+000844	DS 	rijndael_decryptECB
+00084C	DS 	rijndael_encryptECB
+000854	DS 	rijndael_decryptCBC
+00085C	DS 	rijndael_encryptCBC
+000864	DS 	rijndael_decryptBlock128
+00086C	DS 	rijndael_encryptBlock128
+000874	DS 	rijndael_decryptBlock
+00087C	DS 	rijndael_encryptBlock
+000884	DS 	init_blinding_params_list					file = "rsa.c"
+00088C	DS 	SHA1_DestroyContext							file = "sha_fast.c"
+000894	DS 	SHA1_NewContext
+00089C	DS 	SHA1_End
+0008A4	DS 	SHA1_Update
+0008AC	DS 	SHA1_Begin
+0008B4	DS 	HMAC_Finish									file = "alghmac.c"
+0008BC	DS 	HMAC_Update
+0008C4	DS 	pk11_keydb_name_cb							file = "dbinit.c"
+0008CC	DS 	pk11_certdb_name_cb
+0008D4	DS 	dbs_fd										file = "dbmshim.c"
+0008DC	DS 	dbs_sync
+0008E4	DS 	dbs_seq
+0008EC	DS 	dbs_put
+0008F4	DS 	dbs_del
+0008FC	DS 	dbs_get
+000904	DS 	dbs_close
+00090C	DS 	FC_Initialize								file = "fipstokn.c"
+000914	DS 	FC_Finalize
+00091C	DS 	FC_GetInfo
+000924	DS 	FC_GetFunctionList
+00092C	DS 	FC_GetSlotList
+000934	DS 	FC_GetSlotInfo
+00093C	DS 	FC_GetTokenInfo
+000944	DS 	FC_GetMechanismList
+00094C	DS 	FC_GetMechanismInfo
+000954	DS 	FC_InitToken
+00095C	DS 	FC_InitPIN
+000964	DS 	FC_SetPIN
+00096C	DS 	FC_OpenSession
+000974	DS 	FC_CloseSession
+00097C	DS 	FC_CloseAllSessions
+000984	DS 	FC_GetSessionInfo
+00098C	DS 	FC_GetOperationState
+000994	DS 	FC_SetOperationState
+00099C	DS 	FC_Login
+0009A4	DS 	FC_Logout
+0009AC	DS 	FC_CreateObject
+0009B4	DS 	FC_CopyObject
+0009BC	DS 	FC_DestroyObject
+0009C4	DS 	FC_GetObjectSize
+0009CC	DS 	FC_GetAttributeValue
+0009D4	DS 	FC_SetAttributeValue
+0009DC	DS 	FC_FindObjectsInit
+0009E4	DS 	FC_FindObjects
+0009EC	DS 	FC_FindObjectsFinal
+0009F4	DS 	FC_EncryptInit
+0009FC	DS 	FC_Encrypt
+000A04	DS 	FC_EncryptUpdate
+000A0C	DS 	FC_EncryptFinal
+000A14	DS 	FC_DecryptInit
+000A1C	DS 	FC_Decrypt
+000A24	DS 	FC_DecryptUpdate
+000A2C	DS 	FC_DecryptFinal
+000A34	DS 	FC_DigestInit
+000A3C	DS 	FC_Digest
+000A44	DS 	FC_DigestUpdate
+000A4C	DS 	FC_DigestKey
+000A54	DS 	FC_DigestFinal
+000A5C	DS 	FC_SignInit
+000A64	DS 	FC_Sign
+000A6C	DS 	FC_SignUpdate
+000A74	DS 	FC_SignFinal
+000A7C	DS 	FC_SignRecoverInit
+000A84	DS 	FC_SignRecover
+000A8C	DS 	FC_VerifyInit
+000A94	DS 	FC_Verify
+000A9C	DS 	FC_VerifyUpdate
+000AA4	DS 	FC_VerifyFinal
+000AAC	DS 	FC_VerifyRecoverInit
+000AB4	DS 	FC_VerifyRecover
+000ABC	DS 	FC_DigestEncryptUpdate
+000AC4	DS 	FC_DecryptDigestUpdate
+000ACC	DS 	FC_SignEncryptUpdate
+000AD4	DS 	FC_DecryptVerifyUpdate
+000ADC	DS 	FC_GenerateKey
+000AE4	DS 	FC_GenerateKeyPair
+000AEC	DS 	FC_WrapKey
+000AF4	DS 	FC_UnwrapKey
+000AFC	DS 	FC_DeriveKey
+000B04	DS 	FC_SeedRandom
+000B0C	DS 	FC_GenerateRandom
+000B14	DS 	FC_GetFunctionStatus
+000B1C	DS 	FC_CancelFunction
+000B24	DS 	FC_WaitForSlotEvent
+000B2C	DS 	sec_add_key_to_list							file = "keydb.c"
+000B34	DS 	nsslowkey_DestroyPublicKey					file = "lowkey.c"
+000B3C	DS 	nsslowkey_DestroyPrivateKey
+000B44	DS 	sec_pkcs5_rc4								file = "lowpbe.c"
+000B4C	DS 	sec_pkcs5_rc2
+000B54	DS 	sec_pkcs5_des
+000B5C	DS 	nsslowcert_DestroyCertificate				file = "pcertdb.c"
+000B64	DS 	nsslowcert_DestroyTrust
+000B6C	DS 	certcallback
+000B74	DS 	updateV5Callback
+000B7C	DS 	nsslowcert_DestroyDBEntry
+000B84	DS 	pk11_cert_collect2							file = "pkcs11.c"
+000B8C	DS 	pk11_cert_collect
+000B94	DS 	pk11_key_collect
+000B9C	DS 	pk11_crl_collect
+000BA4	DS 	pk11_TurnOffUser
+000BAC	DS 	NSC_ModuleDBFunc
+000BB4	DS 	pk11_freeHashItem
+000BBC	DS 	pk11_set_user
+000BC4	DS 	pk11_HashNumber
+000BCC	DS 	C_GetFunctionList
+000BD4	DS 	NSC_Initialize
+000BDC	DS 	NSC_Finalize
+000BE4	DS 	NSC_GetInfo
+000BEC	DS 	NSC_GetFunctionList
+000BF4	DS 	NSC_GetSlotList
+000BFC	DS 	NSC_GetSlotInfo
+000C04	DS 	NSC_GetTokenInfo
+000C0C	DS 	NSC_GetMechanismList
+000C14	DS 	NSC_GetMechanismInfo
+000C1C	DS 	NSC_InitToken
+000C24	DS 	NSC_InitPIN
+000C2C	DS 	NSC_SetPIN
+000C34	DS 	NSC_OpenSession
+000C3C	DS 	NSC_CloseSession
+000C44	DS 	NSC_CloseAllSessions
+000C4C	DS 	NSC_GetSessionInfo
+000C54	DS 	NSC_Login
+000C5C	DS 	NSC_Logout
+000C64	DS 	NSC_CreateObject
+000C6C	DS 	NSC_CopyObject
+000C74	DS 	NSC_GetObjectSize
+000C7C	DS 	NSC_GetAttributeValue
+000C84	DS 	NSC_SetAttributeValue
+000C8C	DS 	NSC_FindObjectsInit
+000C94	DS 	NSC_FindObjects
+000C9C	DS 	NSC_FindObjectsFinal
+000CA4	DS 	NSC_WaitForSlotEvent
+000CAC	DS 	NSC_DigestKey								file = "pkcs11c.c"
+000CB4	DS 	NSC_DecryptVerifyUpdate
+000CBC	DS 	NSC_SignEncryptUpdate
+000CC4	DS 	NSC_DecryptDigestUpdate
+000CCC	DS 	NSC_DigestEncryptUpdate
+000CD4	DS 	NSC_SetOperationState
+000CDC	DS 	NSC_GetOperationState
+000CE4	DS 	NSC_CancelFunction
+000CEC	DS 	NSC_GetFunctionStatus
+000CF4	DS 	NSC_DeriveKey
+000CFC	DS 	NSC_UnwrapKey
+000D04	DS 	NSC_WrapKey
+000D0C	DS 	NSC_GenerateKeyPair
+000D14	DS 	NSC_GenerateKey
+000D1C	DS 	NSC_GenerateRandom
+000D24	DS 	NSC_SeedRandom
+000D2C	DS 	NSC_VerifyRecover
+000D34	DS 	NSC_VerifyRecoverInit
+000D3C	DS 	NSC_VerifyFinal
+000D44	DS 	NSC_VerifyUpdate
+000D4C	DS 	NSC_Verify
+000D54	DS 	NSC_VerifyInit
+000D5C	DS 	nsc_DSA_Verify_Stub
+000D64	DS 	pk11_hashCheckSign
+000D6C	DS 	NSC_SignRecover
+000D74	DS 	NSC_SignRecoverInit
+000D7C	DS 	NSC_Sign
+000D84	DS 	NSC_SignFinal
+000D8C	DS 	NSC_SignUpdate
+000D94	DS 	NSC_SignInit
+000D9C	DS 	pk11_FreePrivKey
+000DA4	DS 	nsc_DSA_Sign_Stub
+000DAC	DS 	pk11_HashSign
+000DB4	DS 	pk11_TLSPRFHashDestroy
+000DBC	DS 	pk11_TLSPRFVerify
+000DC4	DS 	pk11_TLSPRFUpdate
+000DCC	DS 	pk11_TLSPRFEnd
+000DD4	DS 	pk11_TLSPRFHashUpdate
+000DDC	DS 	pk11_SSLMACVerify
+000DE4	DS 	pk11_SSLMACSign
+000DEC	DS 	pk11_HMACCmp
+000DF4	DS 	pk11_HMACCopy
+000DFC	DS 	pk11_Space
+000E04	DS 	pk11_HMAC_Destroy
+000E0C	DS 	NSC_DigestFinal
+000E14	DS 	NSC_DigestUpdate
+000E1C	DS 	NSC_Digest
+000E24	DS 	NSC_DigestInit
+000E2C	DS 	NSC_Decrypt
+000E34	DS 	NSC_DecryptFinal
+000E3C	DS 	NSC_DecryptUpdate
+000E44	DS 	NSC_DecryptInit
+000E4C	DS 	NSC_Encrypt
+000E54	DS 	NSC_EncryptFinal
+000E5C	DS 	NSC_EncryptUpdate
+000E64	DS 	NSC_EncryptInit
+000E6C	DS 	pk11_Null
+000E74	DS 	NSC_DestroyObject
+000E7C	DS 	null_hash_new_context						file = "rawhash.c"
+000E84	DS 	null_hash_destroy_context
+000E8C	DS 	null_hash_begin
+000E94	DS 	null_hash_update
+000E9C	DS 	null_hash_end
+000EA4	DS 	null_hash_clone_context
+000EAC	DS 	RSA_DecryptRaw								file = "rsawrapr.c"
+000EB4	DS 	RSA_EncryptRaw
+000EBC	DS 	RSA_CheckSignRecoverRaw
+000EC4	DS 	RSA_CheckSignRaw
+000ECC	DS 	RSA_SignRaw
+000ED4	DS 	RSA_DecryptBlock
+000EDC	DS 	RSA_EncryptBlock
+000EE4	DS 	RSA_CheckSignRecover
+000EEC	DS 	RSA_CheckSign
+000EF4	DS 	RSA_Sign
+000EFC	DS 	SHA256_End									file = "sha512.c"
+000F04	DS 	SHA256_Update
+000F0C	DS 	SHA256_DestroyContext
+000F14	DS 	__NSTerminate								file = "NSStartup.c"
+000F1C	DS 	__NSInitialize
+000F24	DS 	sec_asn1e_encode_item_store					file = "secasn1e.c"
+000F2C	DS 	sec_asn1e_encode_item_count
+000F34	DS 	SECITEM_HashCompare							file = "secitem.c"
+000F3C	DS 	SECITEM_Hash
+000F44	DS 	secoid_HashNumber							file = "secoid.c"
+000F4C	DS 	hash_sync									file = "hash.c"
+000F54	DS 	hash_seq
+000F5C	DS 	hash_put
+000F64	DS 	hash_get
+000F6C	DS 	hash_fd
+000F74	DS 	hash_delete
+000F7C	DS 	hash_close
+000F84	DS 	hash4										file = "h_func.c"
+000F8C	RW 	@115										file = "arcfour.c"
+000FAC	RW 	coRNGInit									file = "prng_fips1861.c"
+000FB8	RW 	blindingParamsList							file = "rsa.c"
+000FC4	RW 	coBPInit
+000FD0	RW 	two$1220									file = "mpi.c"
+000FE0	RW 	bl_public_key$629							file = "fipstest.c"
+000FFC	RW 	bl_private_key$630
+00106C	RW 	dsa_pqg$662
+001094	RW 	pk11_fipsTable								file = "fipstokn.c"
+0011A8	RW 	nsslowkey_AttributeTemplate					file = "keydb.c"
+0011E8	RW 	nsslowkey_SetOfAttributeTemplate
+0011F8	RW 	nsslowkey_PrivateKeyInfoTemplate
+001258	RW 	nsslowkey_EncryptedPrivateKeyInfoTemplate
+001298	RW 	nsslowcert_SubjectPublicKeyInfoTemplate		file = "lowcert.c"
+0012D8	RW 	@1896										file = "pcertdb.c"
+0012F8	RW 	pk11_argSlotFlagTable						file = "pk11db.c"
+0013B8	RW 	pk11_funcList								file = "pkcs11.c"
+0014CC	RW 	@571
+0014F8	RW 	nscSlotCount
+001500	RW 	nscSlotList
+001508	RW 	nscSlotListSize
+001510	RW 	nscSlotHashTable
+001518	RW 	ssl_pad_1									file = "pkcs11c.c"
+001554	RW 	ssl_pad_2
+001590	RW 	mixers
+0015B4	RW 	pk11_staticTrueValue						file = "pkcs11u.c"
+0015B8	RW 	pk11_StaticTrueAttr
+00160C	RW 	pk11_StaticFalseAttr
+001660	RW 	pk11_StaticOneValue
+001664	RW 	pk11_StaticOneAttr
+0016B8	RW 	pk11_StaticX509Attr
+00170C	RW 	pk11_staticTrustedValue
+001710	RW 	pk11_staticTrustedDelegatorValue
+001714	RW 	pk11_staticValidDelegatorValue
+001718	RW 	pk11_staticUnTrustedValue
+00171C	RW 	pk11_staticTrustUnknownValue
+001720	RW 	pk11_staticValidPeerValue
+001724	RW 	pk11_staticMustVerifyValue
+001728	RW 	pk11_StaticTrustedAttr
+00177C	RW 	pk11_StaticTrustedDelegatorAttr
+0017D0	RW 	pk11_StaticValidDelegatorAttr
+001824	RW 	pk11_StaticUnTrustedAttr
+001878	RW 	pk11_StaticTrustUnknownAttr
+0018CC	RW 	pk11_StaticValidPeerAttr
+001920	RW 	pk11_StaticMustVerifyAttr
+001974	RW 	@594
+001A00	RW 	@709
+001AA4	RW 	sessionObjectList
+001AB0	RW 	tokenObjectList
+001ABC	RW 	SECRawHashObjects							file = "rawhash.c"
+001B2C	RW 	monthToDayInYear							file = "dertime.c"
+001B5C	RW 	base64_valuetocode							file = "nssb64e.c"
+001B9C	RW 	SECAlgorithmIDTemplate						file = "secalgid.c"
+001BDC	RW 	@142										file = "secasn1d.c"
+001C4C	RW 	@825
+001CB8	RW 	@107										file = "secasn1e.c"
+001D28	RW 	@363
+001DA4	RW 	@422
+001DCC	RW 	SGNDigestInfoTemplate						file = "secdig.c"
+001E0C	RW 	sgn_DigestInfoTemplate
+001E4C	RW 	oids										file = "secoid.c"
+003368	RW 	__default_hash								file = "h_func.c"
+00336C	RW 	@24
+00338C	RW 	@206										file = "pqg.c"
+003398	RW 	@39
+0033A4	RW 	mp_allocs									file = "mpi.c"
+0033A8	RW 	mp_frees
+0033AC	RW 	mp_copies
+0033B0	RW 	nsf_init									file = "fipstokn.c"
+0033B4	RW 	manufacturerID_space						file = "pkcs11.c"
+0033D8	RW 	libraryDescription_space
+0033FC	RW 	buf$1236
+003420	RW 	buf$1247
+003464	RW 	@2259
+00347C	RW 	@2258
+003488	RW 	@2257
+003494	RW 	@2256
+0034A0	RW 	@2255
+0034AC	RW 	@2254
+0034B8	RW 	@2253
+0034C4	RW 	@2252
+0034D0	RW 	@587
+0034DC	RW 	@2421										file = "pkcs11c.c"
+0034E8	RW 	@2420
+0034F4	RW 	@2419
+003500	RW 	@2387
+00350C	RW 	@2386
+003518	RW 	@2385
+003524	RW 	@2345
+003530	RW 	@2344
+00353C	RW 	@2343
+003548	RW 	@2254
+003554	RW 	@1180
+003560	RW 	pk11_staticX509Value						file = "pkcs11u.c"
+003564	RW 	pk11_staticFalseValue
+003568	RW 	port_allocFailures							file = "secport.c"
+00356C	RW 	all_databases_locked_closed					file = "db.c"
+
+Import container "InterfaceLib"
+Current Version = 00000000, Old Implementation = 00000000
+000000	DS 	LMGetSdVolume
+000001	DS 	LMGetKeyThresh
+000002	DS 	GetMouse
+000003	DS 	GetMainDevice
+000004	DS 	GetDateTime
+000005	DS 	LMGetTheZone
+000006	DS 	LMGetKbdLast
+000007	DS 	LMGetEventQueue
+000008	DS 	GetPixBaseAddr
+000009	DS 	ReadLocation
+00000A	DS 	Microseconds
+00000B	DS 	LMGetCurDirStore
+00000C	DS 	GetDefaultUser
+00000D	DS 	LMGetScrapCount
+00000E	DS 	LMGetScrapSize
+00000F	DS 	GetProcessInformation
+000010	DS 	PBHGetVolParmsSync
+000011	DS 	GetNextProcess
+000012	DS 	LMGetMainDevice
+
+Import container "OTXTILib"
+Current Version = 00000000, Old Implementation = 00000000
+000013	RW 	errno
+
+Import container "NSPR20"
+Current Version = 00000191, Old Implementation = 00000190
+000014	DS 	PR_ExitMonitor
+000015	DS 	PR_Read
+000016	DS 	PR_Delete
+000017	DS 	PR_CloseFileMap
+000018	DS 	PR_GetEnv
+000019	DS 	PR_smprintf
+00001A	DS 	PR_UnloadLibrary
+00001B	DS 	PL_FinishArenaPool
+00001C	DS 	PR_Realloc
+00001D	DS 	PL_HashTableRemove
+00001E	DS 	PR_Sleep
+00001F	DS 	PR_Close
+000020	DS 	PR_Now
+000021	DS 	PR_CreateFileMap
+000022	DS 	PR_AtomicDecrement
+000023	DS 	PR_OpenFile
+000024	DS 	PR_smprintf_free
+000025	DS 	PL_ArenaRelease
+000026	DS 	PR_SetError
+000027	DS 	PR_NewLock
+000028	DS 	PR_CallOnce
+000029	DS 	PR_MkDir
+00002A	DS 	PR_GetError
+00002B	DS 	PL_HashTableLookupConst
+00002C	DS 	PL_FreeArenaPool
+00002D	DS 	PL_HashTableDestroy
+00002E	DS 	PL_InitArenaPool
+00002F	DS 	PL_strcasecmp
+000030	DS 	PR_Malloc
+000031	DS 	PR_EnterMonitor
+000032	DS 	libVersionPoint
+000033	DS 	PR_FindSymbol
+000034	DS 	PR_Unlock
+000035	DS 	PL_strncasecmp
+000036	DS 	PR_Write
+000037	DS 	PL_ArenaAllocate
+000038	DS 	PR_Access
+000039	DS 	PL_ArenaGrow
+00003A	DS 	PR_DestroyMonitor
+00003B	DS 	PL_CompareValues
+00003C	DS 	PR_MemMap
+00003D	DS 	PR_Calloc
+00003E	DS 	PL_HashTableEnumerateEntries
+00003F	DS 	PL_NewHashTable
+000040	DS 	PR_NewMonitor
+000041	DS 	PR_MemUnmap
+000042	DS 	PR_AtomicIncrement
+000043	DS 	PL_HashTableAdd
+000044	DS 	PR_Lock
+000045	DS 	PR_DestroyLock
+000046	DS 	PR_LoadLibrary
+000047	DS 	PL_HashTableLookup
+000048	DS 	PR_Free
+
+Import container "NSRuntime"
+Current Version = 00000000, Old Implementation = 00000000
+000049	DS 	__register_fragment
+00004A	DS 	__unregister_fragment
+
+Import container "NSStdLib"
+Current Version = 00000190, Old Implementation = 00000190
+00004B	DS 	strncpy
+00004C	DS 	calloc
+00004D	DS 	open
+00004E	DS 	strncmp
+00004F	DS 	abort
+000050	DS 	unlink
+000051	DS 	remove
+000052	DS 	GC_unregister_fragment
+000053	DS 	free
+000054	RW 	__ctype_map
+000055	DS 	lseek
+000056	DS 	close
+000057	DS 	atoi
+000058	DS 	memmove
+000059	DS 	strcat
+00005A	DS 	memcpy
+00005B	DS 	sprintf
+00005C	DS 	GC_register_fragment
+00005D	DS 	strcmp
+00005E	DS 	read
+00005F	DS 	strcpy
+000060	DS 	rand
+000061	DS 	strlen
+000062	DS 	strdup
+000063	RW 	__lower_map
+000064	DS 	memcmp
+000065	DS 	write
+000066	DS 	malloc
+000067	DS 	memset
+000068	DS 	stat
+
+
+File and routine reference details
+
+File "alg2268.c"
+	Unreferenced routine descriptor: RC2_CreateContext
+File "arcfive.c"
+	Unreferenced: arcfive.c
+File "arcfour.c"
+	Unreferenced routine descriptor: RC4_CreateContext
+File "des.c"
+	Unreferenced routine descriptor: DES_Do1Block
+	Unreferenced routine descriptor: DES_MakeSchedule
+File "desblapi.c"
+	Unreferenced routine descriptor: DES_CreateContext
+File "dh.c"
+	Unreferenced code: .DH_GenParam
+	Unreferenced code: .KEA_Derive
+	Unreferenced code: .KEA_Verify
+	Unreferenced routine descriptor: KEA_Verify
+	Unreferenced routine descriptor: KEA_Derive
+	Unreferenced routine descriptor: DH_Derive
+	Unreferenced routine descriptor: DH_NewKey
+	Unreferenced routine descriptor: DH_GenParam
+File "dsa.c"
+	Unreferenced routine descriptor: DSA_VerifyDigest
+	Unreferenced routine descriptor: DSA_SignDigestWithSeed
+	Unreferenced routine descriptor: DSA_SignDigest
+	Unreferenced routine descriptor: DSA_NewKeyFromSeed
+	Unreferenced routine descriptor: DSA_NewKey
+	Unreferenced routine descriptor: dsa_NewKey
+File "ldvector.c"
+	Unreferenced: ldvector.c
+File "md2.c"
+	Unreferenced code: .MD2_Hash
+	Unreferenced code: .MD2_Flatten
+	Unreferenced code: .MD2_Resurrect
+	Unreferenced routine descriptor: MD2_Resurrect
+	Unreferenced routine descriptor: MD2_Flatten
+	Unreferenced routine descriptor: MD2_FlattenSize
+	Unreferenced routine descriptor: MD2_Hash
+File "md5.c"
+	Unreferenced code: .MD5_Hash
+	Unreferenced code: .MD5_Flatten
+	Unreferenced code: .MD5_Resurrect
+	Unreferenced code: .MD5_TraceState
+	Unreferenced routine descriptor: MD5_TraceState
+	Unreferenced routine descriptor: MD5_Resurrect
+	Unreferenced routine descriptor: MD5_Flatten
+	Unreferenced routine descriptor: MD5_FlattenSize
+	Unreferenced routine descriptor: MD5_HashBuf
+	Unreferenced routine descriptor: MD5_Hash
+File "pqg.c"
+	Unreferenced routine descriptor: PQG_VerifyParams
+	Unreferenced routine descriptor: PQG_ParamGenSeedLen
+	Unreferenced routine descriptor: PQG_ParamGen
+File "prng_fips1861.c"
+	Unreferenced code: .freeRNGContext
+	Unreferenced code: .RNG_RNGShutdown
+	Unreferenced code: .DSA_RandomUpdate
+	Unreferenced routine descriptor: DSA_GenerateGlobalRandomBytes
+	Unreferenced routine descriptor: DSA_RandomUpdate
+	Unreferenced routine descriptor: RNG_UpdateAndEnd_FIPS186_1
+	Unreferenced routine descriptor: RNG_RNGShutdown
+	Unreferenced routine descriptor: RNG_GenerateGlobalRandomBytes
+	Unreferenced routine descriptor: prng_GenerateGlobalRandomBytes
+	Unreferenced routine descriptor: RNG_RandomUpdate
+	Unreferenced routine descriptor: prng_RandomUpdate
+	Unreferenced routine descriptor: RNG_RNGInit
+File "rijndael.c"
+	Unreferenced routine descriptor: AES_CreateContext
+File "rsa.c"
+	Unreferenced routine descriptor: BL_Cleanup
+	Unreferenced routine descriptor: RSA_Cleanup
+	Unreferenced routine descriptor: RSA_PrivateKeyCheck
+	Unreferenced routine descriptor: RSA_PrivateKeyOpDoubleChecked
+	Unreferenced routine descriptor: RSA_PrivateKeyOp
+	Unreferenced routine descriptor: RSA_PublicKeyOp
+	Unreferenced routine descriptor: RSA_NewKey
+File "sha_fast.c"
+	Unreferenced code: .SHA1_Hash
+	Unreferenced code: .SHA1_TraceState
+	Unreferenced routine descriptor: SHA1_TraceState
+	Unreferenced routine descriptor: SHA1_Resurrect
+	Unreferenced routine descriptor: SHA1_Flatten
+	Unreferenced routine descriptor: SHA1_FlattenSize
+	Unreferenced routine descriptor: SHA1_Hash
+	Unreferenced routine descriptor: SHA1_HashBuf
+File "sysrand.c"
+	Unreferenced routine descriptor: FE_ReadScreen
+	Unreferenced routine descriptor: RNG_SystemInfoForRNG
+	Unreferenced routine descriptor: RNG_FileForRNG
+	Unreferenced routine descriptor: RNG_GetNoise
+File "mpi.c"
+	Unreferenced read-only data: s_logv_2
+	Unreferenced data: mp_err_string
+	Unreferenced: s_dmap_1
+	Unreferenced code: .mp_get_prec
+	Unreferenced code: .mp_set_prec
+	Unreferenced code: .mp_set_int
+	Unreferenced code: .mp_mul_d
+	Unreferenced code: .mp_div_2
+	Unreferenced code: .mp_expt_d
+	Unreferenced code: .mp_abs
+	Unreferenced code: .mp_expt
+	Unreferenced code: .mp_2expt
+	Unreferenced code: .mp_sqrt
+	Unreferenced code: .mp_exptmod_d
+	Unreferenced code: .mp_cmp_mag
+	Unreferenced code: .mp_cmp_int
+	Unreferenced code: .mp_lcm
+	Unreferenced code: .mp_xgcd
+	Unreferenced code: .mp_invmod_xgcd
+	Unreferenced code: .mp_read_raw
+	Unreferenced code: .mp_raw_size
+	Unreferenced code: .mp_toraw
+	Unreferenced code: .mp_read_radix
+	Unreferenced code: .mp_read_variable_radix
+	Unreferenced code: .mp_radix_size
+	Unreferenced code: .mp_toradix
+	Unreferenced code: .mp_tovalue
+	Unreferenced code: .mp_strerror
+	Unreferenced code: .s_mp_add
+	Unreferenced code: .s_mp_add_offset
+	Unreferenced code: .s_mp_tovalue
+	Unreferenced code: .s_mp_todigit
+	Unreferenced code: .s_mp_outlen
+	Unreferenced code: .mp_to_signed_octets
+	Unreferenced routine descriptor: mp_to_fixlen_octets
+	Unreferenced routine descriptor: mp_to_signed_octets
+	Unreferenced routine descriptor: mp_to_unsigned_octets
+	Unreferenced routine descriptor: mp_unsigned_octet_size
+	Unreferenced routine descriptor: mp_read_unsigned_octets
+	Unreferenced routine descriptor: s_mp_outlen
+	Unreferenced routine descriptor: s_mp_todigit
+	Unreferenced routine descriptor: s_mp_tovalue
+	Unreferenced routine descriptor: s_mp_ispow2d
+	Unreferenced routine descriptor: s_mp_ispow2
+	Unreferenced routine descriptor: s_mp_cmp_d
+	Unreferenced routine descriptor: s_mp_cmp
+	Unreferenced routine descriptor: s_mp_reduce
+	Unreferenced routine descriptor: s_mp_2expt
+	Unreferenced routine descriptor: s_mp_div
+	Unreferenced routine descriptor: s_mp_sqr
+	Unreferenced routine descriptor: s_mpv_div_2dx1d
+	Unreferenced routine descriptor: s_mpv_sqr_add_prop
+	Unreferenced routine descriptor: s_mpv_mul_d_add_prop
+	Unreferenced routine descriptor: s_mpv_mul_d_add
+	Unreferenced routine descriptor: s_mpv_mul_d
+	Unreferenced routine descriptor: s_mp_mul
+	Unreferenced routine descriptor: s_mp_sub_3arg
+	Unreferenced routine descriptor: s_mp_sub
+	Unreferenced routine descriptor: s_mp_add_offset
+	Unreferenced routine descriptor: s_mp_add_3arg
+	Unreferenced routine descriptor: s_mp_add
+	Unreferenced routine descriptor: s_mp_div_d
+	Unreferenced routine descriptor: s_mp_mul_d
+	Unreferenced routine descriptor: s_mp_sub_d
+	Unreferenced routine descriptor: s_mp_add_d
+	Unreferenced routine descriptor: s_mp_norm
+	Unreferenced routine descriptor: s_mp_div_2d
+	Unreferenced routine descriptor: s_mp_mod_2d
+	Unreferenced routine descriptor: s_mp_mul_2
+	Unreferenced routine descriptor: s_mp_div_2
+	Unreferenced routine descriptor: s_mp_rshd
+	Unreferenced routine descriptor: s_mp_mul_2d
+	Unreferenced routine descriptor: s_mp_lshd
+	Unreferenced routine descriptor: s_mp_exch
+	Unreferenced routine descriptor: s_mp_clamp
+	Unreferenced routine descriptor: s_mp_free
+	Unreferenced routine descriptor: s_mp_alloc
+	Unreferenced routine descriptor: s_mp_copy
+	Unreferenced routine descriptor: s_mp_setz
+	Unreferenced routine descriptor: s_mp_pad
+	Unreferenced routine descriptor: s_mp_grow
+	Unreferenced routine descriptor: mp_strerror
+	Unreferenced routine descriptor: mp_tovalue
+	Unreferenced routine descriptor: mp_toradix
+	Unreferenced routine descriptor: mp_radix_size
+	Unreferenced routine descriptor: mp_read_variable_radix
+	Unreferenced routine descriptor: mp_read_radix
+	Unreferenced routine descriptor: mp_toraw
+	Unreferenced routine descriptor: mp_raw_size
+	Unreferenced routine descriptor: mp_read_raw
+	Unreferenced routine descriptor: mp_invmod
+	Unreferenced routine descriptor: s_mp_invmod_even_m
+	Unreferenced routine descriptor: s_mp_invmod_2d
+	Unreferenced routine descriptor: mp_invmod_xgcd
+	Unreferenced routine descriptor: s_mp_invmod_odd_m
+	Unreferenced routine descriptor: s_mp_fixup_reciprocal
+	Unreferenced routine descriptor: s_mp_invmod_radix
+	Unreferenced routine descriptor: s_mp_almost_inverse
+	Unreferenced routine descriptor: mp_trailing_zeros
+	Unreferenced routine descriptor: mp_xgcd
+	Unreferenced routine descriptor: mp_lcm
+	Unreferenced routine descriptor: mp_gcd
+	Unreferenced routine descriptor: mp_iseven
+	Unreferenced routine descriptor: mp_isodd
+	Unreferenced routine descriptor: mp_cmp_int
+	Unreferenced routine descriptor: mp_cmp_mag
+	Unreferenced routine descriptor: mp_cmp
+	Unreferenced routine descriptor: mp_cmp_d
+	Unreferenced routine descriptor: mp_cmp_z
+	Unreferenced routine descriptor: mp_exptmod_d
+	Unreferenced routine descriptor: s_mp_exptmod
+	Unreferenced routine descriptor: mp_sqrmod
+	Unreferenced routine descriptor: mp_mulmod
+	Unreferenced routine descriptor: mp_submod
+	Unreferenced routine descriptor: mp_addmod
+	Unreferenced routine descriptor: mp_sqrt
+	Unreferenced routine descriptor: mp_mod_d
+	Unreferenced routine descriptor: mp_mod
+	Unreferenced routine descriptor: mp_2expt
+	Unreferenced routine descriptor: mp_expt
+	Unreferenced routine descriptor: mp_div_2d
+	Unreferenced routine descriptor: mp_div
+	Unreferenced routine descriptor: mp_sqr
+	Unreferenced routine descriptor: mp_mul
+	Unreferenced routine descriptor: mp_sub
+	Unreferenced routine descriptor: mp_add
+	Unreferenced routine descriptor: mp_neg
+	Unreferenced routine descriptor: mp_abs
+	Unreferenced routine descriptor: mp_expt_d
+	Unreferenced routine descriptor: mp_div_2
+	Unreferenced routine descriptor: mp_div_d
+	Unreferenced routine descriptor: mp_mul_2
+	Unreferenced routine descriptor: mp_mul_d
+	Unreferenced routine descriptor: mp_sub_d
+	Unreferenced routine descriptor: mp_add_d
+	Unreferenced routine descriptor: mp_set_ulong
+	Unreferenced routine descriptor: mp_set_int
+	Unreferenced routine descriptor: mp_set
+	Unreferenced routine descriptor: mp_zero
+	Unreferenced routine descriptor: mp_clear
+	Unreferenced routine descriptor: mp_exch
+	Unreferenced routine descriptor: mp_copy
+	Unreferenced routine descriptor: mp_init_copy
+	Unreferenced routine descriptor: mp_init_size
+	Unreferenced routine descriptor: mp_init
+	Unreferenced routine descriptor: mp_set_prec
+	Unreferenced routine descriptor: mp_get_prec
+File "mplogic.c"
+	Unreferenced data: bitc
+	Unreferenced code: .mpl_not
+	Unreferenced code: .mpl_and
+	Unreferenced code: .mpl_or
+	Unreferenced code: .mpl_xor
+	Unreferenced code: .mpl_rsh
+	Unreferenced code: .mpl_num_set
+	Unreferenced code: .mpl_num_clear
+	Unreferenced code: .mpl_parity
+	Unreferenced code: .mpl_get_bit
+	Unreferenced routine descriptor: mpl_significant_bits
+	Unreferenced routine descriptor: mpl_get_bits
+	Unreferenced routine descriptor: mpl_get_bit
+	Unreferenced routine descriptor: mpl_set_bit
+	Unreferenced routine descriptor: mpl_parity
+	Unreferenced routine descriptor: mpl_num_clear
+	Unreferenced routine descriptor: mpl_num_set
+	Unreferenced routine descriptor: mpl_lsh
+	Unreferenced routine descriptor: mpl_rsh
+	Unreferenced routine descriptor: mpl_xor
+	Unreferenced routine descriptor: mpl_or
+	Unreferenced routine descriptor: mpl_and
+	Unreferenced routine descriptor: mpl_not
+File "mpmontg.c"
+	Unreferenced routine descriptor: mp_exptmod
+	Unreferenced routine descriptor: mp_exptmod_i
+	Unreferenced routine descriptor: s_mp_to_mont
+	Unreferenced routine descriptor: s_mp_mul_mont
+	Unreferenced routine descriptor: s_mp_redc
+File "mpprime.c"
+	Unreferenced read-only data: prime_tab_size
+	Unreferenced code: .mpp_divis
+	Unreferenced code: .mpp_divis_d
+	Unreferenced code: .mpp_random_size
+	Unreferenced code: .mpp_fermat_list
+	Unreferenced routine descriptor: s_mpp_divp
+	Unreferenced routine descriptor: mpp_make_prime
+	Unreferenced routine descriptor: mpp_sieve
+	Unreferenced routine descriptor: mpp_pprime
+	Unreferenced routine descriptor: mpp_fermat_list
+	Unreferenced routine descriptor: mpp_fermat
+	Unreferenced routine descriptor: mpp_divis_primes
+	Unreferenced routine descriptor: mpp_divis_vector
+	Unreferenced routine descriptor: mpp_random_size
+	Unreferenced routine descriptor: mpp_random
+	Unreferenced routine descriptor: mpp_divis_d
+	Unreferenced routine descriptor: mpp_divis
+File "alghmac.c"
+	Unreferenced code: .HMAC_Clone
+	Unreferenced routine descriptor: HMAC_Clone
+	Unreferenced routine descriptor: HMAC_Begin
+	Unreferenced routine descriptor: HMAC_Create
+	Unreferenced routine descriptor: HMAC_Destroy
+File "dbinit.c"
+	Unreferenced code: .db_IsRDB
+	Unreferenced routine descriptor: db_Copy
+	Unreferenced routine descriptor: db_InitComplete
+	Unreferenced routine descriptor: db_FinishTransaction
+	Unreferenced routine descriptor: db_BeginTransaction
+	Unreferenced routine descriptor: db_IsRDB
+	Unreferenced routine descriptor: rdbopen
+	Unreferenced routine descriptor: pk11_DBShutdown
+	Unreferenced routine descriptor: pk11_DBInit
+	Unreferenced routine descriptor: pk11_EvaluateConfigDir
+File "dbmshim.c"
+	Unreferenced routine descriptor: dbsopen
+File "fipstest.c"
+	Unreferenced routine descriptor: pk11_fipsPowerUpSelfTest
+File "fipstokn.c"
+	Unreferenced routine descriptor: fc_getAttribute
+File "keydb.c"
+	Unreferenced data: nsslowkey_PointerToPrivateKeyInfoTemplate
+	Unreferenced data: nsslowkey_PointerToEncryptedPrivateKeyInfoTemplate
+	Unreferenced code: .nsslowkey_GetKeyDBVersion
+	Unreferenced code: .nsslowkey_DeriveKeyDBPassword
+	Unreferenced code: .nsslowkey_DecryptKey
+	Unreferenced routine descriptor: nsslowkey_ResetKeyDB
+	Unreferenced routine descriptor: nsslowkey_ChangeKeyDBPassword
+	Unreferenced routine descriptor: nsslowkey_CheckKeyDBPassword
+	Unreferenced routine descriptor: nsslowkey_SetKeyDBPasswordAlg
+	Unreferenced routine descriptor: nsslowkey_FindKeyNicknameByPublicKey
+	Unreferenced routine descriptor: nsslowkey_FindKeyByPublicKey
+	Unreferenced routine descriptor: nsslowkey_DecryptKey
+	Unreferenced routine descriptor: seckey_get_private_key
+	Unreferenced routine descriptor: seckey_decrypt_private_key
+	Unreferenced routine descriptor: nsslowkey_StoreKeyByPublicKeyAlg
+	Unreferenced routine descriptor: seckey_encrypt_private_key
+	Unreferenced routine descriptor: seckey_rc4_decode
+	Unreferenced routine descriptor: seckey_create_rc4_salt
+	Unreferenced routine descriptor: seckey_create_rc4_key
+	Unreferenced routine descriptor: nsslowkey_DeriveKeyDBPassword
+	Unreferenced routine descriptor: nsslowkey_HashPassword
+	Unreferenced routine descriptor: nsslowkey_SetKeyDBPassword
+	Unreferenced routine descriptor: nsslowkey_HasKeyDBPassword
+	Unreferenced routine descriptor: nsslowkey_KeyForCertExists
+	Unreferenced routine descriptor: nsslowkey_KeyForIDExists
+	Unreferenced routine descriptor: nsslowkey_UpdateNickname
+	Unreferenced routine descriptor: nsslowkey_StoreKeyByPublicKey
+	Unreferenced routine descriptor: nsslowkey_DeleteKey
+	Unreferenced routine descriptor: nsslowkey_GetKeyDBVersion
+	Unreferenced routine descriptor: nsslowkey_CloseKeyDB
+	Unreferenced routine descriptor: nsslowkey_OpenKeyDB
+	Unreferenced routine descriptor: nsslowkey_TraverseKeys
+	Unreferenced routine descriptor: nsslowkey_SetDefaultKeyDBAlg
+	Unreferenced routine descriptor: nsslowkey_GetDefaultKeyDBAlg
+File "lowcert.c"
+	Unreferenced code: .nsslowcert_SetDefaultCertDB
+	Unreferenced code: .nsslowcert_GetDefaultCertDB
+	Unreferenced: default_pcert_db_handle
+	Unreferenced routine descriptor: nsslowcert_ExtractPublicKey
+	Unreferenced routine descriptor: nsslowcert_KeyFromDERCert
+	Unreferenced routine descriptor: nsslowcert_FixupEmailAddr
+	Unreferenced routine descriptor: nsslowcert_DecodeDERCertificate
+	Unreferenced routine descriptor: nsslowcert_IsNewer
+	Unreferenced routine descriptor: nsslowcert_GetCertTimes
+	Unreferenced routine descriptor: nsslowcert_GetDefaultCertDB
+	Unreferenced routine descriptor: nsslowcert_SetDefaultCertDB
+File "lowkey.c"
+	Unreferenced code: .nsslowkey_CopyPrivateKey
+	Unreferenced routine descriptor: nsslowkey_CopyPrivateKey
+	Unreferenced routine descriptor: nsslowkey_ConvertToPublicKey
+	Unreferenced routine descriptor: nsslowkey_PrivateModulusLen
+	Unreferenced routine descriptor: nsslowkey_PublicModulusLen
+	Unreferenced routine descriptor: prepare_low_dh_priv_key_for_asn1
+	Unreferenced routine descriptor: prepare_low_dsa_priv_key_export_for_asn1
+	Unreferenced routine descriptor: prepare_low_dsa_priv_key_for_asn1
+	Unreferenced routine descriptor: prepare_low_pqg_params_for_asn1
+	Unreferenced routine descriptor: prepare_low_rsa_priv_key_for_asn1
+File "lowpbe.c"
+	Unreferenced routine descriptor: nsspkcs5_CreateAlgorithmID
+	Unreferenced routine descriptor: nsspkcs5_CipherData
+	Unreferenced routine descriptor: nsspkcs5_DestroyPBEParameter
+	Unreferenced routine descriptor: nsspkcs5_AlgidToParam
+	Unreferenced routine descriptor: nsspkcs5_NewParam
+	Unreferenced routine descriptor: nsspkcs5_ComputeKeyAndIV
+	Unreferenced routine descriptor: nsspkcs5_HashBuf
+File "padbuf.c"
+	Unreferenced routine descriptor: DES_PadBuffer
+File "pcertdb.c"
+	Unreferenced code: .nsslowcert_CertDBKeyConflict
+	Unreferenced code: .nsslowcert_setDBVerify
+	Unreferenced routine descriptor: nsslowcert_DestroyGlobalLocks
+	Unreferenced routine descriptor: nsslowcert_SaveSMimeProfile
+	Unreferenced routine descriptor: nsslowcert_hasTrust
+	Unreferenced routine descriptor: nsslowcert_DeletePermCRL
+	Unreferenced routine descriptor: nsslowcert_AddCrl
+	Unreferenced routine descriptor: nsslowcert_FindCrlByKey
+	Unreferenced routine descriptor: nsslowcert_CreateCert
+	Unreferenced routine descriptor: nsslowcert_FindCertByDERCert
+	Unreferenced routine descriptor: nsslowcert_FindTrustByIssuerAndSN
+	Unreferenced routine descriptor: nsslowcert_FindCertByIssuerAndSN
+	Unreferenced routine descriptor: nsslowcert_FindTrustByKey
+	Unreferenced routine descriptor: nsslowcert_FindCertByKey
+	Unreferenced routine descriptor: nsslowcert_setDBVerify
+	Unreferenced routine descriptor: nsslowcert_needDBVerify
+	Unreferenced routine descriptor: nsslowcert_OpenCertDB
+	Unreferenced routine descriptor: nsslowcert_AddPermCert
+	Unreferenced routine descriptor: nsslowcert_ChangeCertTrust
+	Unreferenced routine descriptor: nsslowcert_GetCertTrust
+	Unreferenced routine descriptor: nsslowcert_ClosePermCertDB
+	Unreferenced routine descriptor: nsslowcert_TraversePermCerts
+	Unreferenced routine descriptor: nsslowcert_TraverseDBEntries
+	Unreferenced routine descriptor: nsslowcert_DeletePermCertificate
+	Unreferenced routine descriptor: nsslowcert_CertDBKeyConflict
+	Unreferenced routine descriptor: nsslowcert_AddPermNickname
+	Unreferenced routine descriptor: nsslowcert_NumPermCertsForNickname
+	Unreferenced routine descriptor: nsslowcert_TraversePermCertsForNickname
+	Unreferenced routine descriptor: nsslowcert_NumPermCertsForSubject
+	Unreferenced routine descriptor: nsslowcert_TraversePermCertsForSubject
+	Unreferenced routine descriptor: nsslowcert_ReadDBSMimeEntry
+	Unreferenced routine descriptor: EncodeDBSMimeEntry
+	Unreferenced routine descriptor: pkcs11_copyStaticData
+	Unreferenced routine descriptor: pkcs11_freeStaticData
+	Unreferenced routine descriptor: pkcs11_copyNickname
+	Unreferenced routine descriptor: pkcs11_freeNickname
+	Unreferenced routine descriptor: nsslowcert_DupCertificate
+	Unreferenced routine descriptor: nsslowcert_UnlockCertTrust
+	Unreferenced routine descriptor: nsslowcert_LockCertTrust
+	Unreferenced routine descriptor: certdb_InitDBLock
+File "pk11db.c"
+	Unreferenced routine descriptor: secmod_AddPermDB
+	Unreferenced routine descriptor: secmod_DeletePermDB
+	Unreferenced routine descriptor: secmod_ReleasePermDBData
+	Unreferenced routine descriptor: secmod_ReadPermDB
+	Unreferenced routine descriptor: secmod_getSecmodName
+	Unreferenced routine descriptor: secmod_freeParams
+	Unreferenced routine descriptor: secmod_parseParameters
+	Unreferenced routine descriptor: secmod_parseTokenParameters
+File "pkcs11.c"
+	Unreferenced routine descriptor: nsc_CommonGetSlotList
+	Unreferenced routine descriptor: nsc_CommonFinalize
+	Unreferenced routine descriptor: nsc_CommonInitialize
+	Unreferenced routine descriptor: PK11_SlotInit
+	Unreferenced routine descriptor: pk11_NewSlotFromID
+	Unreferenced routine descriptor: pk11_SlotFromSessionHandle
+	Unreferenced routine descriptor: pk11_SlotFromID
+	Unreferenced routine descriptor: pk11_getDefSlotName
+	Unreferenced routine descriptor: pk11_getDefTokName
+	Unreferenced routine descriptor: pk11_IsWeakKey
+	Unreferenced routine descriptor: pk11_CheckDESKey
+	Unreferenced routine descriptor: pk11_FormatDESKey
+	Unreferenced routine descriptor: pk11_GetPrivKey
+	Unreferenced routine descriptor: pk11_GetPubKey
+	Unreferenced routine descriptor: pk11_handleObject
+	Unreferenced routine descriptor: pk11_MapTrust
+	Unreferenced routine descriptor: pk11_defaultAttribute
+	Unreferenced routine descriptor: pk11_hasNullPassword
+File "pkcs11c.c"
+	Unreferenced routine descriptor: pk11_mapWrap
+	Unreferenced routine descriptor: nsc_SetupHMACKeyGen
+	Unreferenced routine descriptor: pk11_SetContextByType
+	Unreferenced routine descriptor: pk11_ReturnContextByType
+File "pkcs11u.c"
+	Unreferenced read-only data: pk11_SerialTemplate
+	Unreferenced code: .AddToList
+	Unreferenced code: .pk11_FreeObjectListElement
+	Unreferenced code: .pk11_FreeObjectList
+	Unreferenced routine descriptor: pk11_narrowToTokenObject
+	Unreferenced routine descriptor: pk11_narrowToSessionObject
+	Unreferenced routine descriptor: pk11_convertSessionToToken
+	Unreferenced routine descriptor: pk11_tokenMatch
+	Unreferenced routine descriptor: pk11_NewTokenObject
+	Unreferenced routine descriptor: pk11_addHandle
+	Unreferenced routine descriptor: pk11_mkHandle
+	Unreferenced routine descriptor: pk11_FreeSession
+	Unreferenced routine descriptor: pk11_SessionFromHandle
+	Unreferenced routine descriptor: pk11_NewSession
+	Unreferenced routine descriptor: pk11_FreeContext
+	Unreferenced routine descriptor: pk11_update_all_states
+	Unreferenced routine descriptor: pk11_update_state
+	Unreferenced routine descriptor: pk11_FreeSearch
+	Unreferenced routine descriptor: pk11_FreeObjectList
+	Unreferenced routine descriptor: pk11_FreeObjectListElement
+	Unreferenced routine descriptor: pk11_searchObjectList
+	Unreferenced routine descriptor: pk11_objectMatch
+	Unreferenced routine descriptor: AddToList
+	Unreferenced routine descriptor: pk11_CopyObject
+	Unreferenced routine descriptor: pk11_DeleteObject
+	Unreferenced routine descriptor: pk11_AddObject
+	Unreferenced routine descriptor: pk11_AddSlotObject
+	Unreferenced routine descriptor: pk11_FreeObject
+	Unreferenced routine descriptor: pk11_ObjectFromHandle
+	Unreferenced routine descriptor: pk11_ReferenceObject
+	Unreferenced routine descriptor: pk11_NewObject
+	Unreferenced routine descriptor: pk11_CleanupFreeLists
+	Unreferenced routine descriptor: pk11_GetObjectFromList
+	Unreferenced routine descriptor: pk11_AddAttributeType
+	Unreferenced routine descriptor: pk11_DeleteAttributeType
+	Unreferenced routine descriptor: pk11_Attribute2SecItem
+	Unreferenced routine descriptor: pk11_isSensitive
+	Unreferenced routine descriptor: pk11_modifyType
+	Unreferenced routine descriptor: pk11_getString
+	Unreferenced routine descriptor: pk11_forceAttribute
+	Unreferenced routine descriptor: pk11_nullAttribute
+	Unreferenced routine descriptor: pk11_isTrue
+	Unreferenced routine descriptor: pk11_Attribute2SSecItem
+	Unreferenced routine descriptor: pk11_hasAttribute
+	Unreferenced routine descriptor: pk11_hasAttributeToken
+	Unreferenced routine descriptor: pk11_FindAttribute
+	Unreferenced routine descriptor: pk11_FreeAttribute
+File "rawhash.c"
+File "rsawrapr.c"
+File "softkver.c"
+File "sha512.c"
+	Unreferenced code: .SHA256_HashBuf
+	Unreferenced code: .SHA256_Hash
+	Unreferenced code: .SHA256_TraceState
+	Unreferenced code: .SHA256_Flatten
+	Unreferenced code: .SHA256_Resurrect
+	Unreferenced read-only data: K512
+	Unreferenced read-only data: H512
+	Unreferenced code: .SHA512_NewContext
+	Unreferenced code: .SHA512_DestroyContext
+	Unreferenced code: .SHA512_Begin
+	Unreferenced code: .SHA512_Compress
+	Unreferenced code: .SHA512_Update
+	Unreferenced code: .SHA512_End
+	Unreferenced code: .SHA512_HashBuf
+	Unreferenced code: .SHA512_Hash
+	Unreferenced code: .SHA512_TraceState
+	Unreferenced code: .SHA512_FlattenSize
+	Unreferenced code: .SHA512_Flatten
+	Unreferenced code: .SHA512_Resurrect
+	Unreferenced read-only data: H384
+	Unreferenced code: .SHA384_NewContext
+	Unreferenced code: .SHA384_DestroyContext
+	Unreferenced code: .SHA384_Begin
+	Unreferenced code: .SHA384_Update
+	Unreferenced code: .SHA384_End
+	Unreferenced code: .SHA384_HashBuf
+	Unreferenced code: .SHA384_Hash
+	Unreferenced code: .SHA384_TraceState
+	Unreferenced code: .SHA384_FlattenSize
+	Unreferenced code: .SHA384_Flatten
+	Unreferenced code: .SHA384_Resurrect
+	Unreferenced routine descriptor: SHA384_Resurrect
+	Unreferenced routine descriptor: SHA384_Flatten
+	Unreferenced routine descriptor: SHA384_FlattenSize
+	Unreferenced routine descriptor: SHA384_TraceState
+	Unreferenced routine descriptor: SHA384_Hash
+	Unreferenced routine descriptor: SHA384_HashBuf
+	Unreferenced routine descriptor: SHA384_End
+	Unreferenced routine descriptor: SHA384_Update
+	Unreferenced routine descriptor: SHA384_Begin
+	Unreferenced routine descriptor: SHA384_DestroyContext
+	Unreferenced routine descriptor: SHA384_NewContext
+	Unreferenced routine descriptor: SHA512_Resurrect
+	Unreferenced routine descriptor: SHA512_Flatten
+	Unreferenced routine descriptor: SHA512_FlattenSize
+	Unreferenced routine descriptor: SHA512_TraceState
+	Unreferenced routine descriptor: SHA512_Hash
+	Unreferenced routine descriptor: SHA512_HashBuf
+	Unreferenced routine descriptor: SHA512_End
+	Unreferenced routine descriptor: SHA512_Update
+	Unreferenced routine descriptor: SHA512_Begin
+	Unreferenced routine descriptor: SHA512_DestroyContext
+	Unreferenced routine descriptor: SHA512_NewContext
+	Unreferenced routine descriptor: SHA256_Resurrect
+	Unreferenced routine descriptor: SHA256_Flatten
+	Unreferenced routine descriptor: SHA256_FlattenSize
+	Unreferenced routine descriptor: SHA256_TraceState
+	Unreferenced routine descriptor: SHA256_Hash
+	Unreferenced routine descriptor: SHA256_HashBuf
+	Unreferenced routine descriptor: SHA256_Begin
+	Unreferenced routine descriptor: SHA256_NewContext
+In library file "NSLibraryStartup.o"
+	File "MSL_ShLibRuntime_PPC.Lib"
+		Unreferenced: MSL_ShLibRuntime_PPC.Lib
+	File "DTSOMRuntimeInternal.cp"
+		Unreferenced: DTSOMRuntimeInternal.cp
+	File "ptmf.c"
+		Unreferenced: ptmf.c
+	File "runtime.c"
+		Unreferenced: ._ptrgl12
+		Unreferenced: ._ptrgl
+		Unreferenced: ._ptrglpas
+		Unreferenced code: .__save_fpr
+		Unreferenced code: ._savevr
+		Unreferenced code: .__restore_fpr
+		Unreferenced code: ._restorevr
+		Unreferenced code: .__div2i
+		Unreferenced code: .__mod2i
+		Unreferenced code: .__shr2i
+		Unreferenced code: .__cvt_sll_dbl
+		Unreferenced code: .__cvt_ull_dbl
+		Unreferenced code: .__cvt_sll_flt
+		Unreferenced code: .__cvt_ull_flt
+		Unreferenced code: .__cvt_dbl_usll
+	File "setjmp.c"
+		Unreferenced: setjmp.c
+	File "StartupSharedLib.c"
+		Unreferenced routine descriptor: __terminate
+		Unreferenced routine descriptor: __initialize
+	File "Destroy.cp"
+		Unreferenced: Destroy.cp
+	File "NSStartup.c"
+	File "nsComponentResContext.cpp"
+		Unreferenced: nsComponentResContext.cpp
+In library file "util.o"
+	File "derdec.c"
+		Unreferenced: derdec.c
+	File "derenc.c"
+		Unreferenced data: SECAnyTemplate
+		Unreferenced data: SECBitStringTemplate
+		Unreferenced data: SECBooleanTemplate
+		Unreferenced data: SECIA5StringTemplate
+		Unreferenced data: SECIntegerTemplate
+		Unreferenced data: SECNullTemplate
+		Unreferenced data: SECObjectIDTemplate
+		Unreferenced data: SECOctetStringTemplate
+		Unreferenced data: SECPrintableStringTemplate
+		Unreferenced data: SECT61StringTemplate
+		Unreferenced data: SECUTCTimeTemplate
+		Unreferenced routine descriptor: DER_Encode
+	File "dersubr.c"
+		Unreferenced code: .DER_SetInteger
+		Unreferenced code: .DER_GetUInteger
+		Unreferenced routine descriptor: DER_GetUInteger
+		Unreferenced routine descriptor: DER_GetInteger
+		Unreferenced routine descriptor: DER_SetUInteger
+		Unreferenced routine descriptor: DER_SetInteger
+		Unreferenced routine descriptor: DER_StoreHeader
+		Unreferenced routine descriptor: DER_LengthLength
+	File "dertime.c"
+		Unreferenced code: .DER_TimeToUTCTime
+		Unreferenced code: .DER_TimeToGeneralizedTime
+		Unreferenced code: .DER_GeneralizedTimeToTime
+		Unreferenced routine descriptor: DER_GeneralizedTimeToTime
+		Unreferenced routine descriptor: DER_TimeToGeneralizedTime
+		Unreferenced routine descriptor: DER_UTCTimeToTime
+		Unreferenced routine descriptor: DER_AsciiToTime
+		Unreferenced routine descriptor: DER_TimeToUTCTime
+	File "nssb64d.c"
+		Unreferenced: nssb64d.c
+	File "nssb64e.c"
+		Unreferenced code: .PL_CreateBase64Encoder
+		Unreferenced code: .PL_UpdateBase64Encoder
+		Unreferenced code: .NSSBase64Encoder_Create
+		Unreferenced code: .NSSBase64Encoder_Update
+		Unreferenced code: .NSSBase64Encoder_Destroy
+		Unreferenced code: .BTOA_DataToAscii
+		Unreferenced code: .BTOA_ConvertItemToAscii
+		Unreferenced routine descriptor: BTOA_ConvertItemToAscii
+		Unreferenced routine descriptor: BTOA_DataToAscii
+		Unreferenced routine descriptor: NSSBase64_EncodeItem
+		Unreferenced routine descriptor: NSSBase64Encoder_Destroy
+		Unreferenced routine descriptor: NSSBase64Encoder_Update
+		Unreferenced routine descriptor: NSSBase64Encoder_Create
+	File "nssilock.c"
+		Unreferenced: nssilock.c
+	File "nsslocks.c"
+		Unreferenced code: .nss_InitMonitor
+		Unreferenced: initializers$35
+		Unreferenced routine descriptor: nss_InitMonitor
+		Unreferenced routine descriptor: nss_InitLock
+		Unreferenced routine descriptor: __nss_InitLock
+	File "nssrwlk.c"
+		Unreferenced: nssrwlk.c
+	File "portreg.c"
+		Unreferenced: portreg.c
+	File "pqgutil.c"
+		Unreferenced code: .PQG_DupParams
+		Unreferenced code: .PQG_NewParams
+		Unreferenced code: .PQG_GetPrimeFromParams
+		Unreferenced code: .PQG_GetSubPrimeFromParams
+		Unreferenced code: .PQG_GetBaseFromParams
+		Unreferenced code: .PQG_DupVerify
+		Unreferenced code: .PQG_NewVerify
+		Unreferenced code: .PQG_GetCounterFromVerify
+		Unreferenced code: .PQG_GetSeedFromVerify
+		Unreferenced code: .PQG_GetHFromVerify
+		Unreferenced routine descriptor: PQG_DestroyVerify
+		Unreferenced routine descriptor: PQG_GetHFromVerify
+		Unreferenced routine descriptor: PQG_GetSeedFromVerify
+		Unreferenced routine descriptor: PQG_GetCounterFromVerify
+		Unreferenced routine descriptor: PQG_NewVerify
+		Unreferenced routine descriptor: PQG_DupVerify
+		Unreferenced routine descriptor: PQG_DestroyParams
+		Unreferenced routine descriptor: PQG_GetBaseFromParams
+		Unreferenced routine descriptor: PQG_GetSubPrimeFromParams
+		Unreferenced routine descriptor: PQG_GetPrimeFromParams
+		Unreferenced routine descriptor: PQG_NewParams
+		Unreferenced routine descriptor: PQG_DupParams
+	File "secalgid.c"
+		Unreferenced code: .SECOID_CompareAlgorithmID
+		Unreferenced code: .NSS_Get_SECOID_AlgorithmIDTemplate
+		Unreferenced routine descriptor: NSS_Get_SECOID_AlgorithmIDTemplate
+		Unreferenced routine descriptor: SECOID_CompareAlgorithmID
+		Unreferenced routine descriptor: SECOID_DestroyAlgorithmID
+		Unreferenced routine descriptor: SECOID_CopyAlgorithmID
+		Unreferenced routine descriptor: SECOID_SetAlgorithmID
+		Unreferenced routine descriptor: SECOID_GetAlgorithmTag
+	File "secasn1d.c"
+		Unreferenced code: .sec_asn1d_uinteger
+		Unreferenced code: .SEC_ASN1DecodeInteger
+		Unreferenced code: .SEC_ASN1DecoderSetFilterProc
+		Unreferenced code: .SEC_ASN1DecoderClearFilterProc
+		Unreferenced code: .SEC_ASN1DecoderSetNotifyProc
+		Unreferenced code: .SEC_ASN1DecoderClearNotifyProc
+		Unreferenced data: SEC_PointerToAnyTemplate
+		Unreferenced data: SEC_SequenceOfAnyTemplate
+		Unreferenced data: SEC_SetOfAnyTemplate
+		Unreferenced data: SEC_PointerToBitStringTemplate
+		Unreferenced data: SEC_SequenceOfBitStringTemplate
+		Unreferenced data: SEC_SetOfBitStringTemplate
+		Unreferenced data: SEC_PointerToBMPStringTemplate
+		Unreferenced data: SEC_SequenceOfBMPStringTemplate
+		Unreferenced data: SEC_SetOfBMPStringTemplate
+		Unreferenced read-only data: SEC_BooleanTemplate
+		Unreferenced data: SEC_PointerToBooleanTemplate
+		Unreferenced data: SEC_SequenceOfBooleanTemplate
+		Unreferenced data: SEC_SetOfBooleanTemplate
+		Unreferenced read-only data: SEC_EnumeratedTemplate
+		Unreferenced data: SEC_PointerToEnumeratedTemplate
+		Unreferenced data: SEC_SequenceOfEnumeratedTemplate
+		Unreferenced data: SEC_SetOfEnumeratedTemplate
+		Unreferenced data: SEC_PointerToGeneralizedTimeTemplate
+		Unreferenced data: SEC_SequenceOfGeneralizedTimeTemplate
+		Unreferenced data: SEC_SetOfGeneralizedTimeTemplate
+		Unreferenced data: SEC_PointerToIA5StringTemplate
+		Unreferenced data: SEC_SequenceOfIA5StringTemplate
+		Unreferenced data: SEC_SetOfIA5StringTemplate
+		Unreferenced read-only data: SEC_IntegerTemplate
+		Unreferenced data: SEC_PointerToIntegerTemplate
+		Unreferenced data: SEC_SequenceOfIntegerTemplate
+		Unreferenced data: SEC_SetOfIntegerTemplate
+		Unreferenced data: SEC_PointerToNullTemplate
+		Unreferenced data: SEC_SequenceOfNullTemplate
+		Unreferenced data: SEC_SetOfNullTemplate
+		Unreferenced read-only data: SEC_ObjectIDTemplate
+		Unreferenced data: SEC_PointerToObjectIDTemplate
+		Unreferenced data: SEC_SequenceOfObjectIDTemplate
+		Unreferenced data: SEC_SetOfObjectIDTemplate
+		Unreferenced data: SEC_PointerToOctetStringTemplate
+		Unreferenced data: SEC_SequenceOfOctetStringTemplate
+		Unreferenced data: SEC_SetOfOctetStringTemplate
+		Unreferenced data: SEC_PointerToPrintableStringTemplate
+		Unreferenced data: SEC_SequenceOfPrintableStringTemplate
+		Unreferenced data: SEC_SetOfPrintableStringTemplate
+		Unreferenced data: SEC_PointerToT61StringTemplate
+		Unreferenced data: SEC_SequenceOfT61StringTemplate
+		Unreferenced data: SEC_SetOfT61StringTemplate
+		Unreferenced data: SEC_PointerToUniversalStringTemplate
+		Unreferenced data: SEC_SequenceOfUniversalStringTemplate
+		Unreferenced data: SEC_SetOfUniversalStringTemplate
+		Unreferenced data: SEC_PointerToUTCTimeTemplate
+		Unreferenced data: SEC_SequenceOfUTCTimeTemplate
+		Unreferenced data: SEC_SetOfUTCTimeTemplate
+		Unreferenced data: SEC_PointerToUTF8StringTemplate
+		Unreferenced data: SEC_SequenceOfUTF8StringTemplate
+		Unreferenced data: SEC_SetOfUTF8StringTemplate
+		Unreferenced data: SEC_PointerToVisibleStringTemplate
+		Unreferenced data: SEC_SequenceOfVisibleStringTemplate
+		Unreferenced data: SEC_SetOfVisibleStringTemplate
+		Unreferenced code: .NSS_Get_SEC_AnyTemplate
+		Unreferenced code: .NSS_Get_SEC_BMPStringTemplate
+		Unreferenced code: .NSS_Get_SEC_BooleanTemplate
+		Unreferenced code: .NSS_Get_SEC_BitStringTemplate
+		Unreferenced code: .NSS_Get_SEC_IA5StringTemplate
+		Unreferenced code: .NSS_Get_SEC_GeneralizedTimeTemplate
+		Unreferenced code: .NSS_Get_SEC_IntegerTemplate
+		Unreferenced code: .NSS_Get_SEC_NullTemplate
+		Unreferenced code: .NSS_Get_SEC_ObjectIDTemplate
+		Unreferenced code: .NSS_Get_SEC_OctetStringTemplate
+		Unreferenced code: .NSS_Get_SEC_PointerToAnyTemplate
+		Unreferenced code: .NSS_Get_SEC_PointerToOctetStringTemplate
+		Unreferenced code: .NSS_Get_SEC_SetOfAnyTemplate
+		Unreferenced code: .NSS_Get_SEC_UTCTimeTemplate
+		Unreferenced code: .NSS_Get_SEC_UTF8StringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_UTF8StringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_UTCTimeTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_SetOfAnyTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_PointerToOctetStringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_PointerToAnyTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_OctetStringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_ObjectIDTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_NullTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_IntegerTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_GeneralizedTimeTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_IA5StringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_BitStringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_BooleanTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_BMPStringTemplate
+		Unreferenced routine descriptor: NSS_Get_SEC_AnyTemplate
+		Unreferenced routine descriptor: SEC_ASN1DecodeItem
+		Unreferenced routine descriptor: SEC_ASN1Decode
+		Unreferenced routine descriptor: SEC_ASN1DecoderClearNotifyProc
+		Unreferenced routine descriptor: SEC_ASN1DecoderSetNotifyProc
+		Unreferenced routine descriptor: SEC_ASN1DecoderClearFilterProc
+		Unreferenced routine descriptor: SEC_ASN1DecoderSetFilterProc
+		Unreferenced routine descriptor: SEC_ASN1DecoderStart
+		Unreferenced routine descriptor: SEC_ASN1DecoderFinish
+		Unreferenced routine descriptor: SEC_ASN1DecoderUpdate
+		Unreferenced routine descriptor: SEC_ASN1DecodeInteger
+		Unreferenced routine descriptor: sec_asn1d_uinteger
+	File "secasn1e.c"
+		Unreferenced code: .SEC_ASN1EncoderSetNotifyProc
+		Unreferenced code: .SEC_ASN1EncoderClearNotifyProc
+		Unreferenced code: .SEC_ASN1EncoderSetStreaming
+		Unreferenced code: .SEC_ASN1EncoderClearStreaming
+		Unreferenced code: .SEC_ASN1EncoderSetTakeFromBuf
+		Unreferenced code: .SEC_ASN1EncoderClearTakeFromBuf
+		Unreferenced code: .SEC_ASN1EncodeUnsignedInteger
+		Unreferenced routine descriptor: SEC_ASN1EncodeUnsignedInteger
+		Unreferenced routine descriptor: SEC_ASN1EncodeInteger
+		Unreferenced routine descriptor: SEC_ASN1EncodeItem
+		Unreferenced routine descriptor: SEC_ASN1Encode
+		Unreferenced routine descriptor: SEC_ASN1EncoderClearTakeFromBuf
+		Unreferenced routine descriptor: SEC_ASN1EncoderSetTakeFromBuf
+		Unreferenced routine descriptor: SEC_ASN1EncoderClearStreaming
+		Unreferenced routine descriptor: SEC_ASN1EncoderSetStreaming
+		Unreferenced routine descriptor: SEC_ASN1EncoderClearNotifyProc
+		Unreferenced routine descriptor: SEC_ASN1EncoderSetNotifyProc
+		Unreferenced routine descriptor: SEC_ASN1EncoderStart
+		Unreferenced routine descriptor: SEC_ASN1EncoderFinish
+		Unreferenced routine descriptor: SEC_ASN1EncoderUpdate
+		Unreferenced routine descriptor: SEC_ASN1EncodeLength
+	File "secasn1u.c"
+		Unreferenced routine descriptor: SEC_ASN1GetSubtemplate
+		Unreferenced routine descriptor: SEC_ASN1LengthLength
+	File "quickder.c"
+		Unreferenced routine descriptor: SEC_QuickDERDecodeItem
+	File "secdig.c"
+		Unreferenced code: .NSS_Get_sgn_DigestInfoTemplate
+		Unreferenced code: .SGN_EncodeDigestInfo
+		Unreferenced code: .SGN_CopyDigestInfo
+		Unreferenced code: .SGN_CompareDigestInfo
+		Unreferenced routine descriptor: SGN_CompareDigestInfo
+		Unreferenced routine descriptor: SGN_CopyDigestInfo
+		Unreferenced routine descriptor: SGN_DestroyDigestInfo
+		Unreferenced routine descriptor: SGN_DecodeDigestInfo
+		Unreferenced routine descriptor: SGN_CreateDigestInfo
+		Unreferenced routine descriptor: SGN_EncodeDigestInfo
+		Unreferenced routine descriptor: NSS_Get_sgn_DigestInfoTemplate
+	File "secinit.c"
+		Unreferenced: secinit.c
+	File "secitem.c"
+		Unreferenced code: .SECITEM_ReallocItem
+		Unreferenced routine descriptor: SECITEM_ZfreeItem
+		Unreferenced routine descriptor: SECITEM_FreeItem
+		Unreferenced routine descriptor: SECITEM_CopyItem
+		Unreferenced routine descriptor: SECITEM_DupItem
+		Unreferenced routine descriptor: SECITEM_ItemsAreEqual
+		Unreferenced routine descriptor: SECITEM_CompareItem
+		Unreferenced routine descriptor: SECITEM_ReallocItem
+		Unreferenced routine descriptor: SECITEM_AllocItem
+	File "secoid.c"
+		Unreferenced code: .SECOID_AddEntry
+		Unreferenced code: .SECOID_KnownCertExtenOID
+		Unreferenced code: .SECOID_FindOIDTagDescription
+		Unreferenced code: .SECOID_Shutdown
+		Unreferenced: secoidDynamicTableSize
+		Unreferenced routine descriptor: SECOID_Shutdown
+		Unreferenced routine descriptor: SECOID_FindOIDTagDescription
+		Unreferenced routine descriptor: SECOID_KnownCertExtenOID
+		Unreferenced routine descriptor: SECOID_FindOIDByTag
+		Unreferenced routine descriptor: SECOID_FindOIDTag
+		Unreferenced routine descriptor: SECOID_FindOID
+		Unreferenced routine descriptor: SECOID_FindOIDByMechanism
+		Unreferenced routine descriptor: SECOID_AddEntry
+	File "secport.c"
+		Unreferenced code: .PORT_SetUCS4_UTF8ConversionFunction
+		Unreferenced code: .PORT_SetUCS2_ASCIIConversionFunction
+		Unreferenced code: .PORT_SetUCS2_UTF8ConversionFunction
+		Unreferenced code: .PORT_UCS4_UTF8Conversion
+		Unreferenced code: .PORT_UCS2_UTF8Conversion
+		Unreferenced code: .PORT_UCS2_ASCIIConversion
+		Unreferenced code: .NSS_PutEnv
+		Unreferenced data: ucs4Utf8ConvertFunc
+		Unreferenced data: ucs2Utf8ConvertFunc
+		Unreferenced data: ucs2AsciiConvertFunc
+		Unreferenced routine descriptor: NSS_PutEnv
+		Unreferenced routine descriptor: PORT_UCS2_ASCIIConversion
+		Unreferenced routine descriptor: PORT_UCS2_UTF8Conversion
+		Unreferenced routine descriptor: PORT_UCS4_UTF8Conversion
+		Unreferenced routine descriptor: PORT_SetUCS2_UTF8ConversionFunction
+		Unreferenced routine descriptor: PORT_SetUCS2_ASCIIConversionFunction
+		Unreferenced routine descriptor: PORT_SetUCS4_UTF8ConversionFunction
+		Unreferenced routine descriptor: PORT_ArenaStrdup
+		Unreferenced routine descriptor: PORT_ArenaUnmark
+		Unreferenced routine descriptor: PORT_ArenaRelease
+		Unreferenced routine descriptor: PORT_ArenaMark
+		Unreferenced routine descriptor: PORT_ArenaGrow
+		Unreferenced routine descriptor: PORT_FreeArena
+		Unreferenced routine descriptor: PORT_ArenaZAlloc
+		Unreferenced routine descriptor: PORT_ArenaAlloc
+		Unreferenced routine descriptor: PORT_NewArena
+		Unreferenced routine descriptor: PORT_GetError
+		Unreferenced routine descriptor: PORT_SetError
+		Unreferenced routine descriptor: PORT_Strdup
+		Unreferenced routine descriptor: PORT_ZFree
+		Unreferenced routine descriptor: PORT_Free
+		Unreferenced routine descriptor: PORT_ZAlloc
+		Unreferenced routine descriptor: PORT_Realloc
+		Unreferenced routine descriptor: PORT_Alloc
+	File "sectime.c"
+		Unreferenced: sectime.c
+	File "utf8.c"
+		Unreferenced: utf8.c
+In library file "DBM.o"
+	File "db.c"
+		Unreferenced code: .dbSetOrClearDBLock
+		Unreferenced code: .__dberr
+		Unreferenced code: .__dbpanic
+		Unreferenced routine descriptor: __dbpanic
+		Unreferenced routine descriptor: __dberr
+		Unreferenced routine descriptor: dbopen
+		Unreferenced routine descriptor: dbSetOrClearDBLock
+	File "hash.c"
+		Unreferenced routine descriptor: __call_hash
+		Unreferenced routine descriptor: __expand_table
+		Unreferenced routine descriptor: __hash_open
+	File "hash_buf.c"
+		Unreferenced routine descriptor: __reclaim_buf
+		Unreferenced routine descriptor: __buf_free
+		Unreferenced routine descriptor: __buf_init
+		Unreferenced routine descriptor: __get_buf
+	File "hsearch.c"
+		Unreferenced: hsearch.c
+	File "h_bigkey.c"
+		Unreferenced routine descriptor: __big_split
+		Unreferenced routine descriptor: __big_keydata
+		Unreferenced routine descriptor: __big_return
+		Unreferenced routine descriptor: __find_last_page
+		Unreferenced routine descriptor: __find_bigpair
+		Unreferenced routine descriptor: __big_delete
+		Unreferenced routine descriptor: __big_insert
+	File "h_func.c"
+	File "h_log2.c"
+		Unreferenced routine descriptor: __log2
+	File "h_page.c"
+		Unreferenced routine descriptor: __free_ovflpage
+		Unreferenced routine descriptor: __ibitmap
+		Unreferenced routine descriptor: __put_page
+		Unreferenced routine descriptor: __get_page
+		Unreferenced routine descriptor: __add_ovflpage
+		Unreferenced routine descriptor: __addel
+		Unreferenced routine descriptor: __split_page
+		Unreferenced routine descriptor: __delpair
+		Unreferenced routine descriptor: new_lseek
+	File "macstubs.c"
+		Unreferenced routine descriptor: mkstemp
+
+Removed unused TOC-reload slots:   0x00000000

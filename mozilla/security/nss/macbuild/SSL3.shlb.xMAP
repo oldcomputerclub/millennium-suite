@@ -1,0 +1,1607 @@
+File:    0	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslsnce.c"
+File:    1	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:authcert.c"
+File:    2	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:cmpcert.c"
+File:    3	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:emulate.c"
+File:    4	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:nsskea.c"
+File:    5	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:prelib.c"
+File:    6	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:ssl3con.c"
+File:    7	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:ssl3gthr.c"
+File:    8	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslauth.c"
+File:    9	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslcon.c"
+File:   10	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:ssldef.c"
+File:   11	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslenum.c"
+File:   12	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslerr.c"
+File:   13	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslgathr.c"
+File:   14	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslinfo.c"
+File:   16	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslnonce.c"
+File:   17	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslreveal.c"
+File:   18	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslsecur.c"
+File:   19	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslsock.c"
+File:   21	"Bryan Too:mozsrc:mozilla:security:nss:lib:ssl:sslver.c"
+File:   26	"runtime.c"
+File:   28	"StartupSharedLib.c"
+File:   30	"Bryan Too:mozsrc:mozilla:lib:mac:NSStartup:NSStartup.c"
+
+Files that were not referenced:
+"sslmutex.c"
+"ssltrace.c"
+
+Code section, size = 112628 bytes
+000000	PR 	.__sinit									file = "*Linker-Generated*"
+000020	PR 	.SSL_ConfigServerSessionIDCache				file = "sslsnce.c"
+000060	PR 	.SSL_ConfigMPServerSIDCache
+0000A0	PR 	.SSL_InheritMPServerSIDCache
+0000E0	PR 	.ssl_GetWrappingKey
+000110	PR 	.ssl_SetWrappingKey
+000140	PR 	.SSL_GetMaxServerCacheLocks
+000180	PR 	.SSL_SetMaxServerCacheLocks
+0001C0	PR 	.SSL_ShutdownServerSessionIDCache
+000220	PR 	.NSS_GetClientAuthData						file = "authcert.c"
+0003E0	PR 	.NSS_CmpCertChainWCANames					file = "cmpcert.c"
+0005E0	PR 	.ssl_EmulateAcceptRead						file = "emulate.c"
+0006C0	PR 	.ssl_EmulateTransmitFile
+000850	PR 	.ssl_EmulateSendFile
+000B30	PR 	.NSS_FindCertKEAType						file = "nsskea.c"
+000BF0	PR 	.fromHex									file = "prelib.c"
+000C60	PR 	.SSL_PreencryptedStreamToFile
+001010	PR 	.SSL_PreencryptedFileToStream
+0011E0	PR 	.SSL_GetStatistics							file = "ssl3con.c"
+001210	PR 	.ssl_LookupCipherSuiteDef
+0012A0	PR 	.ssl_LookupCipherSuiteCfg
+001330	PR 	.ssl3_config_match_init
+001500	PR 	.config_match
+001570	PR 	.count_cipher_suites
+001640	PR 	.anyRestrictedEnabled
+0016D0	PR 	.Null_Cipher
+001730	PR 	.ssl3_NegotiateVersion
+001810	PR 	.ssl3_GetNewRandom
+0018B0	PR 	.ssl3_SignHashes
+001A80	PR 	.ssl3_VerifySignedHashes
+001C00	PR 	.ssl3_ComputeExportRSAKeyHash
+001E90	PR 	.ssl3_ComputeDHKeyHash
+002150	PR 	.ssl3_ComputeFortezzaPublicKeyHash
+002230	PR 	.ssl3_BumpSequenceNumber
+002290	PR 	.ssl3_CleanupKeyMaterial
+002340	PR 	.ssl3_DestroyCipherSpec
+002410	PR 	.ssl3_SetupPendingCipherSpec
+002570	PR 	.ssl3_InitPendingCipherSpec
+0029A0	PR 	.ssl3_ComputeRecordMAC
+002B20	PR 	.ssl3_ClientAuthTokenPresent
+002C50	PR 	.ssl3_SendRecord
+003090	PR 	.ssl3_SendApplicationData
+003170	PR 	.ssl3_FlushHandshake
+003210	PR 	.ssl3_HandleNoCertificate
+003330	PR 	.SSL3_SendAlert
+003420	PR 	.ssl3_IllegalParameter
+0034A0	PR 	.ssl3_HandshakeFailure
+003520	PR 	.ssl3_DecodeError
+0035B0	PR 	.ssl3_HandleAlert
+0037D0	PR 	.ssl3_SendChangeCipherSpecs
+0038D0	PR 	.ssl3_HandleChangeCipherSpecs
+003A30	PR 	.ssl3_GenerateSessionKeys
+003F20	PR 	.ssl3_UpdateHandshakeHashes
+003FE0	PR 	.ssl3_AppendHandshake
+004160	PR 	.ssl3_AppendHandshakeNumber
+004210	PR 	.ssl3_AppendHandshakeVariable
+0042A0	PR 	.ssl3_AppendHandshakeHeader
+004320	PR 	.ssl3_ConsumeHandshake
+0043C0	PR 	.ssl3_ConsumeHandshakeNumber
+004470	PR 	.ssl3_ConsumeHandshakeVariable
+004590	PR 	.ssl3_ComputeHandshakeHashes
+004960	PR 	.ssl3_StartHandshakeHash
+004A30	PR 	.ssl3_SendClientHello
+005000	PR 	.ssl3_HandleHelloRequest
+005100	PR 	.ssl_FindIndexByWrapMechanism
+005180	PR 	.ssl_UnwrapSymWrappingKey
+0052E0	PR 	.SSL3_ShutdownServerCache
+0053B0	PR 	.getWrappingKey
+005730	PR 	.ssl3_FortezzaAppendHandshake
+0057C0	PR 	.sendRSAClientKeyExchange
+0059C0	PR 	.sendDHClientKeyExchange
+005BE0	PR 	.sendFortezzaCKXClientAuth
+005E50	PR 	.sendFortezzaCKXNoClientAuth
+005FB0	PR 	.sendFortezzaClientKeyExchange
+006560	PR 	.ssl3_SendClientKeyExchange
+006730	PR 	.ssl3_SendCertificateVerify
+0068E0	PR 	.ssl3_HandleServerHello
+006F90	PR 	.ssl3_HandleServerKeyExchange
+0076E0	PR 	.ssl3_HandleCertificateRequest
+007AC0	PR 	.ssl3_RestartHandshakeAfterCertReq
+007BD0	PR 	.ssl3_HandleServerHelloDone
+007D60	PR 	.ssl3_SendHelloRequest
+007DF0	PR 	.ssl3_NewSessionID
+007F50	PR 	.ssl3_SendServerHelloSequence
+0080E0	PR 	.ssl3_HandleClientHello
+008AC0	PR 	.ssl3_HandleV2ClientHello
+008E10	PR 	.ssl3_SendServerHello
+009040	PR 	.ssl3_SendServerKeyExchange
+0092B0	PR 	.ssl3_SendCertificateRequest
+009440	PR 	.ssl3_SendServerHelloDone
+0094D0	PR 	.ssl3_HandleCertificateVerify
+009680	PR 	.ssl3_HandleFortezzaClientKeyExchange
+009C80	PR 	.ssl3_GenerateRSAPMS
+009DD0	PR 	.ssl3_HandleRSAClientKeyExchange
+009F40	PR 	.ssl3_HandleClientKeyExchange
+00A0C0	PR 	.ssl3_SendEmptyCertificate
+00A140	PR 	.ssl3_SendCertificate
+00A2E0	PR 	.ssl3_CleanupPeerCerts
+00A380	PR 	.ssl3_HandleCertificate
+00A9B0	PR 	.ssl3_RestartHandshakeAfterServerCert
+00AB20	PR 	.ssl3_ComputeTLSFinished
+00AC50	PR 	.ssl3_SendFinished
+00ADC0	PR 	.ssl3_HandleFinished
+00B2E0	PR 	.ssl3_HandleHandshakeMessage
+00B7A0	PR 	.ssl3_HandleHandshake
+00BA20	PR 	.ssl3_HandleRecord
+00BEA0	PR 	.ssl3_InitCipherSpec
+00BF40	PR 	.ssl3_InitState
+00C130	PR 	.ssl3_NewKeyPair
+00C1D0	PR 	.ssl3_GetKeyPairRef
+00C230	PR 	.ssl3_FreeKeyPair
+00C2C0	PR 	.ssl3_CreateRSAStepDownKeys
+00C3A0	PR 	.ssl3_SetPolicy
+00C420	PR 	.ssl3_GetPolicy
+00C4A0	PR 	.ssl3_CipherPrefSetDefault
+00C520	PR 	.ssl3_CipherPrefGetDefault
+00C5A0	PR 	.ssl3_CipherPrefSet
+00C620	PR 	.ssl3_CipherPrefGet
+00C6B0	PR 	.ssl3_InitSocketPolicy
+00C710	PR 	.ssl3_ConstructV2CipherSpecsHack
+00C850	PR 	.ssl3_RedoHandshake
+00C960	PR 	.ssl3_DestroySSL3Info
+00CA80	PR 	.ssl3_SendServerNameIndicationExtension
+00CC10	PR 	.ssl3_HandleServerNameIndicationExtension
+00CC60	PR 	.ssl3_HandleClientHelloExtensions
+00CD50	PR 	.ssl3_CallHelloExtensionSenders
+00CDB0	PR 	.ssl3_GatherData							file = "ssl3gthr.c"
+00CFB0	PR 	.ssl3_GatherCompleteHandshake
+00D0C0	PR 	.ssl3_GatherAppDataRecord
+00D140	PR 	.SSL_PeerCertificate						file = "sslauth.c"
+00D1D0	PR 	.SSL_LocalCertificate
+00D280	PR 	.SSL_SecurityStatus
+00D510	PR 	.SSL_AuthCertificateHook
+00D590	PR 	.SSL_GetClientAuthDataHook
+00D610	PR 	.SSL_SetPKCS11PinArg
+00D680	PR 	.SSL_AuthCertificate
+00D770	PR 	.ssl2_ConstructCipherSpecs					file = "sslcon.c"
+00D940	PR 	.ssl2_CheckConfigSanity
+00DA40	PR 	.ssl2_SetPolicy
+00DB30	PR 	.ssl2_GetPolicy
+00DBE0	PR 	.ssl2_CipherPrefSetDefault
+00DC90	PR 	.ssl2_CipherPrefGetDefault
+00DD30	PR 	.ssl2_CipherPrefSet
+00DDD0	PR 	.ssl2_CipherPrefGet
+00DE70	PR 	.ssl2_InitSocketPolicy
+00DEC0	PR 	.ssl2_CreateMAC
+00DFB0	PR 	.ssl2_GetSendBuffer
+00E030	PR 	.ssl2_SendErrorMessage
+00E0F0	PR 	.ssl2_SendClientFinishedMessage
+00E1D0	PR 	.ssl2_SendServerVerifyMessage
+00E2B0	PR 	.ssl2_SendServerFinishedMessage
+00E3F0	PR 	.ssl2_SendSessionKeyMessage
+00E560	PR 	.ssl2_SendCertificateRequestMessage
+00E660	PR 	.ssl2_SendCertificateResponseMessage
+00E7A0	PR 	.ssl2_CalcMAC
+00E910	PR 	.ssl2_SendClear
+00EA90	PR 	.ssl2_SendStream
+00ECC0	PR 	.ssl2_SendBlock
+00EF50	PR 	.ssl2_UseEncryptedSendFunc
+00EFE0	PR 	.ssl2_UseClearSendFunc
+00F020	PR 	.ssl_GatherRecord1stHandshake
+00F110	PR 	.ssl2_FillInSID
+00F250	PR 	.ssl2_ProduceKeys
+00F460	PR 	.ssl2_CreateSessionCypher
+00F790	PR 	.ssl2_ServerSetupSessionCypher
+00FA60	PR 	.ssl2_QualifyCypherSpecs
+00FB90	PR 	.ssl2_ChooseSessionCypher
+00FDE0	PR 	.ssl2_ClientHandleServerCert
+00FE80	PR 	.ssl_FormatSSL2Block
+00FFB0	PR 	.ssl2_ClientSetupSessionCypher
+010270	PR 	.ssl2_ClientRegSessionID
+010310	PR 	.ssl2_TriggerNextMessage
+010390	PR 	.ssl2_TryToFinish
+010450	PR 	.ssl2_SignResponse
+010570	PR 	.ssl2_HandleRequestCertificate
+010710	PR 	.ssl2_HandleClientCertificate
+0108D0	PR 	.ssl2_HandleMessage
+010BB0	PR 	.ssl2_HandleVerifyMessage
+010CD0	PR 	.ssl2_HandleServerHelloMessage
+0110A0	PR 	.ssl2_BeginClientHandshake
+011590	PR 	.ssl2_HandleClientSessionKeyMessage
+011730	PR 	.ssl2_RestartHandshakeAfterCertReq
+011880	PR 	.ssl2_RestartHandshakeAfterServerCert
+011950	PR 	.ssl2_HandleClientHelloMessage
+011EF0	PR 	.ssl2_BeginServerHandshake
+011FF0	PR 	.NSSSSL_VersionCheck
+012060	PR 	.ssl_DefConnect								file = "ssldef.c"
+0120C0	PR 	.ssl_DefBind
+012120	PR 	.ssl_DefListen
+012180	PR 	.ssl_DefShutdown
+0121E0	PR 	.ssl_DefRecv
+012270	PR 	.ssl_DefSend
+012380	PR 	.ssl_DefRead
+0123E0	PR 	.ssl_DefWrite
+0124E0	PR 	.ssl_DefGetpeername
+012540	PR 	.ssl_DefGetsockname
+0125A0	PR 	.ssl_DefClose
+012660	PR 	.ssl_MapLowLevelError						file = "sslerr.c"
+012720	PR 	.ssl2_GatherData							file = "sslgathr.c"
+012C10	PR 	.ssl2_GatherRecord
+012C60	PR 	.ssl_InitGather
+012CD0	PR 	.ssl_DestroyGather
+012D40	PR 	.ssl2_HandleV3HandshakeRecord
+012DE0	PR 	.SSL_GetChannelInfo							file = "sslinfo.c"
+012F80	PR 	.SSL_GetCipherSuiteInfo
+013070	PR 	.lock_cache									file = "sslnonce.c"
+0130E0	PR 	.ssl_DestroySID
+0131D0	PR 	.ssl_FreeLockedSID
+013230	PR 	.ssl_FreeSID
+013290	PR 	.ssl_LookupSID
+013450	PR 	.CacheSID
+013530	PR 	.UncacheSID
+0135C0	PR 	.LockAndUncacheSID
+013630	PR 	.ssl_ChooseSessionIDProcs
+0136A0	PR 	.SSL_ClearSessionCache
+013710	PR 	.ssl_Time
+013770	PR 	.SSL_RevealCert								file = "sslreveal.c"
+0137F0	PR 	.SSL_RevealPinArg
+013860	PR 	.SSL_RevealURL
+0138E0	PR 	.ssl_Do1stHandshake							file = "sslsecur.c"
+013A30	PR 	.AlwaysBlock
+013A80	PR 	.ssl_SetAlwaysBlock
+013AD0	PR 	.SSL_ResetHandshake
+013CA0	PR 	.SSL_ReHandshake
+013D90	PR 	.SSL_HandshakeCallback
+013E60	PR 	.SSL_ForceHandshake
+013F90	PR 	.sslBuffer_Grow
+014040	PR 	.ssl_SaveWriteData
+0140F0	PR 	.ssl_SendSavedWriteData
+0141B0	PR 	.DoRecv
+0142F0	PR 	.ssl_FindCertKEAType
+0143B0	PR 	.SSL_ConfigSecureServer
+014640	PR 	.ssl_CreateSecurityInfo
+0146E0	PR 	.ssl_CopySecurityInfo
+0148A0	PR 	.ssl_ResetSecurityInfo
+014A20	PR 	.ssl_DestroySecurityInfo
+014AB0	PR 	.ssl_SecureConnect
+014B90	PR 	.ssl_SecureClose
+014C60	PR 	.ssl_SecureShutdown
+014D60	PR 	.ssl_SecureRecv
+014F00	PR 	.ssl_SecureRead
+014F50	PR 	.ssl_SecureSend
+015130	PR 	.ssl_SecureWrite
+015180	PR 	.SSL_BadCertHook
+015200	PR 	.SSL_SetURL
+0152D0	PR 	.SSL_DataPending
+015390	PR 	.SSL_InvalidateSession
+015440	PR 	.SSL_GetSessionID
+015580	PR 	.SSL_CertDBHandleSet
+015610	PR 	.SSL_RestartHandshakeAfterCertReq
+0156E0	PR 	.SSL_RestartHandshakeAfterServerCert
+015790	PR 	.ssl_GetPrivate								file = "sslsock.c"
+0157D0	PR 	.ssl_FindSocket
+015850	PR 	.ssl_DupSocket
+015BC0	PR 	.ssl_DestroyLocks
+015CD0	PR 	.ssl_DestroySocketContents
+015E20	PR 	.ssl_FreeSocket
+015F30	PR 	.ssl_EnableNagleDelay
+015FB0	PR 	.ssl_ChooseOps
+015FF0	PR 	.PrepareSocket
+016040	PR 	.SSL_OptionSet
+016300	PR 	.SSL_OptionGet
+016490	PR 	.SSL_OptionGetDefault
+0165F0	PR 	.SSL_OptionSetDefault
+0167F0	PR 	.SSL_SetPolicy
+016870	PR 	.SSL_CipherPolicySet
+0168E0	PR 	.SSL_CipherPolicyGet
+016970	PR 	.SSL_CipherPrefSetDefault
+0169E0	PR 	.SSL_CipherPrefGetDefault
+016A70	PR 	.SSL_CipherPrefSet
+016B10	PR 	.SSL_CipherPrefGet
+016BD0	PR 	.NSS_SetDomesticPolicy
+016C50	PR 	.NSS_SetExportPolicy
+016CD0	PR 	.NSS_SetFrancePolicy
+016D50	PR 	.SSL_ImportFD
+016E30	PR 	.ssl_Accept
+016FF0	PR 	.ssl_Connect
+0170D0	PR 	.ssl_Bind
+0171A0	PR 	.ssl_Listen
+017270	PR 	.ssl_Shutdown
+017380	PR 	.ssl_Close
+017410	PR 	.ssl_Recv
+0174E0	PR 	.ssl_Send
+0175B0	PR 	.ssl_Read
+017680	PR 	.ssl_Write
+017750	PR 	.ssl_GetPeerName
+0177D0	PR 	.ssl_GetPeerInfo
+0178F0	PR 	.ssl_GetSockName
+017970	PR 	.SSL_SetSockPeerID
+0179F0	PR 	.ssl_Poll
+017C30	PR 	.ssl_FdIsBlocking
+017CB0	PR 	.ssl_SocketIsBlocking
+017D00	PR 	.ssl_WriteV
+018260	PR 	.ssl_Available
+0182B0	PR 	.ssl_Available64
+018310	PR 	.ssl_FSync
+018360	PR 	.ssl_Seek
+0183B0	PR 	.ssl_Seek64
+018410	PR 	.ssl_FileInfo
+018460	PR 	.ssl_FileInfo64
+0184C0	PR 	.ssl_RecvFrom
+018510	PR 	.ssl_SendTo
+018560	PR 	.ssl_SetupIOMethods
+0186C0	PR 	.ssl_InitIOLayer
+018720	PR 	.ssl_PushIOLayer
+018810	PR 	.ssl_NewSocket
+018B00	PR 	.__div2i									file = "runtime.c"
+018C30	PR 	.__RTOC										file = "StartupSharedLib.c"
+018C40	PR 	.__initialize
+018CA0	PR 	.__terminate
+018CD0	PR 	.__NSInitialize								file = "NSStartup.c"
+018D50	PR 	.__NSTerminate
+018DB0	GL 	.GC_register_fragment						file = "*Linker-Generated*"
+018DC8	GL 	.__register_fragment
+018DE0	GL 	.__unregister_fragment
+018DF8	GL 	.GC_unregister_fragment
+018E10	GL 	.PR_Lock
+018E28	GL 	.PK11_FreeSymKey
+018E40	GL 	.PR_Unlock
+018E58	GL 	.PR_GetIdentitiesLayer
+018E70	GL 	.PORT_SetError
+018E88	GL 	.PK11_FindCertFromNickname
+018EA0	GL 	.PK11_FindKeyByAnyCert
+018EB8	GL 	.CERT_DestroyCertificate
+018ED0	GL 	.CERT_GetDefaultCertDB
+018EE8	GL 	.CERT_GetCertNicknames
+018F00	GL 	.PR_Now
+018F18	GL 	.CERT_CheckCertValidTimes
+018F30	GL 	.CERT_DupCertificate
+018F48	GL 	.DER_Lengths
+018F60	GL 	.SECITEM_CompareItem
+018F78	GL 	.CERT_FindCertByName
+018F90	GL 	.CERT_FreeNicknames
+018FA8	GL 	.SECOID_GetAlgorithmTag
+018FC0	GL 	.PK11_GetSlotFromKey
+018FD8	GL 	.PK11_GetWindow
+018FF0	GL 	.PK11_FindFixedKey
+019008	GL 	.PK11_FreeSlot
+019020	GL 	.PK11_UnwrapSymKey
+019038	GL 	.PK11_WrapSymKey
+019050	GL 	.memset
+019068	GL 	.PORT_ZAlloc
+019080	GL 	.memcpy
+019098	GL 	.PORT_Free
+0190B0	GL 	.PK11_GetTokenInfo
+0190C8	GL 	.CERT_VerifyCertNow
+0190E0	GL 	.CERT_VerifyCertName
+0190F8	GL 	.strstr
+019110	GL 	.PORT_Strdup
+019128	GL 	.CERT_NameToAscii
+019140	GL 	.NSS_VersionCheck
+019158	GL 	.__nss_InitLock
+019170	GL 	.SECITEM_ZfreeItem
+019188	GL 	.PORT_ZFree
+0191A0	GL 	.PL_strdup
+0191B8	GL 	.PR_EnterMonitor
+0191D0	GL 	.PR_GetSocketOption
+0191E8	GL 	.NSSRWLock_LockWrite
+019200	GL 	.NSSRWLock_UnlockWrite
+019218	GL 	.PK11_CreateDigestContext
+019230	GL 	.PORT_GetError
+019248	GL 	.PK11_DigestBegin
+019260	GL 	.PK11_DestroyContext
+019278	GL 	.SECMOD_LookupSlot
+019290	GL 	.PK11_IsPresent
+0192A8	GL 	.PK11_GetSlotSeries
+0192C0	GL 	.PK11_GetSlotID
+0192D8	GL 	.PK11_GetModuleID
+0192F0	GL 	.PK11_NeedLogin
+019308	GL 	.PK11_IsLoggedIn
+019320	GL 	.PORT_Realloc
+019338	GL 	.PORT_Alloc
+019350	GL 	.NSSRWLock_LockRead
+019368	GL 	.PK11_DigestOp
+019380	GL 	.PK11_DigestFinal
+019398	GL 	.NSSRWLock_UnlockRead
+0193B0	GL 	.PR_GetError
+0193C8	GL 	.memmove
+0193E0	GL 	.PR_ExitMonitor
+0193F8	GL 	.memcmp
+019410	GL 	.SECKEY_DestroyPublicKey
+019428	GL 	.PORT_FreeArena
+019440	GL 	.PK11_SaveContextAlloc
+019458	GL 	.PK11_DigestKey
+019470	GL 	.PK11_RestoreContext
+019488	GL 	.strcmp
+0194A0	GL 	.PK11_GetWrapKey
+0194B8	GL 	.PK11_VerifyKeyOK
+0194D0	GL 	.PK11_GenerateRandom
+0194E8	GL 	.PR_Sleep
+019500	GL 	.strlen
+019518	GL 	.strspn
+019530	GL 	.PK11_TokenExists
+019548	GL 	.PR_IntervalNow
+019560	GL 	.PR_IntervalToSeconds
+019578	GL 	.PR_ConvertIPv4AddrToIPv6
+019590	GL 	.SECITEM_FreeItem
+0195A8	GL 	.PK11_ReferenceSymKey
+0195C0	GL 	.PK11_GetSlotFromPrivateKey
+0195D8	GL 	.PK11_PubUnwrapSymKey
+0195F0	GL 	.PK11_GetBestKeyLength
+019608	GL 	.PK11_KeyGen
+019620	GL 	.CERT_ExtractPublicKey
+019638	GL 	.SECKEY_PublicKeyStrength
+019650	GL 	.PK11_PubWrapSymKey
+019668	GL 	.PK11_UnwrapSymKeyWithFlags
+019680	GL 	.PK11_SetFortezzaHack
+019698	GL 	.PK11_DeriveWithFlags
+0196B0	GL 	.PK11_GetBestSlotMultiple
+0196C8	GL 	.PK11_GetInternalSlot
+0196E0	GL 	.PK11_Derive
+0196F8	GL 	.PK11_SymKeyFromHandle
+019710	GL 	.PK11_CreateContextBySymKey
+019728	GL 	.PK11_ParamFromIV
+019740	GL 	.PK11_IVFromParam
+019758	GL 	.PK11_SignatureLen
+019770	GL 	.PK11_Sign
+019788	GL 	.DSAU_EncodeDerSig
+0197A0	GL 	.PK11_GetPrivateModulusLen
+0197B8	GL 	.PORT_NewArena
+0197D0	GL 	.PORT_ArenaAlloc
+0197E8	GL 	.__CERT_NewTempCertificate
+019800	GL 	.SECKEY_UpdateCertPQG
+019818	GL 	.PK11_FindBestKEAMatch
+019830	GL 	.DSAU_DecodeDerSig
+019848	GL 	.PK11_Verify
+019860	GL 	.PORT_ArenaZAlloc
+019878	GL 	.SECITEM_CopyItem
+019890	GL 	.CERT_DestroyCertificateList
+0198A8	GL 	.CERT_CertChainFromCert
+0198C0	GL 	.SECKEY_DestroyPrivateKey
+0198D8	GL 	.PK11_GetBestSlot
+0198F0	GL 	.PK11_PubDerive
+019908	GL 	.PK11_GenerateFortezzaIV
+019920	GL 	.PK11_SaveContext
+019938	GL 	.SECKEY_CreateDHPrivateKey
+019950	GL 	.PK11_MakeKEAPubKey
+019968	GL 	.PR_GetCurrentThread
+019980	GL 	.PK11_GetCurrentWrapIndex
+019998	GL 	.PK11_GetMechanism
+0199B0	GL 	.PK11_GetBestWrapMechanism
+0199C8	GL 	.PK11_SetWrapKey
+0199E0	GL 	.HASH_GetHashObject
+0199F8	GL 	.__PK11_CreateContextByRawKey
+019A10	GL 	.PK11_PubEncryptRaw
+019A28	GL 	.SGN_NewContext
+019A40	GL 	.SGN_Begin
+019A58	GL 	.SGN_Update
+019A70	GL 	.SGN_End
+019A88	GL 	.SGN_DestroyContext
+019AA0	GL 	.VFY_CreateContext
+019AB8	GL 	.VFY_Begin
+019AD0	GL 	.VFY_Update
+019AE8	GL 	.VFY_End
+019B00	GL 	.VFY_DestroyContext
+019B18	GL 	.PK11_PubDecryptRaw
+019B30	GL 	.SECKEY_CopyPrivateKey
+019B48	GL 	.PR_AtomicDecrement
+019B60	GL 	.SECKEY_CreateRSAPrivateKey
+019B78	GL 	.CERT_GetSSLCACerts
+019B90	GL 	.PR_PopIOLayer
+019BA8	GL 	.PR_DestroyMonitor
+019BC0	GL 	.NSSRWLock_Destroy
+019BD8	GL 	.PR_DestroyLock
+019BF0	GL 	.PR_NewMonitor
+019C08	GL 	.NSSRWLock_New
+019C20	GL 	.PR_NewLock
+019C38	GL 	.CERT_DupCertList
+019C50	GL 	.PR_AtomicIncrement
+019C68	GL 	.PR_GetUniqueIdentity
+019C80	GL 	.PR_SetError
+019C98	GL 	.PR_Close
+019CB0	GL 	.PR_Accept
+019CC8	GL 	.PR_Recv
+019CE0	GL 	.PR_Malloc
+019CF8	GL 	.PR_Send
+019D10	GL 	.PR_Read
+019D28	GL 	.PR_Free
+019D40	GL 	.PR_Seek
+019D58	GL 	.PR_GetDefaultIOMethods
+019D70	GL 	.PR_CallOnce
+019D88	GL 	.PR_CreateIOLayerStub
+019DA0	GL 	.PR_PushIOLayer
+019DC0	GL 	.__ptr_glue									file = "runtime.c"
+019DD8	RO 	compressions								file = "ssl3con.c"
+019DDC	RO 	certificate_types
+019DE0	RO 	fortezza_certificate_types
+019DE4	RO 	bulk_cipher_defs
+019FA4	RO 	kea_defs
+01A124	RO 	cipher_suite_defs
+01A2D4	RO 	kea_alg_defs
+01A2E4	RO 	alg2Mech
+01A324	RO 	mac_defs
+01A374	RO 	mac_pad_1
+01A3B0	RO 	mac_pad_2
+01A3EC	RO 	wrapMechanismList
+01A420	RO 	@stringBase0
+01A4C4	RO 	@stringBase0								file = "sslauth.c"
+01A4D8	RO 	implementedCipherSuites						file = "sslcon.c"
+01A4EC	RO 	ssl_Specs
+01A54C	RO 	@978
+01A554	RO 	@stringBase0
+01A5C8	RO 	SSL_ImplementedCiphers						file = "sslenum.c"
+01A60A	RO 	SSL_NumImplementedCiphers
+01A60C	RO 	@stringBase0								file = "sslinfo.c"
+01AA20	RO 	@stringBase0								file = "sslsock.c"
+01AA24	RO 	__nss_ssl_rcsid								file = "sslver.c"
+01AA50	RO 	__nss_ssl_sccsid
+01AA74	TI 	@495										file = "sslsnce.c"
+01AA80	TI 	@475										file = "authcert.c"
+01AA8C	TI 	@477										file = "cmpcert.c"
+01AA98	TI 	@435										file = "emulate.c"
+01AAA4	TI 	@468
+01AAB0	TI 	@542
+01AABC	TI 	@459										file = "nsskea.c"
+01AAC8	TI 	@519										file = "prelib.c"
+01AAD4	TI 	@541
+01AAE0	TI 	@481										file = "ssl3con.c"
+01AAEC	TI 	@494
+01AAF8	TI 	@530
+01AB04	TI 	@560
+01AB10	TI 	@583
+01AB1C	TI 	@602
+01AB28	TI 	@609
+01AB34	TI 	@640
+01AB40	TI 	@660
+01AB4C	TI 	@691
+01AB58	TI 	@724
+01AB64	TI 	@733
+01AB70	TI 	@753
+01AB7C	TI 	@764
+01AB88	TI 	@775
+01AB94	TI 	@834
+01ABA0	TI 	@850
+01ABAC	TI 	@868
+01ABB8	TI 	@947
+01ABC4	TI 	@964
+01ABD0	TI 	@976
+01ABDC	TI 	@991
+01ABE8	TI 	@1006
+01ABF4	TI 	@1014
+01AC00	TI 	@1022
+01AC0C	TI 	@1033
+01AC18	TI 	@1082
+01AC24	TI 	@1095
+01AC30	TI 	@1112
+01AC3C	TI 	@1180
+01AC48	TI 	@1190
+01AC54	TI 	@1224
+01AC60	TI 	@1234
+01AC6C	TI 	@1242
+01AC78	TI 	@1250
+01AC84	TI 	@1257
+01AC90	TI 	@1269
+01AC9C	TI 	@1282
+01ACA8	TI 	@1321
+01ACB4	TI 	@1329
+01ACC0	TI 	@1457
+01ACCC	TI 	@1470
+01ACD8	TI 	@1500
+01ACE4	TI 	@1522
+01ACF0	TI 	@1571
+01ACFC	TI 	@1578
+01AD08	TI 	@1611
+01AD14	TI 	@1639
+01AD20	TI 	@1685
+01AD2C	TI 	@1711
+01AD38	TI 	@1773
+01AD44	TI 	@1800
+01AD50	TI 	@1823
+01AD5C	TI 	@1945
+01AD68	TI 	@2059
+01AD74	TI 	@2146
+01AD80	TI 	@2160
+01AD8C	TI 	@2193
+01AD98	TI 	@2203
+01ADA4	TI 	@2222
+01ADB0	TI 	@2264
+01ADBC	TI 	@2479
+01ADC8	TI 	@2531
+01ADD4	TI 	@2578
+01ADE0	TI 	@2624
+01ADEC	TI 	@2662
+01ADF8	TI 	@2672
+01AE04	TI 	@2699
+01AE10	TI 	@2764
+01AE1C	TI 	@2779
+01AE28	TI 	@2800
+01AE34	TI 	@2829
+01AE40	TI 	@2836
+01AE4C	TI 	@2871
+01AE58	TI 	@2883
+01AE64	TI 	@3025
+01AE70	TI 	@3045
+01AE7C	TI 	@3056
+01AE88	TI 	@3083
+01AE94	TI 	@3145
+01AEA0	TI 	@3210
+01AEAC	TI 	@3261
+01AEB8	TI 	@3330
+01AEC4	TI 	@3365
+01AED0	TI 	@3375
+01AEDC	TI 	@3380
+01AEE8	TI 	@3387
+01AEF4	TI 	@3402
+01AF00	TI 	@3411
+01AF0C	TI 	@3419
+01AF18	TI 	@3426
+01AF24	TI 	@3434
+01AF30	TI 	@3441
+01AF3C	TI 	@3449
+01AF48	TI 	@3454
+01AF54	TI 	@3475
+01AF60	TI 	@3492
+01AF6C	TI 	@3519
+01AF78	TI 	@3549
+01AF84	TI 	@3571
+01AF90	TI 	@3581
+01AF9C	TI 	@501										file = "ssl3gthr.c"
+01AFA8	TI 	@523
+01AFB4	TI 	@535
+01AFC0	TI 	@475										file = "sslauth.c"
+01AFCC	TI 	@492
+01AFD8	TI 	@552
+01AFE4	TI 	@559
+01AFF0	TI 	@566
+01AFFC	TI 	@573
+01B008	TI 	@593
+01B014	TI 	@501										file = "sslcon.c"
+01B020	TI 	@518
+01B02C	TI 	@532
+01B038	TI 	@545
+01B044	TI 	@555
+01B050	TI 	@562
+01B05C	TI 	@572
+01B068	TI 	@579
+01B074	TI 	@598
+01B080	TI 	@609
+01B08C	TI 	@616
+01B098	TI 	@626
+01B0A4	TI 	@637
+01B0B0	TI 	@652
+01B0BC	TI 	@664
+01B0C8	TI 	@675
+01B0D4	TI 	@685
+01B0E0	TI 	@698
+01B0EC	TI 	@729
+01B0F8	TI 	@772
+01B104	TI 	@823
+01B110	TI 	@831
+01B11C	TI 	@849
+01B128	TI 	@863
+01B134	TI 	@884
+01B140	TI 	@945
+01B14C	TI 	@996
+01B158	TI 	@1022
+01B164	TI 	@1086
+01B170	TI 	@1093
+01B17C	TI 	@1118
+01B188	TI 	@1155
+01B194	TI 	@1164
+01B1A0	TI 	@1172
+01B1AC	TI 	@1189
+01B1B8	TI 	@1213
+01B1C4	TI 	@1248
+01B1D0	TI 	@1275
+01B1DC	TI 	@1335
+01B1E8	TI 	@1349
+01B1F4	TI 	@1421
+01B200	TI 	@1509
+01B20C	TI 	@1533
+01B218	TI 	@1560
+01B224	TI 	@1570
+01B230	TI 	@1645
+01B23C	TI 	@1661
+01B248	TI 	@1666
+01B254	TI 	@467										file = "ssldef.c"
+01B260	TI 	@472
+01B26C	TI 	@477
+01B278	TI 	@482
+01B284	TI 	@492
+01B290	TI 	@513
+01B29C	TI 	@520
+01B2A8	TI 	@541
+01B2B4	TI 	@546
+01B2C0	TI 	@551
+01B2CC	TI 	@558
+01B2D8	TI 	@27											file = "sslerr.c"
+01B2E4	TI 	@550										file = "sslgathr.c"
+01B2F0	TI 	@555
+01B2FC	TI 	@569
+01B308	TI 	@576
+01B314	TI 	@583
+01B320	TI 	@493										file = "sslinfo.c"
+01B32C	TI 	@512
+01B338	TI 	@469										file = "sslnonce.c"
+01B344	TI 	@490
+01B350	TI 	@497
+01B35C	TI 	@502
+01B368	TI 	@538
+01B374	TI 	@554
+01B380	TI 	@569
+01B38C	TI 	@574
+01B398	TI 	@591
+01B3A4	TI 	@596
+01B3B0	TI 	@471										file = "sslreveal.c"
+01B3BC	TI 	@478
+01B3C8	TI 	@487
+01B3D4	TI 	@488										file = "sslsecur.c"
+01B3E0	TI 	@493
+01B3EC	TI 	@525
+01B3F8	TI 	@537
+01B404	TI 	@551
+01B410	TI 	@574
+01B41C	TI 	@587
+01B428	TI 	@596
+01B434	TI 	@610
+01B440	TI 	@636
+01B44C	TI 	@653
+01B458	TI 	@706
+01B464	TI 	@711
+01B470	TI 	@734
+01B47C	TI 	@760
+01B488	TI 	@765
+01B494	TI 	@778
+01B4A0	TI 	@791
+01B4AC	TI 	@805
+01B4B8	TI 	@834
+01B4C4	TI 	@839
+01B4D0	TI 	@868
+01B4DC	TI 	@873
+01B4E8	TI 	@880
+01B4F4	TI 	@892
+01B500	TI 	@900
+01B50C	TI 	@910
+01B518	TI 	@926
+01B524	TI 	@935
+01B530	TI 	@943
+01B53C	TI 	@951
+01B548	TI 	@474										file = "sslsock.c"
+01B554	TI 	@523
+01B560	TI 	@549
+01B56C	TI 	@580
+01B578	TI 	@591
+01B584	TI 	@596
+01B590	TI 	@608
+01B59C	TI 	@657
+01B5A8	TI 	@682
+01B5B4	TI 	@705
+01B5C0	TI 	@743
+01B5CC	TI 	@755
+01B5D8	TI 	@763
+01B5E4	TI 	@773
+01B5F0	TI 	@793
+01B5FC	TI 	@803
+01B608	TI 	@813
+01B614	TI 	@825
+01B620	TI 	@838
+01B62C	TI 	@851
+01B638	TI 	@864
+01B644	TI 	@881
+01B650	TI 	@917
+01B65C	TI 	@936
+01B668	TI 	@955
+01B674	TI 	@974
+01B680	TI 	@1005
+01B68C	TI 	@1018
+01B698	TI 	@1033
+01B6A4	TI 	@1048
+01B6B0	TI 	@1063
+01B6BC	TI 	@1078
+01B6C8	TI 	@1085
+01B6D4	TI 	@1099
+01B6E0	TI 	@1106
+01B6EC	TI 	@1113
+01B6F8	TI 	@1167
+01B704	TI 	@1175
+01B710	TI 	@1180
+01B71C	TI 	@1361
+01B728	TI 	@1366
+01B734	TI 	@1371
+01B740	TI 	@1376
+01B74C	TI 	@1381
+01B758	TI 	@1386
+01B764	TI 	@1391
+01B770	TI 	@1396
+01B77C	TI 	@1401
+01B788	TI 	@1406
+01B794	TI 	@1411
+01B7A0	TI 	@1416
+01B7AC	TI 	@1435
+01B7B8	TI 	@1470
+01B7C4	TI 	@337										file = "StartupSharedLib.c"
+01B7D0	TI 	@342
+01B7DC	TI 	@339										file = "NSStartup.c"
+01B7E8	TI 	@344
+
+Data section, size = 5992 bytes (TOC anchor = 000000)
+000000	TC 	CERT_GetSSLCACerts							file = "*Linker-Generated*"
+000004	TC 	PK11_UnwrapSymKeyWithFlags
+000008	TC 	PK11_VerifyKeyOK
+00000C	TC 	SECOID_GetAlgorithmTag
+000010	TC 	PK11_GetInternalSlot
+000014	TC 	CERT_CertChainFromCert
+000018	TC 	SGN_NewContext
+00001C	TC 	PORT_GetError
+000020	TC 	PK11_GenerateFortezzaIV
+000024	TC 	VFY_Update
+000028	TC 	PK11_IsPresent
+00002C	TC 	PORT_SetError
+000030	TC 	PK11_RestoreContext
+000034	TC 	SECKEY_DestroyPublicKey
+000038	TC 	PK11_PubDerive
+00003C	TC 	HASH_GetHashObject
+000040	TC 	PK11_ReferenceSymKey
+000044	TC 	PK11_GetBestWrapMechanism
+000048	TC 	PK11_CreateDigestContext
+00004C	TC 	SECKEY_DestroyPrivateKey
+000050	TC 	__PK11_CreateContextByRawKey
+000054	TC 	PK11_SaveContext
+000058	TC 	PK11_TokenExists
+00005C	TC 	CERT_GetCertNicknames
+000060	TC 	PK11_IsLoggedIn
+000064	TC 	NSSRWLock_LockWrite
+000068	TC 	PORT_ZAlloc
+00006C	TC 	SECITEM_ZfreeItem
+000070	TC 	PK11_GetPrivateModulusLen
+000074	TC 	PORT_Alloc
+000078	TC 	PORT_Free
+00007C	TC 	PK11_GetSlotSeries
+000080	TC 	SECITEM_CopyItem
+000084	TC 	PK11_GetSlotFromKey
+000088	TC 	PK11_PubDecryptRaw
+00008C	TC 	PK11_SignatureLen
+000090	TC 	PK11_PubEncryptRaw
+000094	TC 	DSAU_EncodeDerSig
+000098	TC 	NSSRWLock_UnlockWrite
+00009C	TC 	PK11_FreeSlot
+0000A0	TC 	PK11_PubWrapSymKey
+0000A4	TC 	CERT_DestroyCertificateList
+0000A8	TC 	SECMOD_LookupSlot
+0000AC	TC 	PK11_DeriveWithFlags
+0000B0	TC 	PK11_GetWindow
+0000B4	TC 	PK11_UnwrapSymKey
+0000B8	TC 	SGN_DestroyContext
+0000BC	TC 	DER_Lengths
+0000C0	TC 	PORT_ArenaZAlloc
+0000C4	TC 	CERT_VerifyCertName
+0000C8	TC 	SECITEM_CompareItem
+0000CC	TC 	PK11_GetBestSlot
+0000D0	TC 	DSAU_DecodeDerSig
+0000D4	TC 	CERT_DestroyCertificate
+0000D8	TC 	CERT_FindCertByName
+0000DC	TC 	SECKEY_CopyPrivateKey
+0000E0	TC 	NSSRWLock_New
+0000E4	TC 	PK11_GetCurrentWrapIndex
+0000E8	TC 	PK11_FindBestKEAMatch
+0000EC	TC 	PK11_FreeSymKey
+0000F0	TC 	PK11_GetSlotID
+0000F4	TC 	PK11_SetFortezzaHack
+0000F8	TC 	SGN_End
+0000FC	TC 	PK11_SymKeyFromHandle
+000100	TC 	PK11_GetTokenInfo
+000104	TC 	SECKEY_UpdateCertPQG
+000108	TC 	PORT_FreeArena
+00010C	TC 	SGN_Update
+000110	TC 	SECKEY_PublicKeyStrength
+000114	TC 	VFY_End
+000118	TC 	PORT_Realloc
+00011C	TC 	SGN_Begin
+000120	TC 	VFY_CreateContext
+000124	TC 	NSSRWLock_Destroy
+000128	TC 	PK11_GetModuleID
+00012C	TC 	__nss_InitLock
+000130	TC 	SECITEM_FreeItem
+000134	TC 	PK11_DigestFinal
+000138	TC 	PK11_Verify
+00013C	TC 	PK11_DigestKey
+000140	TC 	PK11_GetBestKeyLength
+000144	TC 	PK11_DigestOp
+000148	TC 	CERT_FreeNicknames
+00014C	TC 	PORT_Strdup
+000150	TC 	PK11_GenerateRandom
+000154	TC 	PK11_Derive
+000158	TC 	PORT_ZFree
+00015C	TC 	CERT_ExtractPublicKey
+000160	TC 	PK11_FindKeyByAnyCert
+000164	TC 	SECKEY_CreateDHPrivateKey
+000168	TC 	NSS_VersionCheck
+00016C	TC 	PK11_CreateContextBySymKey
+000170	TC 	NSSRWLock_UnlockRead
+000174	TC 	PK11_GetSlotFromPrivateKey
+000178	TC 	PK11_FindCertFromNickname
+00017C	TC 	PK11_GetWrapKey
+000180	TC 	CERT_DupCertList
+000184	TC 	NSSRWLock_LockRead
+000188	TC 	CERT_NameToAscii
+00018C	TC 	PK11_IVFromParam
+000190	TC 	PK11_WrapSymKey
+000194	TC 	PK11_PubUnwrapSymKey
+000198	TC 	__CERT_NewTempCertificate
+00019C	TC 	PK11_DigestBegin
+0001A0	TC 	PK11_KeyGen
+0001A4	TC 	CERT_CheckCertValidTimes
+0001A8	TC 	PK11_NeedLogin
+0001AC	TC 	PORT_ArenaAlloc
+0001B0	TC 	VFY_Begin
+0001B4	TC 	PK11_MakeKEAPubKey
+0001B8	TC 	PK11_GetBestSlotMultiple
+0001BC	TC 	CERT_GetDefaultCertDB
+0001C0	TC 	PK11_SaveContextAlloc
+0001C4	TC 	SECKEY_CreateRSAPrivateKey
+0001C8	TC 	CERT_VerifyCertNow
+0001CC	TC 	VFY_DestroyContext
+0001D0	TC 	PK11_DestroyContext
+0001D4	TC 	PK11_Sign
+0001D8	TC 	PK11_ParamFromIV
+0001DC	TC 	CERT_DupCertificate
+0001E0	TC 	PK11_FindFixedKey
+0001E4	TC 	PK11_SetWrapKey
+0001E8	TC 	PORT_NewArena
+0001EC	TC 	PK11_GetMechanism
+0001F0	TC 	PR_ExitMonitor
+0001F4	TC 	PR_Seek
+0001F8	TC 	PR_Read
+0001FC	TC 	PL_strdup
+000200	TC 	PR_ConvertIPv4AddrToIPv6
+000204	TC 	PR_Recv
+000208	TC 	PR_Send
+00020C	TC 	PR_GetSocketOption
+000210	TC 	PR_Sleep
+000214	TC 	PR_Close
+000218	TC 	PR_IntervalNow
+00021C	TC 	PR_Now
+000220	TC 	PR_GetCurrentThread
+000224	TC 	PR_PopIOLayer
+000228	TC 	PR_AtomicDecrement
+00022C	TC 	PR_SetError
+000230	TC 	PR_NewLock
+000234	TC 	PR_CallOnce
+000238	TC 	PR_CreateIOLayerStub
+00023C	TC 	PR_GetError
+000240	TC 	PR_Malloc
+000244	TC 	PR_EnterMonitor
+000248	TC 	PR_Unlock
+00024C	TC 	PR_Accept
+000250	TC 	PR_DestroyMonitor
+000254	TC 	PR_NewMonitor
+000258	TC 	PR_GetIdentitiesLayer
+00025C	TC 	PR_AtomicIncrement
+000260	TC 	PR_Lock
+000264	TC 	PR_IntervalToSeconds
+000268	TC 	PR_GetUniqueIdentity
+00026C	TC 	PR_DestroyLock
+000270	TC 	PR_GetDefaultIOMethods
+000274	TC 	PR_PushIOLayer
+000278	TC 	PR_Free
+00027C	TC 	__register_fragment
+000280	TC 	__unregister_fragment
+000284	TC 	GC_unregister_fragment
+000288	TC 	memmove
+00028C	TC 	memcpy
+000290	TC 	GC_register_fragment
+000294	TC 	strcmp
+000298	TC 	strlen
+00029C	TC 	memcmp
+0002A0	TC 	memset
+0002A4	TC 	strstr
+0002A8	TC 	strspn
+0002AC	TC 	ssl3_sid_timeout
+0002B0	TC 	ssl3_global_policy_some_restricted
+0002B4	TC 	ssl3_server_ca_list
+0002B8	TC 	ssl_sid_lookup
+0002BC	TC 	ssl_GatherRecord1stHandshake
+0002C0	TC 	ssl3_SendApplicationData
+0002C4	TC 	ssl_DefSend
+0002C8	TC 	PK11_CipherOp
+0002CC	TC 	ssl3_cipherName
+0002D0	TC 	ssl_cipherName
+0002D4	TC 	__nss_ssl_sccsid
+0002D8	TC 	__nss_ssl_rcsid
+0002DC	TC 	ssl2_HandleClientHelloMessage
+0002E0	TC 	ssl2_HandleServerHelloMessage
+0002E4	TC 	ssl_sid_timeout
+0002E8	TC 	ssl_sid_uncache
+0002EC	TC 	ssl_sid_cache
+0002F0	TC 	ssl2_BeginClientHandshake
+0002F4	TC 	ssl2_BeginServerHandshake
+0002F8	TC 	ssl_lock_readers
+0002FC	TC 	SSL_AuthCertificate
+000300	TC 	sslCopyLimit
+000304	TC 	sslFirstBufSize
+000308	TC 	__exception_table_end__
+00030C	TC 	__exception_table_start__
+000310	TC 	__data_end__
+000314	TC 	__data_start__
+000318	TC 	__code_end__
+00031C	TC 	__code_start__
+000320	TC 	cipherSuites								file = "ssl3con.c"
+000324	TC 	@3209
+000328	TC 	@stringBase0
+00032C	TC 	@3049
+000330	TC 	@2676
+000334	TC 	certificate_types
+000338	TC 	fortezza_certificate_types
+00033C	TC 	@2582
+000340	TC 	@2270
+000344	TC 	@2269
+000348	TC 	@2268
+00034C	TC 	@2063
+000350	TC 	@1954
+000354	TC 	@1953
+000358	TC 	@1952
+00035C	TC 	@1951
+000360	TC 	@1950
+000364	TC 	@1949
+000368	TC 	@1827
+00036C	TC 	@1804
+000370	TC 	@1582
+000374	TC 	symWrapKeys
+000378	TC 	wrapMechanismList
+00037C	TC 	compressions
+000380	TC 	mac_pad_2
+000384	TC 	mac_pad_1
+000388	TC 	@1081
+00038C	TC 	Null_Cipher
+000390	TC 	mac_defs
+000394	TC 	@628
+000398	TC 	kea_alg_defs
+00039C	TC 	kea_defs
+0003A0	TC 	alg2Mech
+0003A4	TC 	bulk_cipher_defs
+0003A8	TC 	cipher_suite_defs
+0003AC	TC 	ssl3stats
+0003B0	TC 	@stringBase0								file = "sslauth.c"
+0003B4	TC 	ssl2_HandleClientSessionKeyMessage			file = "sslcon.c"
+0003B8	TC 	ssl2_HandleVerifyMessage
+0003BC	TC 	@1334
+0003C0	TC 	ssl2_HandleMessage
+0003C4	TC 	@978
+0003C8	TC 	ssl_Specs
+0003CC	TC 	ssl2_SendClear
+0003D0	TC 	ssl2_SendStream
+0003D4	TC 	ssl2_SendBlock
+0003D8	TC 	implementedCipherSuites
+0003DC	TC 	suiteInfo									file = "sslinfo.c"
+0003E0	TC 	LockAndUncacheSID							file = "sslnonce.c"
+0003E4	TC 	CacheSID
+0003E8	TC 	AlwaysBlock									file = "sslsecur.c"
+0003EC	TC 	ssl_InitIOLayer								file = "sslsock.c"
+0003F0	TC 	initIoLayerOnce
+0003F4	TC 	@stringBase0
+0003F8	TC 	ssl_methods
+0003FC	TC 	combined_methods
+000400	TC 	ssl_ciphers
+000404	TC 	@742
+000408	TC 	@704
+00040C	TC 	@681
+000410	TC 	@656
+000414	TC 	ssl_default_ops
+000418	TC 	ssl_secure_ops
+00041C	TD 	symWrapKeysLock								file = "ssl3con.c"
+000420	TD 	chosenPreference							file = "sslcon.c"
+000424	TD 	policyWasSet
+000428	TD 	allowedByPolicy
+00042A	TD 	maybeAllowedByPolicy
+00042C	TD 	cache										file = "sslnonce.c"
+000430	TD 	cacheLock
+000434	TD 	ssl_defaults								file = "sslsock.c"
+000438	TD 	ssl_layer_id
+00043C	TD 	ssl_inited
+000440	TD 	fragmentID									file = "StartupSharedLib.c"
+000444	DS 	SSL_ShutdownServerSessionIDCache			file = "sslsnce.c"
+00044C	DS 	SSL_SetMaxServerCacheLocks
+000454	DS 	SSL_GetMaxServerCacheLocks
+00045C	DS 	SSL_InheritMPServerSIDCache
+000464	DS 	SSL_ConfigMPServerSIDCache
+00046C	DS 	SSL_ConfigServerSessionIDCache
+000474	DS 	NSS_GetClientAuthData						file = "authcert.c"
+00047C	DS 	NSS_CmpCertChainWCANames					file = "cmpcert.c"
+000484	DS 	ssl_EmulateSendFile							file = "emulate.c"
+00048C	DS 	ssl_EmulateTransmitFile
+000494	DS 	ssl_EmulateAcceptRead
+00049C	DS 	NSS_FindCertKEAType							file = "nsskea.c"
+0004A4	DS 	SSL_PreencryptedFileToStream				file = "prelib.c"
+0004AC	DS 	SSL_PreencryptedStreamToFile
+0004B4	DS 	ssl3_SendApplicationData					file = "ssl3con.c"
+0004BC	DS 	Null_Cipher
+0004C4	DS 	SSL_GetStatistics
+0004CC	DS 	SSL_AuthCertificate							file = "sslauth.c"
+0004D4	DS 	SSL_SetPKCS11PinArg
+0004DC	DS 	SSL_GetClientAuthDataHook
+0004E4	DS 	SSL_AuthCertificateHook
+0004EC	DS 	SSL_SecurityStatus
+0004F4	DS 	SSL_LocalCertificate
+0004FC	DS 	SSL_PeerCertificate
+000504	DS 	NSSSSL_VersionCheck							file = "sslcon.c"
+00050C	DS 	ssl2_BeginServerHandshake
+000514	DS 	ssl2_HandleClientHelloMessage
+00051C	DS 	ssl2_HandleClientSessionKeyMessage
+000524	DS 	ssl2_BeginClientHandshake
+00052C	DS 	ssl2_HandleServerHelloMessage
+000534	DS 	ssl2_HandleVerifyMessage
+00053C	DS 	ssl2_HandleMessage
+000544	DS 	ssl_GatherRecord1stHandshake
+00054C	DS 	ssl2_SendClear
+000554	DS 	ssl2_SendStream
+00055C	DS 	ssl2_SendBlock
+000564	DS 	ssl_DefClose								file = "ssldef.c"
+00056C	DS 	ssl_DefGetsockname
+000574	DS 	ssl_DefGetpeername
+00057C	DS 	ssl_DefWrite
+000584	DS 	ssl_DefRead
+00058C	DS 	ssl_DefSend
+000594	DS 	ssl_DefRecv
+00059C	DS 	ssl_DefShutdown
+0005A4	DS 	ssl_DefListen
+0005AC	DS 	ssl_DefBind
+0005B4	DS 	ssl_DefConnect
+0005BC	DS 	SSL_GetCipherSuiteInfo						file = "sslinfo.c"
+0005C4	DS 	SSL_GetChannelInfo
+0005CC	DS 	SSL_ClearSessionCache						file = "sslnonce.c"
+0005D4	DS 	LockAndUncacheSID
+0005DC	DS 	CacheSID
+0005E4	DS 	SSL_RevealURL								file = "sslreveal.c"
+0005EC	DS 	SSL_RevealPinArg
+0005F4	DS 	SSL_RevealCert
+0005FC	DS 	SSL_RestartHandshakeAfterServerCert			file = "sslsecur.c"
+000604	DS 	SSL_RestartHandshakeAfterCertReq
+00060C	DS 	SSL_CertDBHandleSet
+000614	DS 	SSL_GetSessionID
+00061C	DS 	SSL_InvalidateSession
+000624	DS 	SSL_DataPending
+00062C	DS 	SSL_SetURL
+000634	DS 	SSL_BadCertHook
+00063C	DS 	ssl_SecureWrite
+000644	DS 	ssl_SecureSend
+00064C	DS 	ssl_SecureRead
+000654	DS 	ssl_SecureRecv
+00065C	DS 	ssl_SecureShutdown
+000664	DS 	ssl_SecureClose
+00066C	DS 	ssl_SecureConnect
+000674	DS 	SSL_ConfigSecureServer
+00067C	DS 	SSL_ForceHandshake
+000684	DS 	SSL_HandshakeCallback
+00068C	DS 	SSL_ReHandshake
+000694	DS 	SSL_ResetHandshake
+00069C	DS 	AlwaysBlock
+0006A4	DS 	ssl_InitIOLayer								file = "sslsock.c"
+0006AC	DS 	ssl_Close
+0006B4	DS 	ssl_Read
+0006BC	DS 	ssl_Write
+0006C4	DS 	ssl_Available
+0006CC	DS 	ssl_Available64
+0006D4	DS 	ssl_FSync
+0006DC	DS 	ssl_Seek
+0006E4	DS 	ssl_Seek64
+0006EC	DS 	ssl_FileInfo
+0006F4	DS 	ssl_FileInfo64
+0006FC	DS 	ssl_WriteV
+000704	DS 	ssl_Connect
+00070C	DS 	ssl_Accept
+000714	DS 	ssl_Bind
+00071C	DS 	ssl_Listen
+000724	DS 	ssl_Shutdown
+00072C	DS 	ssl_Recv
+000734	DS 	ssl_Send
+00073C	DS 	ssl_RecvFrom
+000744	DS 	ssl_SendTo
+00074C	DS 	ssl_Poll
+000754	DS 	ssl_GetSockName
+00075C	DS 	ssl_GetPeerName
+000764	DS 	SSL_SetSockPeerID
+00076C	DS 	SSL_ImportFD
+000774	DS 	NSS_SetFrancePolicy
+00077C	DS 	NSS_SetExportPolicy
+000784	DS 	NSS_SetDomesticPolicy
+00078C	DS 	SSL_CipherPrefGet
+000794	DS 	SSL_CipherPrefSet
+00079C	DS 	SSL_CipherPrefGetDefault
+0007A4	DS 	SSL_CipherPrefSetDefault
+0007AC	DS 	SSL_CipherPolicyGet
+0007B4	DS 	SSL_CipherPolicySet
+0007BC	DS 	SSL_OptionSetDefault
+0007C4	DS 	SSL_OptionGetDefault
+0007CC	DS 	SSL_OptionGet
+0007D4	DS 	SSL_OptionSet
+0007DC	DS 	__NSTerminate								file = "NSStartup.c"
+0007E4	DS 	__NSInitialize
+0007EC	RW 	cipherSuites								file = "ssl3con.c"
+000854	RW 	ssl3_cipherName
+00088C	RW 	@1081
+000A58	RW 	@3209
+000AAC	RW 	ssl_cipherName								file = "sslcon.c"
+000AD4	RW 	@1334
+000AF8	RW 	suiteInfo									file = "sslinfo.c"
+0011F8	RW 	ssl_sid_timeout								file = "sslnonce.c"
+0011FC	RW 	ssl3_sid_timeout
+001200	RW 	ssl_ciphers									file = "sslsock.c"
+001308	RW 	ssl_default_ops
+001338	RW 	ssl_secure_ops
+001368	RW 	ssl_lock_readers
+00136C	RW 	@656
+0013A8	RW 	@681
+0013E4	RW 	@704
+001420	RW 	@742
+00145C	RW 	sslFirstBufSize
+001460	RW 	sslCopyLimit
+001464	RW 	ssl_methods
+0014F4	RW 	ssl3stats									file = "ssl3con.c"
+001518	RW 	symWrapKeys
+0015E8	RW 	@3049
+0015F4	RW 	@2676
+001600	RW 	@2582
+00160C	RW 	@2270
+001618	RW 	@2269
+001624	RW 	@2268
+001630	RW 	@2063
+00163C	RW 	@1954
+001648	RW 	@1953
+001654	RW 	@1952
+001660	RW 	@1951
+00166C	RW 	@1950
+001678	RW 	@1949
+001684	RW 	@1827
+001690	RW 	@1804
+00169C	RW 	@1582
+0016A8	RW 	@628
+0016B4	RW 	ssl3_server_ca_list
+0016B8	RW 	ssl3_global_policy_some_restricted
+0016BC	RW 	ssl_sid_lookup								file = "sslsock.c"
+0016C0	RW 	ssl_sid_cache
+0016C4	RW 	ssl_sid_uncache
+0016C8	RW 	combined_methods
+001758	RW 	initIoLayerOnce
+
+Import container "NSS3"
+Current Version = 00000000, Old Implementation = 00000000
+000000	DS 	CERT_GetSSLCACerts
+000001	DS 	PK11_UnwrapSymKeyWithFlags
+000002	DS 	PK11_VerifyKeyOK
+000003	DS 	PK11_CipherOp
+000004	DS 	SECOID_GetAlgorithmTag
+000005	DS 	PK11_GetInternalSlot
+000006	DS 	CERT_CertChainFromCert
+000007	DS 	SGN_NewContext
+000008	DS 	PORT_GetError
+000009	DS 	PK11_GenerateFortezzaIV
+00000A	DS 	VFY_Update
+00000B	DS 	PK11_IsPresent
+00000C	DS 	PORT_SetError
+00000D	DS 	PK11_RestoreContext
+00000E	DS 	SECKEY_DestroyPublicKey
+00000F	DS 	PK11_PubDerive
+000010	DS 	HASH_GetHashObject
+000011	DS 	PK11_ReferenceSymKey
+000012	DS 	PK11_GetBestWrapMechanism
+000013	DS 	PK11_CreateDigestContext
+000014	DS 	SECKEY_DestroyPrivateKey
+000015	DS 	__PK11_CreateContextByRawKey
+000016	DS 	PK11_SaveContext
+000017	DS 	PK11_TokenExists
+000018	DS 	CERT_GetCertNicknames
+000019	DS 	PK11_IsLoggedIn
+00001A	DS 	NSSRWLock_LockWrite
+00001B	DS 	PORT_ZAlloc
+00001C	DS 	SECITEM_ZfreeItem
+00001D	DS 	PK11_GetPrivateModulusLen
+00001E	DS 	PORT_Alloc
+00001F	DS 	PORT_Free
+000020	DS 	PK11_GetSlotSeries
+000021	DS 	SECITEM_CopyItem
+000022	DS 	PK11_GetSlotFromKey
+000023	DS 	PK11_PubDecryptRaw
+000024	DS 	PK11_SignatureLen
+000025	DS 	PK11_PubEncryptRaw
+000026	DS 	DSAU_EncodeDerSig
+000027	DS 	NSSRWLock_UnlockWrite
+000028	DS 	PK11_FreeSlot
+000029	DS 	PK11_PubWrapSymKey
+00002A	DS 	CERT_DestroyCertificateList
+00002B	DS 	SECMOD_LookupSlot
+00002C	DS 	PK11_DeriveWithFlags
+00002D	DS 	PK11_GetWindow
+00002E	DS 	PK11_UnwrapSymKey
+00002F	DS 	SGN_DestroyContext
+000030	DS 	DER_Lengths
+000031	DS 	PORT_ArenaZAlloc
+000032	DS 	CERT_VerifyCertName
+000033	DS 	SECITEM_CompareItem
+000034	DS 	PK11_GetBestSlot
+000035	DS 	DSAU_DecodeDerSig
+000036	DS 	CERT_DestroyCertificate
+000037	DS 	CERT_FindCertByName
+000038	DS 	SECKEY_CopyPrivateKey
+000039	DS 	NSSRWLock_New
+00003A	DS 	PK11_GetCurrentWrapIndex
+00003B	DS 	PK11_FindBestKEAMatch
+00003C	DS 	PK11_FreeSymKey
+00003D	DS 	PK11_GetSlotID
+00003E	DS 	PK11_SetFortezzaHack
+00003F	DS 	SGN_End
+000040	DS 	PK11_SymKeyFromHandle
+000041	DS 	PK11_GetTokenInfo
+000042	DS 	SECKEY_UpdateCertPQG
+000043	DS 	PORT_FreeArena
+000044	DS 	SGN_Update
+000045	DS 	SECKEY_PublicKeyStrength
+000046	DS 	VFY_End
+000047	DS 	PORT_Realloc
+000048	DS 	SGN_Begin
+000049	DS 	VFY_CreateContext
+00004A	DS 	NSSRWLock_Destroy
+00004B	DS 	PK11_GetModuleID
+00004C	DS 	__nss_InitLock
+00004D	DS 	SECITEM_FreeItem
+00004E	DS 	PK11_DigestFinal
+00004F	DS 	PK11_Verify
+000050	DS 	PK11_DigestKey
+000051	DS 	PK11_GetBestKeyLength
+000052	DS 	PK11_DigestOp
+000053	DS 	CERT_FreeNicknames
+000054	DS 	PORT_Strdup
+000055	DS 	PK11_GenerateRandom
+000056	DS 	PK11_Derive
+000057	DS 	PORT_ZFree
+000058	DS 	CERT_ExtractPublicKey
+000059	DS 	PK11_FindKeyByAnyCert
+00005A	DS 	SECKEY_CreateDHPrivateKey
+00005B	DS 	NSS_VersionCheck
+00005C	DS 	PK11_CreateContextBySymKey
+00005D	DS 	NSSRWLock_UnlockRead
+00005E	DS 	PK11_GetSlotFromPrivateKey
+00005F	DS 	PK11_FindCertFromNickname
+000060	DS 	PK11_GetWrapKey
+000061	DS 	CERT_DupCertList
+000062	DS 	NSSRWLock_LockRead
+000063	DS 	CERT_NameToAscii
+000064	DS 	PK11_IVFromParam
+000065	DS 	PK11_WrapSymKey
+000066	DS 	PK11_PubUnwrapSymKey
+000067	DS 	__CERT_NewTempCertificate
+000068	DS 	PK11_DigestBegin
+000069	DS 	PK11_KeyGen
+00006A	DS 	CERT_CheckCertValidTimes
+00006B	DS 	PK11_NeedLogin
+00006C	DS 	PORT_ArenaAlloc
+00006D	DS 	VFY_Begin
+00006E	DS 	PK11_MakeKEAPubKey
+00006F	DS 	PK11_GetBestSlotMultiple
+000070	DS 	CERT_GetDefaultCertDB
+000071	DS 	PK11_SaveContextAlloc
+000072	DS 	SECKEY_CreateRSAPrivateKey
+000073	DS 	CERT_VerifyCertNow
+000074	DS 	VFY_DestroyContext
+000075	DS 	PK11_DestroyContext
+000076	DS 	PK11_Sign
+000077	DS 	PK11_ParamFromIV
+000078	DS 	CERT_DupCertificate
+000079	DS 	PK11_FindFixedKey
+00007A	DS 	PK11_SetWrapKey
+00007B	DS 	PORT_NewArena
+00007C	DS 	PK11_GetMechanism
+
+Import container "NSPR20"
+Current Version = 00000191, Old Implementation = 00000190
+00007D	DS 	PR_ExitMonitor
+00007E	DS 	PR_Seek
+00007F	DS 	PR_Read
+000080	DS 	PL_strdup
+000081	DS 	PR_ConvertIPv4AddrToIPv6
+000082	DS 	PR_Recv
+000083	DS 	PR_Send
+000084	DS 	PR_GetSocketOption
+000085	DS 	PR_Sleep
+000086	DS 	PR_Close
+000087	DS 	PR_IntervalNow
+000088	DS 	PR_Now
+000089	DS 	PR_GetCurrentThread
+00008A	DS 	PR_PopIOLayer
+00008B	DS 	PR_AtomicDecrement
+00008C	DS 	PR_SetError
+00008D	DS 	PR_NewLock
+00008E	DS 	PR_CallOnce
+00008F	DS 	PR_CreateIOLayerStub
+000090	DS 	PR_GetError
+000091	DS 	PR_Malloc
+000092	DS 	PR_EnterMonitor
+000093	DS 	PR_Unlock
+000094	DS 	PR_Accept
+000095	DS 	PR_DestroyMonitor
+000096	DS 	PR_NewMonitor
+000097	DS 	PR_GetIdentitiesLayer
+000098	DS 	PR_AtomicIncrement
+000099	DS 	PR_Lock
+00009A	DS 	PR_IntervalToSeconds
+00009B	DS 	PR_GetUniqueIdentity
+00009C	DS 	PR_DestroyLock
+00009D	DS 	PR_GetDefaultIOMethods
+00009E	DS 	PR_PushIOLayer
+00009F	DS 	PR_Free
+
+Import container "NSRuntime"
+Current Version = 00000000, Old Implementation = 00000000
+0000A0	DS 	__register_fragment
+0000A1	DS 	__unregister_fragment
+
+Import container "NSStdLib"
+Current Version = 00000190, Old Implementation = 00000190
+0000A2	DS 	GC_unregister_fragment
+0000A3	DS 	memmove
+0000A4	DS 	memcpy
+0000A5	DS 	GC_register_fragment
+0000A6	DS 	strcmp
+0000A7	DS 	strlen
+0000A8	DS 	memcmp
+0000A9	DS 	memset
+0000AA	DS 	strstr
+0000AB	DS 	strspn
+
+
+File and routine reference details
+
+File "sslsnce.c"
+	Unreferenced routine descriptor: ssl_SetWrappingKey
+	Unreferenced routine descriptor: ssl_GetWrappingKey
+File "authcert.c"
+File "cmpcert.c"
+File "emulate.c"
+File "nsskea.c"
+File "prelib.c"
+File "ssl3con.c"
+	Unreferenced data: handlers
+	Unreferenced data: clientHelloSenders
+	Unreferenced code: .ssl3_RegisterServerHelloExtensionSender
+	Unreferenced routine descriptor: ssl3_CallHelloExtensionSenders
+	Unreferenced routine descriptor: ssl3_RegisterServerHelloExtensionSender
+	Unreferenced routine descriptor: ssl3_HandleClientHelloExtensions
+	Unreferenced routine descriptor: ssl3_HandleServerNameIndicationExtension
+	Unreferenced routine descriptor: ssl3_SendServerNameIndicationExtension
+	Unreferenced routine descriptor: ssl3_DestroySSL3Info
+	Unreferenced routine descriptor: ssl3_RedoHandshake
+	Unreferenced routine descriptor: ssl3_ConstructV2CipherSpecsHack
+	Unreferenced routine descriptor: ssl3_InitSocketPolicy
+	Unreferenced routine descriptor: ssl3_CipherPrefGet
+	Unreferenced routine descriptor: ssl3_CipherPrefSet
+	Unreferenced routine descriptor: ssl3_CipherPrefGetDefault
+	Unreferenced routine descriptor: ssl3_CipherPrefSetDefault
+	Unreferenced routine descriptor: ssl3_GetPolicy
+	Unreferenced routine descriptor: ssl3_SetPolicy
+	Unreferenced routine descriptor: ssl3_CreateRSAStepDownKeys
+	Unreferenced routine descriptor: ssl3_FreeKeyPair
+	Unreferenced routine descriptor: ssl3_GetKeyPairRef
+	Unreferenced routine descriptor: ssl3_NewKeyPair
+	Unreferenced routine descriptor: ssl3_HandleRecord
+	Unreferenced routine descriptor: ssl3_RestartHandshakeAfterServerCert
+	Unreferenced routine descriptor: ssl3_HandleV2ClientHello
+	Unreferenced routine descriptor: ssl3_RestartHandshakeAfterCertReq
+	Unreferenced routine descriptor: SSL3_ShutdownServerCache
+	Unreferenced routine descriptor: ssl3_SendClientHello
+	Unreferenced routine descriptor: ssl3_StartHandshakeHash
+	Unreferenced routine descriptor: ssl3_ConsumeHandshakeNumber
+	Unreferenced routine descriptor: ssl3_AppendHandshakeNumber
+	Unreferenced routine descriptor: SSL3_SendAlert
+	Unreferenced routine descriptor: ssl3_NegotiateVersion
+	Unreferenced routine descriptor: ssl3_config_match_init
+File "ssl3gthr.c"
+	Unreferenced routine descriptor: ssl3_GatherAppDataRecord
+	Unreferenced routine descriptor: ssl3_GatherCompleteHandshake
+File "sslauth.c"
+File "sslcon.c"
+	Unreferenced read-only data: allCipherSuites
+	Unreferenced data: ssl_version
+	Unreferenced routine descriptor: ssl2_RestartHandshakeAfterServerCert
+	Unreferenced routine descriptor: ssl2_RestartHandshakeAfterCertReq
+	Unreferenced routine descriptor: ssl_FormatSSL2Block
+	Unreferenced routine descriptor: ssl2_UseClearSendFunc
+	Unreferenced routine descriptor: ssl2_SendErrorMessage
+	Unreferenced routine descriptor: ssl2_InitSocketPolicy
+	Unreferenced routine descriptor: ssl2_CipherPrefGet
+	Unreferenced routine descriptor: ssl2_CipherPrefSet
+	Unreferenced routine descriptor: ssl2_CipherPrefGetDefault
+	Unreferenced routine descriptor: ssl2_CipherPrefSetDefault
+	Unreferenced routine descriptor: ssl2_GetPolicy
+	Unreferenced routine descriptor: ssl2_SetPolicy
+File "ssldef.c"
+File "sslenum.c"
+File "sslerr.c"
+	Unreferenced routine descriptor: ssl_MapLowLevelError
+File "sslgathr.c"
+	Unreferenced code: .ssl2_StartGatherBytes
+	Unreferenced routine descriptor: ssl_DestroyGather
+	Unreferenced routine descriptor: ssl_InitGather
+	Unreferenced routine descriptor: ssl2_StartGatherBytes
+	Unreferenced routine descriptor: ssl2_GatherRecord
+	Unreferenced routine descriptor: ssl2_GatherData
+File "sslinfo.c"
+File "sslmutex.c"
+	Unreferenced: sslmutex.c
+File "sslnonce.c"
+	Unreferenced routine descriptor: ssl_Time
+	Unreferenced routine descriptor: ssl_ChooseSessionIDProcs
+	Unreferenced routine descriptor: ssl_LookupSID
+	Unreferenced routine descriptor: ssl_FreeSID
+File "sslreveal.c"
+File "sslsecur.c"
+	Unreferenced code: .SSL_RedoHandshake
+	Unreferenced routine descriptor: ssl_DestroySecurityInfo
+	Unreferenced routine descriptor: ssl_ResetSecurityInfo
+	Unreferenced routine descriptor: ssl_CopySecurityInfo
+	Unreferenced routine descriptor: ssl_CreateSecurityInfo
+	Unreferenced routine descriptor: ssl_FindCertKEAType
+	Unreferenced routine descriptor: ssl_SendSavedWriteData
+	Unreferenced routine descriptor: ssl_SaveWriteData
+	Unreferenced routine descriptor: sslBuffer_Grow
+	Unreferenced routine descriptor: SSL_RedoHandshake
+	Unreferenced routine descriptor: ssl_SetAlwaysBlock
+	Unreferenced routine descriptor: ssl_Do1stHandshake
+File "sslsock.c"
+	Unreferenced code: .SSL_Enable
+	Unreferenced code: .SSL_EnableDefault
+	Unreferenced code: .SSL_EnableCipher
+	Unreferenced data: ssl_debug
+	Unreferenced data: ssl_trace
+	Unreferenced routine descriptor: ssl_SocketIsBlocking
+	Unreferenced routine descriptor: ssl_FdIsBlocking
+	Unreferenced routine descriptor: ssl_GetPeerInfo
+	Unreferenced routine descriptor: SSL_EnableCipher
+	Unreferenced routine descriptor: SSL_SetPolicy
+	Unreferenced routine descriptor: SSL_EnableDefault
+	Unreferenced routine descriptor: SSL_Enable
+	Unreferenced routine descriptor: ssl_EnableNagleDelay
+	Unreferenced routine descriptor: ssl_FreeSocket
+	Unreferenced routine descriptor: ssl_DupSocket
+	Unreferenced routine descriptor: ssl_FindSocket
+File "ssltrace.c"
+	Unreferenced: ssltrace.c
+File "sslver.c"
+In library file "NSLibraryStartup.o"
+	File "MSL_ShLibRuntime_PPC.Lib"
+		Unreferenced: MSL_ShLibRuntime_PPC.Lib
+	File "DTSOMRuntimeInternal.cp"
+		Unreferenced: DTSOMRuntimeInternal.cp
+	File "ptmf.c"
+		Unreferenced: ptmf.c
+	File "runtime.c"
+		Unreferenced read-only data: __constants
+		Unreferenced code: .__cvt_fp2unsigned
+		Unreferenced: ._ptrgl12
+		Unreferenced: ._ptrgl
+		Unreferenced: ._ptrglpas
+		Unreferenced code: .__save_fpr
+		Unreferenced code: ._savevr
+		Unreferenced code: .__restore_fpr
+		Unreferenced code: ._restorevr
+		Unreferenced code: .__div2u
+		Unreferenced code: .__mod2u
+		Unreferenced code: .__mod2i
+		Unreferenced code: .__shl2i
+		Unreferenced code: .__shr2u
+		Unreferenced code: .__shr2i
+		Unreferenced code: .__cvt_sll_dbl
+		Unreferenced code: .__cvt_ull_dbl
+		Unreferenced code: .__cvt_sll_flt
+		Unreferenced code: .__cvt_ull_flt
+		Unreferenced code: .__cvt_dbl_usll
+	File "setjmp.c"
+		Unreferenced: setjmp.c
+	File "StartupSharedLib.c"
+		Unreferenced routine descriptor: __terminate
+		Unreferenced routine descriptor: __initialize
+	File "Destroy.cp"
+		Unreferenced: Destroy.cp
+	File "NSStartup.c"
+	File "nsComponentResContext.cpp"
+		Unreferenced: nsComponentResContext.cpp
+
+Removed unused TOC-reload slots:   0x00000000
